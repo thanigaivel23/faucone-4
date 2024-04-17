@@ -1,10 +1,7 @@
 import React from 'react'
 
 
-import women from '../../img/women.svg'
-import gobal from '../../img/gobal.svg'
-import developing from '../../img/developing.svg'
-import empowerment from '../../img/empowerment.svg'
+
 import party1 from '../../img/party1.jpg'
 import party2 from '../../img/party2.jpg'
 import party3 from '../../img/party3.jpg'
@@ -42,6 +39,9 @@ import './carousal.css'
 import './home.css'
 import PoweringBrands from './homePage/PoweringBrands'
 import FivePoints from './homePage/FivePoints'
+import ContributeToTheSocity from './homePage/ContributeToTheSocity'
+import OurBrandServices from './homePage/OurBrandServices'
+import IndustriesWeServe from './homePage/IndustriesWeServe'
 
 
 const Home = () => {
@@ -59,53 +59,13 @@ const Home = () => {
 
             <FivePoints />
 
+            <ContributeToTheSocity />
+
+            <OurBrandServices />
+
+            <IndustriesWeServe />
 
 
-
-
-            {/* 5th section - contribute to the socity */}
-            <section className='tw-py-16 tw-bg-blue-50 tw-mt-24 tw-pr-2'>
-
-                <div className=' tw-flex tw-justify-center tw-items-center tw-flex-col '>
-                    <p className='tw-tracking-[3px] tw-font-abel  tw-text-2xl md:tw-text-4xl'>OUR <span className='tw-text-[#5db6f1] tw-font-bold'>CONTRIBUTION</span></p>
-                    <p className='tw-tracking-[3px] tw-font-abel  tw-text-2xl md:tw-text-4xl'>TO THE <span className='tw-text-[#5db6f1] tw-font-bold'>SOCITY</span></p>
-                    <p className='tw-bg-[#5db6f1] tw-h-0.5 tw-w-10 tw-mt-6'></p>
-
-                </div>
-
-                <div className='tw-px-5 tw-grid tw-grid-cols-2 lg:tw-grid-cols-4 tw-gap-10 lg:tw-gap-0 lg:tw-gap-x-28 tw-mt-10 lg:tw-w-[80%] tw-mx-auto'>
-                    <div className=''>
-                        <img src={empowerment} alt="" className='tw-w-28 tw-h-24' />
-                        <p className='tw-mt-5 tw-text-[#5db6f1] tw-font-bold tw-text-xl'>Women Empowerment</p>
-                        <p className=' tw-text-sm tw-font-medium  tw-pt-10 tw-line-clamp-5 lg:tw-line-clamp-none'>Access to internet, allows women to receive training which opens the door to other essential skills,<br /><br />
-                            An investment that yields a range of benefits that affect not just women but also their families and communities as a whole.<br /><br />
-                            Enccrage women to create their own businesses, which would benefits both developing countries financially.</p>
-
-                    </div>
-
-                    <div className=''>
-                        <img src={gobal} alt="" className='tw-w-28 tw-h-24' />
-                        <p className='tw-mt-5 tw-text-[#5db6f1] tw-font-bold tw-text-xl'>Drivers of Startup Ecosystem</p>
-                        <p className='    tw-text-sm tw-font-medium tw-pt-3 tw-line-clamp-5 lg:tw-line-clamp-none'>The startup ecosystem is a collection Of individuals, companies, and associated organisations that work together to build and scale startups. Startup ecosystems are frequently developed in a very small geographic region with a centre Of gravity. such as a university or a cluster Of technology enterprises. Faucone is a major player in the Startup Ecosystem.</p>
-
-                    </div>
-
-                    <div className=' '>
-                        <img src={women} alt="" className='tw-w-28 tw-h-24' />
-                        <p className='tw-mt-5 tw-text-[#5db6f1] tw-font-bold tw-text-xl'>Women Entreprenurship</p>
-                        <p className='tw-text-sm tw-font-medium tw-pt-3 tw-line-clamp-5 lg:tw-line-clamp-none'>The increasing presence of women as entrepreneurs has led to significant business and economic growth in the country. Women-owned business enterprises are playing a prominent role in society by generating employment opportunities in the country, brining in demographic shifts and inspiring the next generation of women founders.</p>
-
-                    </div>
-
-                    <div className=''>
-                        <img src={developing} alt="" className='tw-w-28 tw-h-24' />
-                        <p className='tw-mt-5 tw-text-[#5db6f1] tw-font-bold tw-text-xl'>Developing Gig Economy</p>
-                        <p className='tw-text-sm tw-font-medium tw-pt-3 tw-line-clamp-5 lg:tw-line-clamp-none'>GIG Economy - India's gig workforce, estimated to be at 77 lakh in 2020-2021, is a expected to go up 2.35 crore by 2029-30. Faucone supports and provides opportunities for GIG Economy</p>
-                    </div>
-
-                </div>
-
-            </section>
 
             {/* 6th section - to the socity */}
             <section className='tw-mb-20 tw-mt-7 tw-flex tw-items-center tw-justify-center tw-flex-col'>
