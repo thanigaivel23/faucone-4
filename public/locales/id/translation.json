@@ -1,4 +1,70 @@
 {
+    "mainHeader": {
+        "company": "Perusahaan",
+        "industries": {
+            "name": "Industri",
+            "aero": "Dirgantara dan Pertahanan",
+            "aviation": "Penerbangan",
+            "automotive": "Otomotif",
+            "bankFinance": "Perbankan",
+            "capital": "Pasar modal",
+            "construction": "Konstruksi",
+            "chemical": "Bahan kimia",
+            "consumer": "Barang konsumsi",
+            "energy": "Energi",
+            "fmcg": "FMCG",
+            "food": "Makanan",
+            "health": "Kesehatan",
+            "industrial": "Manufaktur Industri",
+            "insurance": "Pertanggungan",
+            "lifeScience": "Ilmu Hayati",
+            "manufacture": "Industri manufaktur",
+            "media": "Media",
+            "mining": "Pertambangan",
+            "oil": "Minyak",
+            "public": "Sektor publik",
+            "retail": "Pengecer",
+            "telecom": "Telekomunikasi",
+            "travel": "Bepergian",
+            "transport": "Transportasi, Logistik"
+        },
+        "ourBrands": {
+            "name": "Merk Kita",
+            "Business": "Bisnis",
+            "Digital": "Digital",
+            "Technologies": "Teknologi",
+            "Solutions": "Solusi",
+            "Finance": "Keuangan",
+            "Consultancy": "Konsultasi",
+            "Studios": "Studio",
+            "Advertising": "Periklanan",
+            "Space": "Ruang angkasa",
+            "Design": "Desain",
+            "Prints": "Cetakan",
+            "Accounting": "Akuntansi",
+            "Legal": "Hukum",
+            "Supplies": "Persediaan",
+            "Academy": "Akademi",
+            "Overseas": "Luar negeri"
+        },
+        "services": {
+            "name": "Jasa",
+            "multi": "Branding Multi Dimensi",
+            "advertise": "Solusi Periklanan 360 derajat",
+            "brand": "Transformasi Merek",
+            "scaling": "Penskalaan Teknologi untuk Pembangunan",
+            "interlink": "Konsep Bisnis yang Saling Menghubungkan",
+            "business": "1:1 Pelatihan Bisnis",
+            "innovative": "Proses Kewirausahaan yang Inovatif",
+            "quality": "Menerapkan Proses Bisnis yang Berkualitas",
+            "revenue": "Pendapatan lox",
+            "career": "Perencanaan dan Pengembangan Karir",
+            "startup": "Hubungan Investor Permulaan",
+            "hybird": "Mengembangkan Model Kerja Hybrid"
+        },
+        "insights": "Wawasan",
+        "contactUs": "Hubungi kami"
+    },
     "home": {
         "power": "DAYA",
         "brand": "MEREK",
@@ -6,7 +72,7 @@
         "enterpernur": "PENGUSAHA",
         "sub_content": "Misi Faucone adalah menciptakan wirausahawan, memberdayakan merek, dan membangun masa depan yang bermakna melalui ide-ide maju",
         "vision": "Visi kami",
-        "vision_desc": "Visi kami adalah menciptakan merek. solusi bisnis dan pelatihan bagi wirausahawan dan dunia usaha, sehingga mereka dapat mengembangkan usahanya ke tingkat yang lebih tinggi di lingkungan bisnis yang selalu berubah",
+        "vision_desc": "Visi kami adalah menciptakan merek. ",
         "mision": "Misi kita",
         "mision_desc": "Misi kami adalah menciptakan wirausaha, memperkuat merek, dan membangun masa depan yang bermakna melalui ide-ide maju",
         "ourValues": "Nilai kita",
@@ -27,32 +93,132 @@
         "women_empower_desc2": "Sebuah investasi yang menghasilkan berbagai manfaat yang tidak hanya berdampak pada perempuan tetapi juga keluarga dan komunitas mereka secara keseluruhan",
         "women_empower_desc3": "Mendorong perempuan untuk menciptakan bisnis mereka sendiri, yang akan menguntungkan kedua negara berkembang secara finansial",
         "startup_ecoSystem": "Penggerak Ekosistem Startup",
-        "startup_ecoSystem_desc": "Ekosistem startup adalah kumpulan individu, perusahaan, dan organisasi terkait yang bekerja sama untuk membangun dan mengembangkan startup. Ekosistem startup sering kali dikembangkan di wilayah geografis yang sangat kecil dengan pusat gravitasi. seperti universitas atau sekelompok perusahaan teknologi. Faucone adalah pemain utama dalam Ekosistem Startup",
+        "startup_ecoSystem_desc": "Ekosistem startup adalah kumpulan individu, perusahaan, dan organisasi terkait yang bekerja sama untuk membangun dan mengembangkan startup. ",
         "women_enterpernership": "Kewirausahaan Perempuan",
-        "women_enterpernership_desc": "Meningkatnya kehadiran perempuan sebagai wirausaha telah membawa pertumbuhan bisnis dan ekonomi yang signifikan di negara ini. Perusahaan bisnis milik perempuan memainkan peran penting dalam masyarakat dengan menciptakan peluang kerja di negara ini, mendorong perubahan demografis dan menginspirasi generasi pendiri perempuan berikutnya",
+        "women_enterpernership_desc": "Meningkatnya kehadiran perempuan sebagai wirausaha telah membawa pertumbuhan bisnis dan ekonomi yang signifikan di negara ini. ",
         "gig_economy": "Mengembangkan Gig Ekonomi",
-        "gig_economy_desc": "GIG Economy - Tenaga kerja pertunjukan di India, yang diperkirakan berjumlah 77 lakh pada tahun 2020-2021, diperkirakan akan meningkat 2,35 crore pada tahun 2029-30. Faucone mendukung dan memberikan peluang bagi GIG Economy",
-        "socity1": "Multi-Dimensional Branding and Marketing",
-        "socity2": "Interlinking Business Concept",
-        "socity3": "Revenue 10X",
-        "socity4": "360. Advertising Solutions",
-        "socity5": "1:1 Business Coaching",
-        "socity6": "Career Planning and Development",
-        "socity7": "Brand Transformation",
-        "socity8": "Innovative Entrepreneurship Process",
-        "socity9": "Startup Investor Connect",
-        "socity10": "Scalling Technology for Development",
-        "socity11": "Implementing a Quality Business Process",
-        "socity12": "Developing a Hybrid Work Model",
-        "popular": "POPULAR",
-        "events": "EVENTS",
-        "multiDimension": "Multi-Dimensional Branding and Marketing",
-        "saturday": "Saturday - 6:00 PM",
-        "location": "Po'ina Restaurant & Lounge",
-        "abby": "Abbey Chun & Heather Stoltz",
-        "followers": "26 followers",
-        "letsWork": "LET'S WORK",
-        "together": "TOGETHER",
-        "overcomeYourChallenges": "Lihat bagaimana kami dapat membantu mengatasi tantangan Anda"
+        "gig_economy_desc": "GIG Economy - Tenaga kerja pertunjukan di India, yang diperkirakan berjumlah 77 lakh pada tahun 2020-2021, diperkirakan akan meningkat 2,35 crore pada tahun 2029-30. ",
+        "socity1": "Branding dan Pemasaran Multidimensi",
+        "socity2": "Konsep Bisnis yang Saling Menghubungkan",
+        "socity3": "Pendapatan 10X",
+        "socity4": "360. Solusi Periklanan",
+        "socity5": "1:1 Pelatihan Bisnis",
+        "socity6": "Perencanaan dan Pengembangan Karir",
+        "socity7": "Transformasi Merek",
+        "socity8": "Proses Kewirausahaan yang Inovatif",
+        "socity9": "Hubungan Investor Permulaan",
+        "socity10": "Menskalakan Teknologi untuk Pembangunan",
+        "socity11": "Menerapkan Proses Bisnis yang Berkualitas",
+        "socity12": "Mengembangkan Model Kerja Hybrid",
+        "popular": "POPULER",
+        "events": "ACARA",
+        "multiDimension": "Branding dan Pemasaran Multidimensi",
+        "saturday": "Sabtu - 18.00",
+        "location": "Restoran Po'ina",
+        "abby": "Biara Chun",
+        "followers": "26 pengikut",
+        "letsWork": "AYO BEKERJA",
+        "together": "BERSAMA",
+        "overcomeYourChallenges": "Lihat bagaimana kami dapat membantu mengatasi tantangan Anda",
+        "industriesWeServe": {
+            "name": "INDUSTRI YANG KAMI LAYANI",
+            "aeroSpace": {
+                "name": "Dirgantara dan Pertahanan",
+                "pagragraph": "Meningkatnya permintaan segmen pesawat komersial. "
+            },
+            "aviation": {
+                "name": "Penerbangan",
+                "para1": "Penerbangan sudah dikenal sebagai kekuatan pendorong pengembangan dan inovasi teknologi global",
+                "para2": "Investasi besar dalam Kecerdasan Buatan (A1) dan Big Data dapat dilihat sebagai cara yang menjanjikan untuk meningkatkan keselamatan, efisiensi, dan keberlanjutan. "
+            },
+            "automotive": {
+                "name": "Otomotif",
+                "para": "Meningkatnya tingkat perjalanan udara, khususnya di negara-negara berkembang di Amerika Utara dan Amerika Latin. "
+            },
+            "banking": {
+                "name": "Perbankan",
+                "para": "Data yang diterima melalui berbagai pengembalian undang-undang di RBI terutama digunakan untuk perumusan kebijakan moneter dan resep peraturan. "
+            },
+            "capital": {
+                "name": "Pasar modal",
+                "para": "Pasar modal mengenali dan mengarahkan dana ke ide dan perusahaan terbaik. "
+            },
+            "construction": {
+                "name": "Konstruksi",
+                "para": "Melihat kedua segmen tersebut secara lebih rinci, aktivitas perumahan tetap kuat meskipun harga material meningkat dan penyebaran virus corona varian Delta. "
+            },
+            "chemical": {
+                "name": "Kimia dan Proses",
+                "para": "Industri bahan kimia global adalah bagian yang kompleks dan penting dari perekonomian global dan jaringan rantai pasokan. "
+            },
+            "consumer": {
+                "name": "Barang konsumsi",
+                "para": "Pasar barang konsumen dan FMCG terus beradaptasi dengan permintaan dan tren konsumen yang terus berkembang. "
+            },
+            "energy": {
+                "name": "Energi dan Utilitas",
+                "para": "Negara-negara kaya minyak di Kawasan Timur Tengah sudah lama terbiasa dengan listrik murah. "
+            },
+            "fmcg": {
+                "name": "FMCG",
+                "para": "Produk FMCG di pedesaan India menyumbang hingga setengah dari total pengeluaran beberapa komunitas. "
+            },
+            "Food": {
+                "name": "Makanan dan minuman",
+                "para": "Perusahaan makanan dan minuman menyaksikan pertumbuhan pesat sebagai akibat dari meningkatnya permintaan minuman dan produk makanan. "
+            },
+            "healthCare": {
+                "name": "Kesehatan",
+                "para": "Tren dalam layanan kesehatan bukanlah fenomena baru karena industri layanan kesehatan berkonsolidasi dengan pesat seiring dengan kemajuan teknologi baru. "
+            },
+            "industrial": {
+                "name": "Manufaktur Industri",
+                "para": "Perusahaan harus fokus pada retensi karyawan untuk memenuhi permintaan output meskipun jumlah angkatan kerja menurun. "
+            },
+            "insurance": {
+                "name": "Pertanggungan",
+                "para": "Ekonomi digital akan menjadikan produk gaya hidup asuransi berbasis penggunaan, on-demand dan 'all-in-one' menjadi lebih relevan. "
+            },
+            "life": {
+                "name": "Ilmu Hayati",
+                "para": "Organisasi ilmu hayati dengan cepat menerapkan analitik tingkat lanjut dalam berbagai fungsi mereka seperti Rantai Pasokan, R"
+            },
+            "manufacture": {
+                "name": "Industri manufaktur",
+                "para": "Pabrikan akan mendapatkan keuntungan dari produksi yang lebih cepat dan lebih murah berkat pencetakan 3D. "
+            },
+            "media": {
+                "name": "Media dan Hiburan",
+                "para": "Media global"
+            },
+            "mining": {
+                "name": "Pertambangan",
+                "para": "Permintaan sebagian besar mineral diperkirakan akan tinggi untuk mencapai transisi energi. "
+            },
+            "oil": {
+                "name": "Minyak dan gas",
+                "para": "Saat kita memasuki tahun 2022, banyak Minyak dan gas (O"
+            },
+            "public": {
+                "name": "Sektor publik",
+                "para": "Sektor publik semakin fokus pada kedaulatan cloud. "
+            },
+            "Retail": {
+                "name": "Pengecer",
+                "para": "Melihat ke depan. "
+            },
+            "telecom": {
+                "name": "Telekomunikasi",
+                "para": "Sektor telekomunikasi terus mencapai kemajuan dalam meningkatkan kapasitas jaringannya dengan tambahan penerapan fiber dan nirkabel untuk memenuhi permintaan konstan akan jaringan berkecepatan lebih tinggi pada tahun 2021"
+            },
+            "travel": {
+                "name": "Bepergian",
+                "para": "Tren Pariwisata Umum Mendatang. "
+            },
+            "transport": {
+                "name": "Transportasi, Logistik",
+                "para": "Terkait mobil, kendaraan listrik (EV) tampaknya sedang mencapai titik kritis. "
+            }
+        }
     }
 }

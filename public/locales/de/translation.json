@@ -1,4 +1,70 @@
 {
+    "mainHeader": {
+        "company": "Unternehmen",
+        "industries": {
+            "name": "Branchen",
+            "aero": "Luft- und Raumfahrt Und Verteidigung",
+            "aviation": "Luftfahrt",
+            "automotive": "Automotive",
+            "bankFinance": "Banken  & Finanzen",
+            "capital": "Kapitalmärkte",
+            "construction": "Konstruktion & Maschinenbau",
+            "chemical": "Chemisch & Verfahren",
+            "consumer": "Konsumgüter",
+            "energy": "Energie & Dienstprogramme",
+            "fmcg": "FMCG",
+            "food": "Essen & Getränk",
+            "health": "Getränk",
+            "industrial": "Industrielle Fertigung",
+            "insurance": "Versicherung",
+            "lifeScience": "Biowissenschaften",
+            "manufacture": "Fertigungsindustrien",
+            "media": "Medien & Unterhaltung",
+            "mining": "Bergbau & Natürliche Ressourcen",
+            "oil": "Öl & Gas",
+            "public": "Öffentlicher Sektor",
+            "retail": "Einzelhandel",
+            "telecom": "Telekommunikation",
+            "travel": "Reisen",
+            "transport": "Transport, Logistik & Gastfreundschaft"
+        },
+        "ourBrands": {
+            "name": "Unsere Marken",
+            "Business": "Geschäft",
+            "Digital": "Digital",
+            "Technologies": "Technologien",
+            "Solutions": "Lösungen",
+            "Finance": "Finanzen",
+            "Consultancy": "Beratung",
+            "Studios": "Studios",
+            "Advertising": "Werbung",
+            "Space": "Raum",
+            "Design": "Design",
+            "Prints": "Drucke",
+            "Accounting": "Buchhaltung",
+            "Legal": "Legal",
+            "Supplies": "Lieferungen",
+            "Academy": "Lieferungen",
+            "Overseas": "Übersee"
+        },
+        "services": {
+            "name": "Dienstleistungen",
+            "multi": "Mehrdimensionales Branding & Marketing",
+            "advertise": "360' Abschluss Werbelösungen",
+            "brand": "Markentransformation",
+            "scaling": "Skalierungstechnologie für die Entwicklung",
+            "interlink": "Verknüpfendes Geschäftskonzept",
+            "business": "1:1 Business-Coaching",
+            "innovative": "Innovativer Unternehmertumsprozess",
+            "quality": "Implementierung eines Qualitätsgeschäftsprozesses",
+            "revenue": "Einnahmen-Lox",
+            "career": "Karriereplanung and Entwicklung",
+            "startup": "Startup Investor Connect",
+            "hybird": "Entwicklung eines hybriden Arbeitsmodells"
+        },
+        "insights": "Einblicke",
+        "contactUs": "Kontaktiere uns"
+    },
     "home": {
         "power": "POWERING",
         "brand": "MARKEN",
@@ -32,27 +98,127 @@
         "women_enterpernership_desc": "Die zunehmende Präsenz von Frauen als Unternehmerinnen hat zu einem erheblichen Geschäfts- und Wirtschaftswachstum im Land geführt. Von Frauen geführte Unternehmen spielen eine herausragende Rolle in der Gesellschaft, indem sie Beschäftigungsmöglichkeiten im Land schaffen, demografische Veränderungen herbeiführen und die nächste Generation von Gründerinnen inspirieren",
         "gig_economy": "Entwicklung der Gig Economy",
         "gig_economy_desc": "GIG-Wirtschaft – Indiens Gig-Arbeitskräfte, die im Zeitraum 2020–2021 auf 77 Lakh geschätzt werden, werden bis 2029–30 voraussichtlich um 2,35 Crore steigen. Faucone unterstützt und bietet Chancen für die GIG Economy",
-        "socity1": "Multi-Dimensional Branding and Marketing",
-        "socity2": "Interlinking Business Concept",
-        "socity3": "Revenue 10X",
-        "socity4": "360. Advertising Solutions",
+        "socity1": "Mehrdimensionales Branding and Marketing",
+        "socity2": "Verknüpfendes Geschäftskonzept",
+        "socity3": "Einnahmen 10X",
+        "socity4": "360' Werbelösungen",
         "socity5": "1:1 Business Coaching",
-        "socity6": "Career Planning and Development",
-        "socity7": "Brand Transformation",
-        "socity8": "Innovative Entrepreneurship Process",
+        "socity6": "Karriereplanung Und Entwicklung",
+        "socity7": "Markentransformation",
+        "socity8": "Innovativer Unternehmertumsprozess",
         "socity9": "Startup Investor Connect",
-        "socity10": "Scalling Technology for Development",
-        "socity11": "Implementing a Quality Business Process",
-        "socity12": "Developing a Hybrid Work Model",
-        "popular": "POPULAR",
-        "events": "EVENTS",
-        "multiDimension": "Multi-Dimensional Branding and Marketing",
-        "saturday": "Saturday - 6:00 PM",
+        "socity10": "Skalierungstechnologie für die Entwicklung",
+        "socity11": "Implementierung eines Qualitätsgeschäftsprozesses",
+        "socity12": "Entwicklung eines hybriden Arbeitsmodells",
+        "popular": "BELIEBT",
+        "events": "VERANSTALTUNGEN",
+        "multiDimension": "Mehrdimensionales Branding und Marketing",
+        "saturday": "Samstag - 6:00 PM",
         "location": "Po'ina Restaurant & Lounge",
         "abby": "Abbey Chun & Heather Stoltz",
         "followers": "26 followers",
-        "letsWork": "LET'S WORK",
-        "together": "TOGETHER",
-        "overcomeYourChallenges": "Erfahren Sie, wie wir Ihnen bei der Bewältigung Ihrer Herausforderungen helfen können"
+        "letsWork": "LASS UNS ARBEITEN",
+        "together": "ZUSAMMEN",
+        "overcomeYourChallenges": "Erfahren Sie, wie wir Ihnen bei der Bewältigung Ihrer Herausforderungen helfen können",
+        "industriesWeServe": {
+            "name": "BRANCHEN, DIE WIR BEDIENEN",
+            "aeroSpace": {
+                "name": "Luft- und Raumfahrt Und Verteidigung",
+                "pagragraph": "Steigende Nachfrage im Segment der Verkehrsflugzeuge. Erhöhung der Reisekosten. Insbesondere in den Schwellenländern Nord- und Lateinamerikas und die weltweit steigenden verfügbaren Einkommen haben das Wachstum von Verkehrsflugzeugen weltweit vorangetrieben"
+            },
+            "aviation": {
+                "name": "Luftfahrt",
+                "para1": "Die Luftfahrt ist bereits als treibende Kraft für globale Technologieentwicklung und Innovationen bekannt",
+                "para2": "Die enormen Investitionen in Künstliche Intelligenz (A1) und Big Data könnten als vielversprechender Weg zur Steigerung von Sicherheit, Effizienz und Nachhaltigkeit angesehen werden. Diese Technologien können dazu beitragen, die Luftfahrtinfrastruktur und die Luftraumnutzung zu verbessern"
+            },
+            "automotive": {
+                "name": "Automobil",
+                "para": "Die steigenden Flugreiseraten, insbesondere in den Schwellenländern Nord- und Lateinamerikas. und die steigenden verfügbaren Einkommen auf der ganzen Welt haben das Wachstum von Verkehrsflugzeugen weltweit vorangetrieben"
+            },
+            "banking": {
+                "name": "Bankwesen & Finanzen",
+                "para": "Die durch verschiedene gesetzliche Rückgaben in der RBI erhaltenen Daten werden hauptsächlich für die Formulierung der Geldpolitik und regulatorische Vorschriften verwendet. Allerdings werden die auf einigen wenigen Rückmeldungen basierenden Informationen nur an die Öffentlichkeit weitergegeben"
+            },
+            "capital": {
+                "name": "Kapitalmärkte",
+                "para": "Der Kapitalmarkt erkennt die besten Ideen und Unternehmen an und fördert sie. In Verbindung mit dem freien Kapitalfluss ist Innovation ein integraler Bestandteil der Schaffung von Arbeitsplätzen, der wirtschaftlichen Entwicklung und des Wohlstands. Märkte erleichtern den Transfer von Geldern von denen, die eine Rendite auf ihr Vermögen anstreben, zu denen, die Kapital für ihre Expansion benötigen"
+            },
+            "construction": {
+                "name": "Konstruktion & Maschinenbau",
+                "para": "Bei einer genaueren Betrachtung der beiden Segmente blieben die Wohnimmobilienaktivitäten trotz steigender Materialpreise und der Ausbreitung der Delta-Variante des Coronavirus weiterhin stark. Im Gegensatz. Das Ausgabenwachstum im Nichtwohnbereich blieb über weite Strecken des Jahres 2021 schwach"
+            },
+            "chemical": {
+                "name": "Chemisch and Verfahren",
+                "para": "Die globale Chemieindustrie ist ein komplexer und wichtiger Teil der globalen Wirtschaft und des Lieferkettennetzwerks. Bei der Herstellung von Chemikalien werden Rohstoffe umgewandelt. Metalle. und so weiter, in Zehntausende verschiedener Produkte, die für das moderne Leben, wie wir es kennen, von zentraler Bedeutung sind"
+            },
+            "consumer": {
+                "name": "Konsumgüter",
+                "para": "Der Konsumgüter- und FMCG-Markt passt sich kontinuierlich an die sich ändernde Verbrauchernachfrage und -trends an. Digitale Innovationen, die Coronavirus-Pandemie und ein verstärkter Fokus auf nachhaltige und gesunde Gewohnheiten waren nur einige der größten Einflüsse auf den Konsumgütermarkt in den letzten Jahren"
+            },
+            "energy": {
+                "name": "Energie Und Dienstprogramme",
+                "para": "Die ölreichen Länder des Nahen Ostens sind seit langem an billigen Strom gewöhnt. Doch die Notwendigkeit, sich den Herausforderungen des Klimawandels zu stellen, bedeutet, dass die Regierungen ihren Ansatz zur Stromerzeugung überdenken müssen"
+            },
+            "fmcg": {
+                "name": "FMCG",
+                "para": "FMCG Produkte im ländlichen Indien machen in manchen Gemeinden bis zur Hälfte aller Gesamtausgaben aus. Halbstädtische Segmente verzeichnen in diesem Bereich immer wieder zweistellige Zuwächse. Der Einzelhandelsmarkt hat bereits einen Wert von mehr als einer Billion Millionen US-Dollar und könnte am Ende sogar das Zehnfache dieses Betrags erreichen, wenn Indien sich zu einer Volkswirtschaft entwickelt, die der Welt ebenbürtig ist"
+            },
+            "Food": {
+                "name": "Essen und Getränke",
+                "para": "Lebensmittel- und Getränkeunternehmen verzeichnen aufgrund der steigenden Nachfrage nach Getränken und Lebensmittelprodukten ein schnelles Wachstum. Nahrungsergänzungsmittel. verpackte verzehrfertige Produkte sowie Tiernahrung und -futter"
+            },
+            "healthCare": {
+                "name": "Gesundheitspflege",
+                "para": "Trends im Gesundheitswesen sind kein neues Phänomen, da sich die Gesundheitsbranche mit neuen technologischen Fortschritten schnell konsolidiert. Verbraucher werden immer technologieaffiner und suchen ständig nach Komfort"
+            },
+            "industrial": {
+                "name": "Industrielle Fertigung",
+                "para": "Unternehmen müssen sich auf die Mitarbeiterbindung konzentrieren, um trotz eines Rückgangs der Arbeitskräfte mit der Produktionsnachfrage Schritt zu halten. Störungen in der Lieferkette erfordern Problemumgehungen und eine effektive interne Kommunikation. Die Diversifizierung der Belegschaft wird der Schlüssel zum Aufbau von Widerstandsfähigkeit sein"
+            },
+            "insurance": {
+                "name": "Versicherung",
+                "para": "Die digitale Wirtschaft wird nutzungsbasierte, bedarfsorientierte und „All-in-one“-Lifestyle-Versicherungsprodukte relevanter machen. Kunden bevorzugen personalisierte Versicherungsdeckungen anstelle der derzeit verfügbaren Einheitsprodukte"
+            },
+            "life": {
+                "name": "Life Science",
+                "para": "Life-Science-Organisationen implementieren schnell fortschrittliche Analysen in ihren verschiedenen Funktionalitäten wie Lieferkette, F&E-Aktivitäten, Design klinischer Studien, Einhaltung gesetzlicher Vorschriften, Vertrieb und Marketing sowie Pharmakovigilanz"
+            },
+            "manufacture": {
+                "name": "Fertigungsindustrien",
+                "para": "Hersteller werden durch den 3D-Druck von schnelleren und kostengünstigeren Produktionen profitieren. Es ermöglicht schnelles Prototyping. Dies ist eine äußerst kostengünstige Möglichkeit für Produktdesigner, ihre Produkte zu testen und Fehler zu beheben. Darüber hinaus ermöglicht es den Herstellern, Artikel nach Bedarf zu produzieren, anstatt sie herstellen und lagern zu müssen"
+            },
+            "media": {
+                "name": "Medien Und Unterhaltung",
+                "para": "Die globale Marktgröße für Medien- und Unterhaltungsspeicher wurde im Jahr 2019 auf 6,635,7 Millionen US-Dollar geschätzt und wird bis 2027 voraussichtlich 17.079,5 Millionen US-Dollar erreichen, was einem c CAGR von 13,7 % von 2020 bis 2027 entspricht. Digitale Speicherung spielt in der professionellen Medizin- und Unterhaltungsbranche eine entscheidende Rolle. Unterhaltungsindustrie (M&E)."
+            },
+            "mining": {
+                "name": "Bergbau und natürliche Ressourcen",
+                "para": "Die Nachfrage nach den meisten Mineralien wird voraussichtlich hoch sein, um die Energiewende zu erreichen. Während fossile Brennstoffe seit dem 18. Jahrhundert dazu beigetragen haben, den Lebensstandard auf der ganzen Welt zu verbessern, haben die damit verbundenen Treibhausgasemissionen zur globalen Erwärmung geführt"
+            },
+            "oil": {
+                "name": "Öl und Gas",
+                "para": "Auf dem Weg ins Jahr 2022 versuchen viele Öl- und Gasunternehmen (O&G), sich neu zu erfinden, indem sie Kapitaldisziplin praktizieren und sich dabei auf die finanzielle Gesundheit konzentrieren. Engagement für den Klimawandel und Umgestaltung von Geschäftsmodellen. Die Positivität solcher Veränderungen spiegelt sich in unserer Umfrage wider, in der fast zwei Drittel der O&G-Führungskräfte angeben, dass sie den strategischen Veränderungen ihrer Organisationen sehr positiv gegenüberstehen"
+            },
+            "public": {
+                "name": "Öffentlicher Sektor",
+                "para": "Der öffentliche Sektor konzentriert sich zunehmend auf die Cloud-Souveränität. Das bedeutet, eng mit Dienstleistern zusammenzuarbeiten, um Transparenz, Kontrolle, Auswahl und Autonomie über die strategische Landschaft und IT-Ressourcen wie Daten, Systeme und kritische Software sicherzustellen. Zu den Vorteilen gehört die Sicherheit. Einhaltung gesetzlicher Vorschriften und Aufbau von Vertrauen bei Bürgern und anderen Interessengruppen"
+            },
+            "Retail": {
+                "name": "Einzelhandel",
+                "para": "Vorausschauen. Es wird erwartet, dass sich die Branche erholen wird, wobei die Leistung digitaler Kanäle der Haupttreiber sein wird. In einer Umfrage von Mckinsey. 22 % der Führungskräfte sagen, dass digitale Kanäle im kommenden Jahr der größte Treiber sein werden. Darüber hinaus wird erwartet, dass staatliche Eingriffe die wirtschaftlichen Auswirkungen teilweise ausgleichen werden. und der internationale Tourismus wird sich voraussichtlich erholen"
+            },
+            "telecom": {
+                "name": "Telekommunikation",
+                "para": "Der Telekommunikationssektor machte weiterhin Fortschritte bei der Erweiterung seiner Netzwerkkapazität durch zusätzliche Glasfaser- und Mobilfunkinstallationen, um der konstanten Nachfrage nach schnelleren Netzwerken im Jahr 2021 gerecht zu werden"
+            },
+            "travel": {
+                "name": "Reisen",
+                "para": "Allgemeine kommende Tourismustrends. Es gibt verschiedene Tourismustrends, die auf allgemeineren Veränderungen im Verbraucherverhalten basieren, wie dem Bedarf an gesunden und biologischen Lebensmitteln und Getränken sowie Nachhaltigkeit. personalisierter Service die steigende Nachfrage nach Digitalisierung und Einsatz von Technologie"
+            },
+            "transport": {
+                "name": "Transport, Logistik & Gastgewerbe",
+                "para": "Wenn es um Autos geht, scheinen Elektrofahrzeuge (EVs) einen Wendepunkt zu erreichen. Im Jahr 2020 machten Elektrofahrzeuge lediglich b Prozent des weltweiten Automobilabsatzes aus. aber es wird erwartet, dass dieser Anteil bis 2025 auf 13 Prozent und bis 2030 auf 22 Prozent ansteigt"
+            }
+        }
     }
 }
