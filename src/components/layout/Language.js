@@ -15,8 +15,8 @@ const Language = () => {
             countries={["US", "FR", "DE", "ES", "MY", "NL", "ID", "TH", "CN", "JP"]}
             customLabels={
                 {
-                    US: "EN",
-                    FR: "FR",
+                    US: "English",
+                    FR: "French",
                     DE: "German",
                     ES: "Spanish",
                     MY: "Malay",
@@ -26,7 +26,7 @@ const Language = () => {
                     CN: "Chinese",
                     JP: "Japanese"
                 }}
-            className='tw-bg-blue-400 tw-text-white'
+            className='tw-bg-blue-400 '
             placeholder="Select Language"
             
         />

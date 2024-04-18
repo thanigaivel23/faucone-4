@@ -81,12 +81,6 @@ const OurBrandServices = () => {
                         <img src={brand_service_12} alt="" className='tw-mx-auto' />
                         <p className='tw-text-center md:tw-w-[50%] tw-text-sm tw-mt-5  tw-mx-auto'>{t('home.socity12')}</p>
                     </div>
-
-
-
-
-
-
                 </main>
             </section>
         </>

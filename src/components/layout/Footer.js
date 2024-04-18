@@ -10,19 +10,16 @@ import facebook from '../../img/facebook.png'
 import linkedin from '../../img/linkedin.png'
 import youtube from '../../img/youtube.png'
 import twitter from '../../img/twitter.png'
-// import { TfiYoutube } from "react-icons/tfi";
-// import { BsTwitterX } from "react-icons/bs";
-// import { GrFacebookOption } from "react-icons/gr";
-// import { TiSocialInstagram } from "react-icons/ti";
-// import { FaLinkedinIn } from "react-icons/fa";
-// import { FaThreads } from "react-icons/fa6";
+
 
 const Footer = () => {
     return (
         <>
             {/* 11th section - footer*/}
-            <section className='tw-bg-blue-50 '>
-                <div className='tw-flex tw-justify-center tw-gap-x-40 tw-py-20'>
+            <section className='tw-bg-blue-50 tw-mt-20'>
+                
+                <div className='tw-flex tw-flex-wrap tw-justify-center tw-gap-x-16 md:tw-gap-x-20 lg:tw-gap-x-40 tw-py-20'> 
+
                     <div className='tw-flex tw-flex-col tw-items-center tw-justify-center'>
                         <img src={india} alt="" className=' ' />
                         <p className='tw-mt-2 tw-text-[#519fd3] tw-font-bold'>India</p>

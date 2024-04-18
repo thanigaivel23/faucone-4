@@ -29,5 +29,8 @@
 
   }
 
- 
+  .bg_map{
+    background-image: url('../../img/bg_map.svg');
+
+  }
  
