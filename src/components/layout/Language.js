@@ -12,23 +12,23 @@ const Language = () => {
         <ReactFlagsSelect
             selected={selected}
             onSelect={data => setSelected(data)}
-            countries={["US", "FR", "DE", "ES", "MY", "NL", "ID", "TH", "CN", "JP"]}
+            countries={["US", "FR", "DE", "ES", "MS", "NL", "ID", "TH", "ZH", "JA"]}
             customLabels={
                 {
                     US: "English",
                     FR: "French",
                     DE: "German",
                     ES: "Spanish",
-                    MY: "Malay",
+                    MS: "Malay",
                     NL: "Dutch",
                     ID: "Indonesian",
                     TH: "Thai",
-                    CN: "Chinese",
-                    JP: "Japanese"
+                    ZH: "Chinese",
+                    JA: "Japanese"
                 }}
             className='tw-bg-blue-400 '
             placeholder="Select Language"
-            
+
         />
     )
 }

@@ -120,6 +120,7 @@
         "letsWork": "AYO BEKERJA",
         "together": "BERSAMA",
         "overcomeYourChallenges": "Lihat bagaimana kami dapat membantu mengatasi tantangan Anda",
+        "globe_heading": "16 SOLUSI 1 MEREK",
         "industriesWeServe": {
             "name": "INDUSTRI YANG KAMI LAYANI",
             "aeroSpace": {
@@ -219,6 +220,24 @@
                 "name": "Transportasi, Logistik",
                 "para": "Terkait mobil, kendaraan listrik (EV) tampaknya sedang mencapai titik kritis. "
             }
+        },
+        "brands": {
+            "business": "BISNIS",
+            "digital": "DIGITAL",
+            "technology": "TEKNOLOGI",
+            "solution": "SOLUSI",
+            "finance": "KEUANGAN",
+            "consultancy": "KONSULTASI",
+            "studios": "STUDIOS",
+            "advertise": "IKLAN",
+            "space": "RUANG ANGKASA",
+            "design": "DESAIN",
+            "prints": "CETAK",
+            "accounting": "AKUNTANSI",
+            "legal": "HUKUM",
+            "supplies": "PERSEDIAAN",
+            "academy": "AKADEMI",
+            "overseas": "LUAR NEGERI"
         }
     }
 }

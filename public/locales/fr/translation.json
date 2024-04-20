@@ -120,6 +120,7 @@
         "letsWork": "ALLONS TRAVAILLER",
         "together": "ENSEMBLE",
         "overcomeYourChallenges": "Découvrez comment nous pouvons vous aider à surmonter vos défis",
+        "globe_heading": "16 SOLUTIONS 1 MARQUE",
         "industriesWeServe": {
             "name": "INDUSTRIES QUE NOUS SERVONS",
             "aeroSpace": {
@@ -219,6 +220,24 @@
                 "name": "Transports, Logistique",
                 "para": "En ce qui concerne les voitures, les véhicules électriques (VE) semblent atteindre un point critique. "
             }
+        },
+        "brands": {
+            "business": "ENTREPRISE",
+            "digital": "NUMÉRIQUE",
+            "technology": "LES TECHNOLOGIES",
+            "solution": "SOLUTIONS",
+            "finance": "FINANCE",
+            "consultancy": "CONSEIL",
+            "studios": "STUDIOS",
+            "advertise": "PUBLICITÉ",
+            "space": "ESPACE",
+            "design": "CONCEPTION",
+            "prints": "IMPRESSIONS",
+            "accounting": "COMPTABILITÉ",
+            "legal": "LÉGAL",
+            "supplies": "FOURNITURES",
+            "academy": "ACADÉMIE",
+            "overseas": "OUTRE-MER"
         }
     }
 }

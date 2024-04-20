@@ -120,6 +120,7 @@
         "letsWork": "VAMOS A TRABAJAR",
         "together": "JUNTOS",
         "overcomeYourChallenges": "Vea cómo podemos ayudarle a superar sus desafíos",
+        "globe_heading": "16 SOLUCIONES 1 MARCA",
         "industriesWeServe": {
             "name": "INDUSTRIAS QUE SERVIMOS",
             "aeroSpace": {
@@ -219,6 +220,24 @@
                 "name": "Transporte, Logística",
                 "para": "Cuando se trata de automóviles, los vehículos eléctricos (EV) parecen estar llegando a un punto de inflexión. "
             }
+        },
+        "brands": {
+            "business": "NEGOCIO",
+            "digital": "DIGITAL",
+            "technology": "TECNOLOGÍAS",
+            "solution": "SOLUCIONES",
+            "finance": "FINANZAS",
+            "consultancy": "CONSULTORÍA",
+            "studios": "ESTUDIOS",
+            "advertise": "PUBLICIDAD",
+            "space": "ESPACIO",
+            "design": "DISEÑO",
+            "prints": "HUELLAS DACTILARES",
+            "accounting": "CONTABILIDAD",
+            "legal": "LEGAL",
+            "supplies": "SUMINISTROS",
+            "academy": "ACADEMIA",
+            "overseas": "EXTERIOR"
         }
     }
 }

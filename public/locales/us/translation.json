@@ -120,6 +120,7 @@
         "letsWork": "LET'S WORK",
         "together": "TOGETHER",
         "overcomeYourChallenges": "See how we can help to overcome your challenges",
+        "globe_heading": "16 SOLUTIONS 1 BRAND",
         "industriesWeServe": {
             "name": "INDUSTRIES WE SERVE",
             "aeroSpace": {
@@ -219,6 +220,24 @@
                 "name": "Transport, Logistics & Hospitality",
                 "para": "When it comes to cars, electric vehicles (EVs) appear to be reaching a tipping point. As Of 2020, EVs accounted for just b percent of global automotive sales. but that is projected to grow to 13 percent by 2025 and 22 percent by 2030"
             }
+        },
+        "brands": {
+            "business": "BUSINESS",
+            "digital": "DIGITAL",
+            "technology": "TECHNOLOGIES",
+            "solution": "SOLUTIONS",
+            "finance": "FINANCE",
+            "consultancy": "CONSULTANCY",
+            "studios": "STUDIOS",
+            "advertise": "ADVERTISING",
+            "space": "SPACE",
+            "design": "DESIGN",
+            "prints": "PRINTS",
+            "accounting": "ACCOUNTING",
+            "legal": "LEGAL",
+            "supplies": "SUPPLIES",
+            "academy": "ACADEMY",
+            "overseas": "OVERSEAS"
         }
     }
 }

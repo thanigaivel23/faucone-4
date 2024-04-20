@@ -12,67 +12,67 @@ const Globe = () => {
 
                 <main className=' tw-grid tw-grid-cols-2 sm:tw-grid-cols-4 tw-mx-auto tw-w-[90%] lg:tw-w-[80%] tw-gap-x-5 tw-gap-y-2 md:tw-gap-x-10 md:tw-gap-y-7 xl:tw-gap-x-20 xl:tw-gap-y-10 tw-text-white  lg:tw-text-xl tw-my-10'>
                     <div className='tw-rounded-xl tw-text-center  tw-bg-[#2e93d2] tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        BUSINESS
+                        {t('home.brands.business')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-slate-600 tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        DIGITAL
+                        {t('home.brands.digital')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-[#2e93d2] tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        TECHNOLOGIES
+                        {t('home.brands.technology')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-slate-600 tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        SOLUTIONS
+                        {t('home.brands.solution')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-slate-600 tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        FINANCE
+                        {t('home.brands.finance')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-[#2e93d2] tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        CONSULTANCY
+                        {t('home.brands.consultancy')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-slate-600 tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        STUDIOS
+                        {t('home.brands.studios')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-[#2e93d2] tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        ADVERTSING
+                        {t('home.brands.advertise')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-[#2e93d2] tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        SPACE
+                        {t('home.brands.space')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-slate-600 tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        DESIGN
+                        {t('home.brands.design')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-[#2e93d2] tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        PRINTS
+                        {t('home.brands.prints')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-slate-600 tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        ACCOUNTING
+                        {t('home.brands.accounting')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-slate-600 tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        LEGAL
+                        {t('home.brands.legal')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-[#2e93d2] tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        SUPPLIES
+                        {t('home.brands.supplies')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-slate-600 tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        ACADEMY
+                        {t('home.brands.academy')}
                     </div>
 
                     <div className='tw-rounded-xl tw-text-center  tw-bg-[#2e93d2] tw-py-3 tw-font-bold tw-bg-opacity-70'>
-                        OVERSEAS
+                        {t('home.brands.overseas')}
                     </div>
 
 

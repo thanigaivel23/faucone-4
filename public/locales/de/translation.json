@@ -120,6 +120,7 @@
         "letsWork": "LASS UNS ARBEITEN",
         "together": "ZUSAMMEN",
         "overcomeYourChallenges": "Erfahren Sie, wie wir Ihnen bei der Bewältigung Ihrer Herausforderungen helfen können",
+        "globe_heading": "16 LÖSUNGEN 1 MARKE",
         "industriesWeServe": {
             "name": "BRANCHEN, DIE WIR BEDIENEN",
             "aeroSpace": {
@@ -219,6 +220,24 @@
                 "name": "Transport, Logistik & Gastgewerbe",
                 "para": "Wenn es um Autos geht, scheinen Elektrofahrzeuge (EVs) einen Wendepunkt zu erreichen. Im Jahr 2020 machten Elektrofahrzeuge lediglich b Prozent des weltweiten Automobilabsatzes aus. aber es wird erwartet, dass dieser Anteil bis 2025 auf 13 Prozent und bis 2030 auf 22 Prozent ansteigt"
             }
+        },
+        "brands": {
+            "business": "GESCHÄFT",
+            "digital": "DIGITAL",
+            "technology": "TECHNOLOGIEN",
+            "solution": "LÖSUNGEN",
+            "finance": "FINANZEN",
+            "consultancy": "BERATUNG",
+            "studios": "STUDIOS",
+            "advertise": "WERBUNG",
+            "space": "RAUM",
+            "design": "DESIGN",
+            "prints": "DRUCKE",
+            "accounting": "BUCHHALTUNG",
+            "legal": "RECHTLICH",
+            "supplies": "LIEFERUNGEN",
+            "academy": "AKADEMIE",
+            "overseas": "ÜBERSEE"
         }
     }
 }

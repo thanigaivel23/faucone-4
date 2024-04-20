@@ -120,6 +120,7 @@
         "letsWork": "开始工作吧",
         "together": "一起",
         "overcomeYourChallenges": "了解我们如何帮助您克服挑战",
+        "globe_heading": "16 个解决方案 1 个品牌",
         "industriesWeServe": {
             "name": "我们服务的行业",
             "aeroSpace": {
@@ -219,6 +220,24 @@
                 "name": "运输, 后勤 & 款待",
                 "para": "就汽车而言，电动汽车 (EV) 似乎已达到一个临界点。截至 2020 年，电动汽车仅占全球汽车销量的 %。但预计到 2025 年这一比例将增至 13%，到 2030 年将增至 22%"
             }
+        },
+        "brands": {
+            "business": "商业",
+            "digital": "数字的",
+            "technology": "技术",
+            "solution": "解决方案",
+            "finance": "金融",
+            "consultancy": "顾问服务",
+            "studios": "工作室",
+            "advertise": "广告",
+            "space": "空间",
+            "design": "设计",
+            "prints": "印刷",
+            "accounting": "会计",
+            "legal": "合法的",
+            "supplies": "补给品",
+            "academy": "学院",
+            "overseas": "海外"
         }
     }
 }

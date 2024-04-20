@@ -120,6 +120,7 @@
         "letsWork": "MARI BEKERJA",
         "together": "BERSAMA",
         "overcomeYourChallenges": "Lihat bagaimana kami boleh membantu untuk mengatasi cabaran anda",
+        "globe_heading": "16 PENYELESAIAN 1 JENAMA",
         "industriesWeServe": {
             "name": "INDUSTRI KAMI BERKHIDMAT",
             "aeroSpace": {
@@ -219,6 +220,24 @@
                 "name": "Pengangkutan, Logistik",
                 "para": "Apabila bercakap mengenai kereta, kenderaan elektrik (EV) nampaknya mencapai titik kritis. "
             }
+        },
+        "brands": {
+            "business": "PERNIAGAAN",
+            "digital": "DIGITAL",
+            "technology": "TEKNOLOGI",
+            "solution": "PENYELESAIAN",
+            "finance": "KEWANGAN",
+            "consultancy": "PERUNDING",
+            "studios": "STUDIOS",
+            "advertise": "MENGIKLANKAN",
+            "space": "RUANG",
+            "design": "REKA BENTUK",
+            "prints": "CETAKAN",
+            "accounting": "PERAKAUNAN",
+            "legal": "SAH",
+            "supplies": "BEKALAN",
+            "academy": "AKADEMI",
+            "overseas": "LUAR NEGARA"
         }
     }
 }

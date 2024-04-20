@@ -69,18 +69,18 @@ const OurBrands = () => {
       </section>
 
       {/* 5th section - award */}
-      <Award/>
+      <Award />
 
       {/* 6th section - faucone */}
       <section className='tw-mt-72 tw-mb-40'>
         <img src={faucone} alt="" className='tw-w-[80%] lg:tw-w-[25%]  tw-mx-auto' />
         <p className='tw-text-[#49b0ff] tw-text-center tw-font-bold tw-text-lg tw-w-[70%] tw-mx-auto tw-mt-10 lg:tw-mt-5'>Book a Consultation to Revolutionize Your Operations!</p>
         <p className='tw-text-center tw-text-gray-500 tw-mx-5 tw-font-semibold tw-mt-5 tw-text-sm'>with our Infrastructure Management services</p>
-        <button className='tw-bg-[#2c9be6] tw-text-white tw-block tw-mx-auto tw-mt-10 tw-font-bold tw-rounded-md tw-px-16 tw-py-3'>Contact Us</button>
+        <button onClick={() => window.location.href = '/contact-us'} className='tw-bg-[#2c9be6] tw-text-white tw-block tw-mx-auto tw-mt-10 tw-font-bold tw-rounded-md tw-px-16 tw-py-3'>Contact Us</button>
       </section>
 
       {/* 7th section - Footer */}
-      <Footer/>
+      <Footer />
 
 
 

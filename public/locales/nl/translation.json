@@ -120,6 +120,7 @@
         "letsWork": "LATEN WE WERKEN",
         "together": "SAMEN",
         "overcomeYourChallenges": "Ontdek hoe wij u kunnen helpen uw uitdagingen te overwinnen",
+        "globe_heading": "16 OPLOSSINGEN 1 MERK",
         "industriesWeServe": {
             "name": "INDUSTRIEËN DIE WIJ DIENEN",
             "aeroSpace": {
@@ -219,6 +220,24 @@
                 "name": "Transport, logistiek",
                 "para": "Als het om auto’s gaat, lijken elektrische voertuigen (EV’s) een omslagpunt te bereiken. "
             }
+        },
+        "brands": {
+            "business": "BEDRIJF",
+            "digital": "DIGITAAL",
+            "technology": "TECHNOLOGIEËN",
+            "solution": "OPLOSSINGEN",
+            "finance": "FINANCIËN",
+            "consultancy": "ADVIES",
+            "studios": "STUDIO'S",
+            "advertise": "RECLAME",
+            "space": "RUIMTE",
+            "design": "ONTWERP",
+            "prints": "AFDRUKKEN",
+            "accounting": "BOEKHOUDING",
+            "legal": "JURIDISCH",
+            "supplies": "BENODIGDHEDEN",
+            "academy": "ACADEMIE",
+            "overseas": "OVERZEES"
         }
     }
 }
