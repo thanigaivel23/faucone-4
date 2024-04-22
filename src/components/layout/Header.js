@@ -142,6 +142,9 @@ const Header = () => {
                     </Drawer>
                 </div>
 
+
+
+
                 {/* name and company, industries, brands, services, insights, contact us*/}
                 <div className='lg:tw-flex lg:tw-items-center lg:tw-gap-x-12 xl:-tw-ml-44  '>
                     <Link to={'/'} className=''>
