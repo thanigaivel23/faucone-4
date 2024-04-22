@@ -26,9 +26,9 @@ const Language = () => {
 
     const [language, setLanguage] = useState('English')
 
-    const languageHandle = (e) => {
-        setSelected(e.target.title)
-        setLanguage(e.target.textContent)
+    const languageHandle = (title, name) => {
+        setSelected(title)
+        setLanguage(name)
     }
 
     const languageContainer = [
@@ -105,7 +105,7 @@ const Language = () => {
 
                     {language === item.name ? (
 
-                        <div onClick={languageHandle} className='tw-flex my-2  tw-items-center tw-gap-x-2 '>
+                        <div onClick={(e) => languageHandle(item.title, item.name)} title={item.title} className='tw-flex my-2  tw-items-center tw-gap-x-2 '>
 
                             {item.flag}
                             <p className='tw-mb-0'>{item.name}</p>
@@ -113,7 +113,7 @@ const Language = () => {
                         </div>
                     ) :
 
-                        <div onClick={languageHandle} className='tw-flex my-2  tw-items-center tw-gap-x-2 '>
+                        <div onClick={(e) => languageHandle(item.title, item.name)} className='tw-flex my-2  tw-items-center tw-gap-x-2 '>
 
                             {item.flag}
                             <p className='tw-mb-0'>{item.name}</p>
