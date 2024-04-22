@@ -96,7 +96,7 @@ const Language = () => {
 
 
     const content = (
-        <div className='tw-grid tw-grid-cols-2 tw-gap-x-5 tw-p-5'>
+        <div className='tw-grid tw-grid-cols-1 tw-gap-x-5 tw-p-5 md:tw-grid-cols-2'>
 
 
             {languageContainer.map((item, index) => (
