@@ -239,5 +239,49 @@
             "academy": "ACADEMY",
             "overseas": "OVERSEAS"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "BUSINESS SERVICE",
+            "titleDesc": "Business service that can meet all the needs of business consulting service. Our business services are carefully designed to perfectly meet the needs of each business and brand",
+            "our": "OUR",
+            "message": "MESSAGE",
+            "messageContent": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi songs architecto beatae could vitae dicta sunt explicabo. Nemo change enim ipsam voluptatem",
+            "leading": "LEADING",
+            "theWay": "THE WAY",
+            "businessConsult": "Business Consulting",
+            "businessConsultDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "brandMarketting": "Branding & Marketing Strategy",
+            "brandMarketingDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "movieAnalysis": "Movie Analysis",
+            "movieAnalysisDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "successOn": "RECOGNISED SUCCESS ON",
+            "severalContinet": "SEVERAL CONTINENTS",
+            "successDesc": "Our software helps companies of all sizes and industries to optimize their visibility across key channels and create engaging content for their users, and it's proved by recognition by our users as the best SEO software at a number of international awards",
+            "bookConsult": "Book a Consultation to Revolutionize Your Operations",
+            "contactus": "Contact Us"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "MULTI-DIMENSIONAL",
+            "title2": "BRANDING AND MARKETING",
+            "titleDesc": "As a business owner or aspiring marketer, it is essential that you understand branding and marketing, conceptually and tactically, so you can do both effectively. Let's take a look at each in turn, and how they differ",
+            "whatIs": "WHAT IS",
+            "branding": "BRANDING",
+            "brandingAns1": "Branding is who you are, the very identity and character of your business, while marketing is how you build brand awareness. Branding is your strategy, while marketing encompasses your tactical goals",
+            "brandingAns2": "In order to determine your brand identity, you need to ask yourself several questions. These questions go beyond industry cliches, and they are deeper than a mere description of your services or products",
+            "brandingAns3": "Invest your time in giving detailed answers, and bounce them off your colleagues and professional mentors. What you will notice is that all of the questions are related to your internal operations and culture. What you build on the inside is what will emanate externally as your brand",
+            "marketing": "MARKETING",
+            "marketingAns1": "Marketing is the methods, tools, and tactics your business uses to communicate your brand identity and message and to drive customer interest, engagement, and ultimately, sales. Marketing campaigns continually change and evolve based on a wide range of parameters, including consumer sentiment, the economy, competitors, and even seasonality. They are also targeted towards different segments Of your audience, all while supporting and reflecting the core values of your brand",
+            "marketingAns2": "Marketing is a vast umbrella, incorporating several tools, tactics, and vibes, depending on the audience and the moment",
+            "marketingAns3": "Marketing can be heartfelt, funny, or serious. It can be any mix of content, including text, keywords, images, videos, and memes",
+            "buildingthe": "BUILDING THE",
+            "strategy": "STRATEGY",
+            "research": "Research",
+            "researchDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi",
+            "goals": "Goals and objectives",
+            "goalsDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi"
+        }
     }
 }
