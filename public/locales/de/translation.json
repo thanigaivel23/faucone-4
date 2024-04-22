@@ -239,5 +239,49 @@
             "academy": "AKADEMIE",
             "overseas": "ÜBERSEE"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "UNTERNEHMENSDIENSTLEISTUNGEN",
+            "titleDesc": "Unternehmensdienstleistung, die alle Anforderungen an Unternehmensberatungsdienste erfüllen kann. ",
+            "our": "UNSER",
+            "message": "NACHRICHT",
+            "messageContent": "Ich bin mir nicht sicher, ob ich einen Fehler gemacht habe, ich habe mich mit der Anschuldigung eines Dolmetschers begnügt, aber ich werde nichts sagen, weil ich kein wahrer Erfinder bin und der Architekt Beate sozusagen sein Leben nicht erklären kann. ",
+            "leading": "FÜHREND",
+            "theWay": "DER WEG",
+            "businessConsult": "Unternehmensberatung",
+            "businessConsultDesc": "Bei accusamus dignissimos qui blanditiis praesentium korrupti molestias außeruricupiditate Provident",
+            "brandMarketting": "Branding",
+            "brandMarketingDesc": "Bei accusamus dignissimos qui blanditiis praesentium korrupti molestias außeruricupiditate Provident",
+            "movieAnalysis": "Filmanalyse",
+            "movieAnalysisDesc": "Bei accusamus dignissimos qui blanditiis praesentium korrupti molestias außeruricupiditate Provident",
+            "successOn": "ANERKANNTER ERFOLG AUF",
+            "severalContinet": "MEHRERE KONTINENTE",
+            "successDesc": "Unsere Software hilft Unternehmen aller Größen und Branchen dabei, ihre Sichtbarkeit über wichtige Kanäle zu optimieren und ansprechende Inhalte für ihre Benutzer zu erstellen. Dies wird durch die Auszeichnung unserer Benutzer als beste SEO-Software bei einer Reihe internationaler Auszeichnungen unter Beweis gestellt",
+            "bookConsult": "Buchen Sie eine Beratung, um Ihren Betrieb zu revolutionieren",
+            "contactus": "Kontaktiere uns"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "MEHRDIMENSIONAL",
+            "title2": "Branding und Marketing",
+            "titleDesc": "Als Geschäftsinhaber oder angehender Vermarkter ist es wichtig, dass Sie Branding und Marketing konzeptionell und taktisch verstehen, damit Sie beides effektiv tun können. ",
+            "whatIs": "WAS IST",
+            "branding": "MARKENBRINGUNG",
+            "brandingAns1": "Beim Branding geht es darum, wer Sie sind, um die Identität und den Charakter Ihres Unternehmens, während es beim Marketing darum geht, wie Sie die Markenbekanntheit aufbauen. ",
+            "brandingAns2": "Um Ihre Markenidentität zu bestimmen, müssen Sie sich mehrere Fragen stellen. ",
+            "brandingAns3": "Investieren Sie Ihre Zeit in die Bereitstellung detaillierter Antworten und teilen Sie diese Ihren Kollegen und professionellen Mentoren mit. ",
+            "marketing": "MARKETING",
+            "marketingAns1": "Unter Marketing versteht man die Methoden, Tools und Taktiken, mit denen Ihr Unternehmen Ihre Markenidentität und -botschaft kommuniziert und das Kundeninteresse, das Engagement und letztendlich den Umsatz steigert. ",
+            "marketingAns2": "Marketing ist ein riesiges Dach, das je nach Zielgruppe und Moment mehrere Tools, Taktiken und Stimmungen umfasst",
+            "marketingAns3": "Marketing kann herzlich, lustig oder ernst sein. ",
+            "buildingthe": "BAU DER",
+            "strategy": "STRATEGIE",
+            "research": "Forschung",
+            "researchDesc": "Bei accusamus dignissimos qui blanditiis praesentium korrupti molestiasexclusuri",
+            "goals": "Ziele und Ziele",
+            "goalsDesc": "Bei accusamus dignissimos qui blanditiis praesentium korrupti molestiasexclusuri"
+        }
     }
 }

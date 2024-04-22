@@ -239,5 +239,49 @@
             "academy": "ACADEMIA",
             "overseas": "EXTERIOR"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "SERVICIO EMPRESARIAL",
+            "titleDesc": "Servicio empresarial que puede satisfacer todas las necesidades del servicio de consultoría empresarial. ",
+            "our": "NUESTRO",
+            "message": "MENSAJE",
+            "messageContent": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi song arquitecto beatae might vitae dicta sunt explicabo. ",
+            "leading": "PRINCIPAL",
+            "theWay": "EL CAMINO",
+            "businessConsult": "Consulta de trabajo",
+            "businessConsultDesc": "At acusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "brandMarketting": "Marca",
+            "brandMarketingDesc": "At acusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "movieAnalysis": "Análisis de películas",
+            "movieAnalysisDesc": "At acusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "successOn": "ÉXITO RECONOCIDO EN",
+            "severalContinet": "VARIOS CONTINENTES",
+            "successDesc": "Nuestro software ayuda a empresas de todos los tamaños e industrias a optimizar su visibilidad en canales clave y crear contenido atractivo para sus usuarios, y lo demuestra el reconocimiento de nuestros usuarios como el mejor software de SEO en varios premios internacionales.",
+            "bookConsult": "Reserve una consulta para revolucionar sus operaciones",
+            "contactus": "Contáctenos"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "MULTIDIMENSIONAL",
+            "title2": "MARCA Y MARKETING",
+            "titleDesc": "Como propietario de un negocio o aspirante a comercializador, es esencial que comprenda la marca y el marketing, conceptual y tácticamente, para poder hacer ambos de manera efectiva. ",
+            "whatIs": "QUÉ ES",
+            "branding": "MARCA",
+            "brandingAns1": "La marca es quién eres, la identidad misma y el carácter de tu negocio, mientras que el marketing es cómo creas conciencia de marca. ",
+            "brandingAns2": "Para determinar la identidad de su marca, debe plantearse varias preguntas. ",
+            "brandingAns3": "Invierte tu tiempo en dar respuestas detalladas y comunícalas con tus colegas y mentores profesionales. ",
+            "marketing": "MARKETING",
+            "marketingAns1": "El marketing son los métodos, herramientas y tácticas que utiliza su empresa para comunicar la identidad y el mensaje de su marca y generar el interés, el compromiso y, en última instancia, las ventas del cliente. ",
+            "marketingAns2": "El marketing es un amplio paraguas que incorpora varias herramientas, tácticas y vibraciones, según la audiencia y el momento.",
+            "marketingAns3": "El marketing puede ser sincero, divertido o serio. ",
+            "buildingthe": "CONSTRUYENDO EL",
+            "strategy": "ESTRATEGIA",
+            "research": "Investigación",
+            "researchDesc": "At acusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi",
+            "goals": "Metas y objetivos",
+            "goalsDesc": "At acusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi"
+        }
     }
 }

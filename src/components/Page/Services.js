@@ -6,8 +6,10 @@ import empowerment from '../../img/empowerment.svg'
 import service from '../../img/service.PNG'
 import Footer from '../layout/Footer'
 import Award from '../layout/Award'
+import { useTranslation } from 'react-i18next'
 
 const Services = () => {
+  const { t } = useTranslation();
   return (
     <>
       {/*1st section - nav bar */}
@@ -19,9 +21,9 @@ const Services = () => {
         <img src={brand} alt="" className='tw-mt-8 lg:tw-order-1 md:tw-w-[40%]' />
 
         <div className=' tw-flex lg:tw-block tw-items-center tw-justify-center tw-flex-col lg:tw-w-[50%]'>
-          <p className='tw-font-abel tw-text-[#2c9be6] tw-text-center lg:tw-text-left tw-tracking-[3px] tw-text-2xl md:tw-text-4xl tw-mt-5 tw-font-bold tw-mx-10'>MULTI-DIMENSIONAL <span className=' tw-text-gray-500 tw-font-normal lg:tw-block'>BRANDING <span className='lg:tw-block'>AND MARKETING</span></span></p>
+          <p className='tw-font-abel tw-text-[#2c9be6] tw-text-center lg:tw-text-left tw-tracking-[3px] tw-text-2xl md:tw-text-4xl tw-mt-5 tw-font-bold tw-mx-10'>{t('services.multiDimensinal.title1')} <span className=' tw-text-gray-500 tw-font-normal lg:tw-block'>{t('services.multiDimensinal.title2')}</span></p>
           <p className='tw-bg-[#2c9be6] tw-h-0.5 tw-w-10 tw-mt-4 tw-mx-auto lg:tw-mx-10'></p>
-          <p className='tw-text-center lg:tw-text-left lg:tw-mx-5 tw-text-sm md:tw-text-base tw-px-5 tw-mt-4 tw-text-gray-600 lg:tw-w-[80%]'>As a business owner or aspiring marketer, it is essential that you understand branding and marketing, conceptually and tactically, so you can do both effectively. Let's take a look at each in turn, and how they differ.</p>
+          <p className='tw-text-center lg:tw-text-left lg:tw-mx-5 tw-text-sm md:tw-text-base tw-px-5 tw-mt-4 tw-text-gray-600 lg:tw-w-[80%]'>{t('services.multiDimensinal.titleDesc')}.</p>
         </div>
 
       </section>
@@ -31,18 +33,18 @@ const Services = () => {
         {/* 1st box */}
         <div className='  tw-flex tw-items-center  tw-justify-center lg:tw-justify-start lg:tw-items-end tw-flex-col tw-border-4 tw-border-[#2c9be6] lg:tw-outline lg:tw-outline-8 lg:tw-outline-[#cae6f8] tw-rounded-3xl tw-mx-5 tw-my-20 lg:tw-my-0 tw-py-10 lg:tw-py-10 lg:tw-px-10 '>
           <img src={brand} alt="" className=' tw-text-center tw-w-[80%] md:tw-w-[40%] ' />
-          <p className=' lg:tw-text-right tw-font-abel tw-text-gray-500 tw-text-center  tw-tracking-[3px] tw-text-2xl md:tw-text-4xl  '>WHAT IS <span className='tw-text-[#2c9be6] tw-font-bold'>BRANDING?</span></p>
+          <p className=' lg:tw-text-right tw-font-abel tw-text-gray-500 tw-text-center  tw-tracking-[3px] tw-text-2xl md:tw-text-4xl  '>{t('services.multiDimensinal.whatIs')} <span className='tw-text-[#2c9be6] tw-font-bold'>{t('services.multiDimensinal.branding')}?</span></p>
           <p className=' tw-bg-[#2c9be6] tw-h-0.5 tw-w-10  tw-mt-4 tw-mx-auto  lg:tw-mx-0'></p>
-          <p className=' lg:tw-text-right tw-text-center  tw-text-sm tw-font-semibold tw-px-5 lg:tw-px-0 tw-mt-8 tw-text-gray-500 tw-opacity-90 '>Branding is who you are, the very identity and character of your business, while marketing is how you build brand awareness. Branding is your strategy, while marketing encompasses your tactical goals. <br /><br />In order to determine your brand identity, you need to ask yourself several questions. These questions go beyond industry cliches, and they are deeper than a mere description of your services or products <br /><br />Invest your time in giving detailed answers, and bounce them off your colleagues and professional mentors. What you will notice is that all of the questions are related to your internal operations and culture. What you build on the inside is what will emanate externally as your brand.</p>
+          <p className=' lg:tw-text-right tw-text-center  tw-text-sm tw-font-semibold tw-px-5 lg:tw-px-0 tw-mt-8 tw-text-gray-500 tw-opacity-90 '>{t('services.multiDimensinal.brandingAns1')}. <br /><br />{t('services.multiDimensinal.brandingAns2')} <br /><br />{t('services.multiDimensinal.brandingAns3')}.</p>
 
         </div>
 
         {/* 2nd box */}
         <div className=' tw-flex tw-items-center tw-justify-center lg:tw-justify-start lg:tw-items-start tw-flex-col tw-border-4 tw-border-[#2c9be6] lg:tw-outline lg:tw-outline-8 lg:tw-outline-[#cae6f8] tw-rounded-3xl tw-mx-5 tw-my-20 lg:tw-my-0 tw-py-10 lg:tw-py-10 lg:tw-px-10 '>
           <img src={brand} alt="" className='tw-w-[80%]  md:tw-w-[40%]' />
-          <p className='tw-font-abel tw-text-gray-500 tw-text-center lg:tw-text-left  tw-tracking-[3px] tw-text-2xl md:tw-text-4xl '>WHAT IS <span className='tw-text-[#2c9be6] tw-font-bold'>MARKETING?</span></p>
+          <p className='tw-font-abel tw-text-gray-500 tw-text-center lg:tw-text-left  tw-tracking-[3px] tw-text-2xl md:tw-text-4xl '>{t('services.multiDimensinal.whatIs')} <span className='tw-text-[#2c9be6] tw-font-bold'>{t('services.multiDimensinal.marketing')}?</span></p>
           <p className='tw-bg-[#2c9be6] tw-h-0.5 tw-w-10  tw-mt-4 tw-mx-auto  lg:tw-mx-0'></p>
-          <p className='tw-text-center lg:tw-text-left tw-text-sm tw-font-semibold tw-px-5 lg:tw-px-0 tw-mt-8 tw-text-gray-500 tw-opacity-90 '>Marketing is the methods, tools, and tactics your business uses to communicate your brand identity and message and to drive customer interest, engagement, and ultimately, sales. Marketing campaigns continually change and evolve based on a wide range of parameters, including consumer sentiment, the economy, competitors, and even seasonality. They are also targeted towards different segments Of your audience, all while supporting and reflecting the core values of your brand. <br /><br />Marketing is a vast umbrella, incorporating several tools, tactics, and vibes, depending on the audience and the moment.<br /><br /> Marketing can be heartfelt, funny, or serious. It can be any mix of content, including text, keywords, images, videos, and memes.</p>
+          <p className='tw-text-center lg:tw-text-left tw-text-sm tw-font-semibold tw-px-5 lg:tw-px-0 tw-mt-8 tw-text-gray-500 tw-opacity-90 '>{t('services.multiDimensinal.marketingAns1')}. <br /><br />{t('services.multiDimensinal.marketingAns2')}.<br /><br /> {t('services.multiDimensinal.marketingAns3')}.</p>
         </div>
       </section>
 
@@ -50,7 +52,7 @@ const Services = () => {
       <section className='tw-py-16 tw-bg-blue-50 tw-mt-24 tw-pr-2'>
 
         <div className=' tw-flex tw-justify-center tw-items-center tw-flex-col '>
-          <p className='tw-tracking-[3px] tw-font-abel tw-text-gray-600 tw-text-2xl md:tw-text-4xl'>BUILDING THE <span className='tw-text-[#2c9be6] tw-font-bold'>STRATEGY</span></p>
+          <p className='tw-tracking-[3px] tw-font-abel tw-text-gray-600 tw-text-2xl md:tw-text-4xl'>{t('services.multiDimensinal.buildingthe')} <span className='tw-text-[#2c9be6] tw-font-bold'>{t('services.multiDimensinal.strategy')}</span></p>
           <p className='tw-bg-[#2c9be6] tw-h-0.5 tw-w-10 tw-mt-6'></p>
         </div>
 
@@ -58,14 +60,14 @@ const Services = () => {
 
           <div className=''>
             <img src={empowerment} alt="" className='tw-w-28 tw-h-24 tw-mx-auto' />
-            <p className='px-4 tw-text-[#2c9be6] tw-font-bold  tw-my-3 lg:tw-my-5 tw-text-center'>Research</p>
-            <p className='tw-px-2 tw-pl-6 tw-text-gray-500 tw-text-sm tw-text-center tw-font-bold'>At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi</p>
+            <p className='px-4 tw-text-[#397399] tw-font-bold  tw-my-3 lg:tw-my-5 tw-text-center'>{t('services.multiDimensinal.research')}</p>
+            <p className='tw-px-2 tw-pl-6 tw-text-gray-500 tw-text-sm tw-text-center tw-font-bold'>{t('services.multiDimensinal.researchDesc')}</p>
           </div>
 
           <div className=''>
             <img src={empowerment} alt="" className='tw-w-28 tw-h-24 tw-mx-auto' />
-            <p className='px-4 tw-text-[#2c9be6] tw-font-bold  tw-my-3 lg:tw-my-5 tw-text-center'>Goals and objectives</p>
-            <p className='tw-px-2 tw-pl-6 tw-text-gray-500 tw-text-sm tw-text-center tw-font-bold'>At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi</p>
+            <p className='px-4 tw-text-[#2c9be6] tw-font-bold  tw-my-3 lg:tw-my-5 tw-text-center'>{t('services.multiDimensinal.goals')}</p>
+            <p className='tw-px-2 tw-pl-6 tw-text-gray-500 tw-text-sm tw-text-center tw-font-bold'>{t('services.multiDimensinal.goalsDesc')}</p>
           </div>
 
           <div className=''>
@@ -120,7 +122,7 @@ const Services = () => {
       </section>
 
       {/* 6th section - award */}
-      <Award/>
+      <Award />
 
 
       {/* 7th section - Footer */}

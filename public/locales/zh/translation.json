@@ -239,5 +239,49 @@
             "academy": "学院",
             "overseas": "海外"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "商业服务",
+            "titleDesc": "商务服务，可以满足商务咨询服务的所有需求。",
+            "our": "我们的",
+            "message": "信息",
+            "messageContent": "Sed ut perspiciatis undeOmnis iste natus error sat voluptatemaccusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illoinvente veritatis et quasiongongs architetobeatae can vitae dicta sunt explicabo. ",
+            "leading": "领导",
+            "theWay": "道路",
+            "businessConsult": "商业咨询",
+            "businessConsultDesc": "At Accusamus dignissimos qui blanditiis praesentium Corroti Moldestias excepturicupiditate Provident",
+            "brandMarketting": "品牌推广",
+            "brandMarketingDesc": "At Accusamus dignissimos qui blanditiis praesentium Corroti Moldestias excepturicupiditate Provident",
+            "movieAnalysis": "电影分析",
+            "movieAnalysisDesc": "At Accusamus dignissimos qui blanditiis praesentium Corroti Moldestias excepturicupiditate Provident",
+            "successOn": "公认的成功",
+            "severalContinet": "几大洲",
+            "successDesc": "我们的软件帮助各种规模和行业的公司优化关键渠道的可见性，并为用户创建引人入胜的内容，我们的用户在多项国际奖项中被评为最佳 SEO 软件，这证明了这一点",
+            "bookConsult": "预约咨询以彻底改变您的运营",
+            "contactus": "联系我们"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "多维",
+            "title2": "品牌与营销",
+            "titleDesc": "作为企业主或有抱负的营销人员，从概念和战术上了解品牌和营销至关重要，这样您才能有效地做到这两点。",
+            "whatIs": "什么是",
+            "branding": "品牌推广",
+            "brandingAns1": "品牌是你是谁，是你的企业的身份和特征，而营销是你建立品牌知名度的方式。",
+            "brandingAns2": "为了确定您的品牌形象，您需要问自己几个问题。",
+            "brandingAns3": "花时间给出详细的答案，并向你的同事和专业导师反馈。",
+            "marketing": "营销",
+            "marketingAns1": "营销是您的企业用来传达品牌形象和信息并提高客户兴趣、参与度并最终提高销售的方法、工具和策略。",
+            "marketingAns2": "营销是一把巨大的保护伞，结合了多种工具、策略和氛围，具体取决于受众和时机",
+            "marketingAns3": "营销可以是真诚的、有趣的或严肃的。",
+            "buildingthe": "建设",
+            "strategy": "战略",
+            "research": "研究",
+            "researchDesc": "At Accusamus dignissimos qui blanditiis praesentium Corroti Molestias excepturi",
+            "goals": "目的和目标",
+            "goalsDesc": "At Accusamus dignissimos qui blanditiis praesentium Corroti Molestias excepturi"
+        }
     }
 }

@@ -239,5 +239,49 @@
             "academy": "ACADEMIE",
             "overseas": "OVERZEES"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "ZAKELIJKE DIENST",
+            "titleDesc": "Zakelijke service die aan alle behoeften van zakelijke adviesdiensten kan voldoen. ",
+            "our": "ONS",
+            "message": "BERICHT",
+            "messageContent": "Als u doordringt dat er een fout is gemaakt, kunt u de hele tijd lovende kritieken uiten, maar u kunt ook een waarheid uitvinden en quasi-liederen die architecten kunnen schrijven, kunnen ze expliciet uitspreken. ",
+            "leading": "LEIDEND",
+            "theWay": "DE WEG",
+            "businessConsult": "Bedrijfsconsulting",
+            "businessConsultDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias exceptionuricupiditate provident",
+            "brandMarketting": "Branding",
+            "brandMarketingDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias exceptionuricupiditate provident",
+            "movieAnalysis": "Filmanalyse",
+            "movieAnalysisDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias exceptionuricupiditate provident",
+            "successOn": "ERKEND SUCCES OP",
+            "severalContinet": "VERSCHILLENDE CONTINENTEN",
+            "successDesc": "Onze software helpt bedrijven van elke omvang en uit elke sector om hun zichtbaarheid via belangrijke kanalen te optimaliseren en boeiende inhoud voor hun gebruikers te creëren, en dit wordt bewezen door erkenning door onze gebruikers als de beste SEO-software bij een aantal internationale prijzen",
+            "bookConsult": "Boek een consultatie om uw activiteiten radicaal te veranderen",
+            "contactus": "Neem contact met ons op"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "MULTI-DIMENSIONAAL",
+            "title2": "BRANDING EN MARKETING",
+            "titleDesc": "Als bedrijfseigenaar of aspirant-marketeer is het essentieel dat u branding en marketing begrijpt, zowel conceptueel als tactisch, zodat u beide effectief kunt doen. ",
+            "whatIs": "WAT IS",
+            "branding": "BRANDING",
+            "brandingAns1": "Branding is wie u bent, de identiteit en het karakter van uw bedrijf, terwijl marketing de manier is waarop u merkbekendheid opbouwt. ",
+            "brandingAns2": "Om uw merkidentiteit te bepalen, moet u uzelf een aantal vragen stellen. ",
+            "brandingAns3": "Investeer uw tijd in het geven van gedetailleerde antwoorden en stuur deze door naar uw collega's en professionele mentoren. ",
+            "marketing": "MARKETING",
+            "marketingAns1": "Marketing zijn de methoden, hulpmiddelen en tactieken die uw bedrijf gebruikt om uw merkidentiteit en -boodschap over te brengen en om de interesse, betrokkenheid en uiteindelijk de verkoop van klanten te stimuleren. ",
+            "marketingAns2": "Marketing is een enorme paraplu, die verschillende tools, tactieken en vibes omvat, afhankelijk van het publiek en het moment",
+            "marketingAns3": "Marketing kan oprecht, grappig of serieus zijn. ",
+            "buildingthe": "BOUWEN VAN",
+            "strategy": "STRATEGIE",
+            "research": "Onderzoek",
+            "researchDesc": "Bij accusamus dignissimos qui blanditiis praesentium corrupti molestias exceptionuri",
+            "goals": "Doelen en doelstellingen",
+            "goalsDesc": "Bij accusamus dignissimos qui blanditiis praesentium corrupti molestias exceptionuri"
+        }
     }
 }

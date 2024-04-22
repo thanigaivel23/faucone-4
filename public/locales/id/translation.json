@@ -239,5 +239,49 @@
             "academy": "AKADEMI",
             "overseas": "LUAR NEGERI"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "LAYANAN BISNIS",
+            "titleDesc": "Layanan bisnis yang dapat memenuhi segala kebutuhan layanan konsultasi bisnis. ",
+            "our": "KITA",
+            "message": "PESAN",
+            "messageContent": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis dan quasi lagu arsitek beatae can vitae dicta sunt explicabo. ",
+            "leading": "TERKEMUKA",
+            "theWay": "JALAN",
+            "businessConsult": "Konsultasi Bisnis",
+            "businessConsultDesc": "Di accusamus dignissimos qui blanditiis praesentiumcorrupti molestiaskecualiuricupiditate provident",
+            "brandMarketting": "merek",
+            "brandMarketingDesc": "Di accusamus dignissimos qui blanditiis praesentiumcorrupti molestiaskecualiuricupiditate provident",
+            "movieAnalysis": "Analisis Film",
+            "movieAnalysisDesc": "Di accusamus dignissimos qui blanditiis praesentiumcorrupti molestiaskecualiuricupiditate provident",
+            "successOn": "KESUKSESAN YANG DIAKUI PADA",
+            "severalContinet": "BEBERAPA BENUA",
+            "successDesc": "Perangkat lunak kami membantu perusahaan dari semua ukuran dan industri untuk mengoptimalkan visibilitas mereka di seluruh saluran utama dan membuat konten menarik bagi penggunanya, dan hal ini dibuktikan dengan pengakuan oleh pengguna kami sebagai perangkat lunak SEO terbaik di sejumlah penghargaan internasional",
+            "bookConsult": "Pesan Konsultasi untuk Merevolusi Operasi Anda",
+            "contactus": "Hubungi kami"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "MULTIDIMENSI",
+            "title2": "MEREK DAN PEMASARAN",
+            "titleDesc": "Sebagai pemilik bisnis atau calon pemasar, penting bagi Anda untuk memahami branding dan pemasaran, secara konseptual dan taktis, sehingga Anda dapat melakukan keduanya secara efektif. ",
+            "whatIs": "APA",
+            "branding": "MEREK",
+            "brandingAns1": "Branding adalah siapa Anda, identitas dan karakter bisnis Anda, sedangkan pemasaran adalah cara Anda membangun kesadaran merek. ",
+            "brandingAns2": "Untuk menentukan identitas merek Anda, Anda perlu bertanya pada diri sendiri beberapa pertanyaan. ",
+            "brandingAns3": "Investasikan waktu Anda dalam memberikan jawaban terperinci, dan sampaikan kepada kolega dan mentor profesional Anda. ",
+            "marketing": "PEMASARAN",
+            "marketingAns1": "Pemasaran adalah metode, alat, dan taktik yang digunakan bisnis Anda untuk mengomunikasikan identitas dan pesan merek Anda serta untuk mendorong minat, keterlibatan, dan pada akhirnya, penjualan pelanggan. ",
+            "marketingAns2": "Pemasaran adalah payung yang luas, menggabungkan beberapa alat, taktik, dan suasana, bergantung pada audiens dan momennya",
+            "marketingAns3": "Pemasaran bisa menyentuh hati, lucu, atau serius. ",
+            "buildingthe": "MEMBANGUN",
+            "strategy": "STRATEGI",
+            "research": "Riset",
+            "researchDesc": "Di accusamus dignissimos qui blanditiis praesentium korupti molestias kecuali",
+            "goals": "Tujuan dan sasaran",
+            "goalsDesc": "Di accusamus dignissimos qui blanditiis praesentium korupti molestias kecuali"
+        }
     }
 }

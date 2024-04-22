@@ -239,5 +239,49 @@
             "academy": "学校",
             "overseas": "海外"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "ビジネスサービス",
+            "titleDesc": "ビジネスコンサルティングサービスのあらゆるニーズに対応できるビジネスサービス。",
+            "our": "私たちの",
+            "message": "メッセージ",
+            "messageContent": "さまざまなエラーが発生した場合、そのエラーが発生する可能性があり、その内容を正確に把握し、正確な曲を正確に説明することができます。 ",
+            "leading": "主導的",
+            "theWay": "道",
+            "businessConsult": "経営相談",
+            "businessConsultDesc": "accusamus dignissimos qui blanditiis praesentium 腐敗した不法侵入で、pricupidateの摂理を除いて",
+            "brandMarketting": "ブランディング",
+            "brandMarketingDesc": "法的保護を除いて、ブランディティス・プラエセンティウムの腐敗による不法行為の告発において",
+            "movieAnalysis": "映画分析",
+            "movieAnalysisDesc": "法的保護を除いて、ブランディティス・プラエセンティウムの腐敗による不法行為の告発において",
+            "successOn": "認められた成功",
+            "severalContinet": "いくつかの大陸",
+            "successDesc": "当社のソフトウェアは、あらゆる規模と業界の企業が主要なチャネル全体での可視性を最適化し、ユーザーにとって魅力的なコンテンツを作成するのに役立ちます。また、当社のソフトウェアは、数多くの国際的な賞で最高の SEO ソフトウェアとしてユーザーに認められたことで証明されています。",
+            "bookConsult": "コンサルティングを予約して業務を変革する",
+            "contactus": "お問い合わせ"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "多次元",
+            "title2": "ブランディングとマーケティング",
+            "titleDesc": "ビジネスオーナーやマーケター志望者として、ブランディングとマーケティングを概念的かつ戦術的に理解し、両方を効果的に行うことが不可欠です。",
+            "whatIs": "とは",
+            "branding": "ブランディング",
+            "brandingAns1": "ブランディングはあなた自身であり、あなたのビジネスのアイデンティティと特徴そのものであり、マーケティングはブランドの認知度を構築する方法です。",
+            "brandingAns2": "ブランド アイデンティティを決定するには、いくつかの質問を自分自身に問いかける必要があります。",
+            "brandingAns3": "詳細な回答を提供することに時間を投資し、同僚や専門の指導者に回答を返してください。",
+            "marketing": "マーケティング",
+            "marketingAns1": "マーケティングとは、ブランド アイデンティティとメッセージを伝え、顧客の関心、エンゲージメント、そして最終的には売上を促進するために企業が使用する方法、ツール、戦術です。",
+            "marketingAns2": "マーケティングは広大な包括的なものであり、対象者や瞬間に応じて、いくつかのツール、戦術、雰囲気が組み込まれています。",
+            "marketingAns3": "マーケティングには、心のこもったもの、面白いもの、または真剣なものがあります。",
+            "buildingthe": "を構築する",
+            "strategy": "戦略",
+            "research": "研究",
+            "researchDesc": "で accusamus dignissimos qui blanditiis praesentium 腐敗した molestias 例外",
+            "goals": "目標と目的",
+            "goalsDesc": "で accusamus dignissimos qui blanditiis praesentium 腐敗した molestias 例外"
+        }
     }
 }

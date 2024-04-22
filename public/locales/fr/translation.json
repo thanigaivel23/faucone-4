@@ -239,5 +239,49 @@
             "academy": "ACADÉMIE",
             "overseas": "OUTRE-MER"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "SERVICE D'AFFAIRES",
+            "titleDesc": "Service aux entreprises qui peut répondre à tous les besoins du service de conseil aux entreprises. ",
+            "our": "NOTRE",
+            "message": "MESSAGE",
+            "messageContent": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo invente veritatis et quasi songs architecto beatae could vitae dicta sunt explicabo. ",
+            "leading": "MENANT",
+            "theWay": "LE CHEMIN",
+            "businessConsult": "Conseil aux entreprises",
+            "businessConsultDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "brandMarketting": "l'image de marque",
+            "brandMarketingDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "movieAnalysis": "Analyse de film",
+            "movieAnalysisDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "successOn": "SUCCÈS RECONNU SUR",
+            "severalContinet": "PLUSIEURS CONTINENTS",
+            "successDesc": "Notre logiciel aide les entreprises de toutes tailles et de tous secteurs à optimiser leur visibilité sur les canaux clés et à créer du contenu attrayant pour leurs utilisateurs. Il a été reconnu par nos utilisateurs comme le meilleur logiciel de référencement lors de plusieurs récompenses internationales.",
+            "bookConsult": "Réservez une consultation pour révolutionner vos opérations",
+            "contactus": "Contactez-nous"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "MULTIDIMENSIONNEL",
+            "title2": "Image de marque et marketing",
+            "titleDesc": "En tant que propriétaire d'entreprise ou aspirant spécialiste du marketing, il est essentiel que vous compreniez l'image de marque et le marketing, sur le plan conceptuel et tactique, afin de pouvoir faire les deux efficacement. ",
+            "whatIs": "QU'EST-CE QUE",
+            "branding": "L'IMAGE DE MARQUE",
+            "brandingAns1": "L'image de marque représente qui vous êtes, l'identité même et le caractère de votre entreprise, tandis que le marketing est la façon dont vous développez la notoriété de votre marque. ",
+            "brandingAns2": "Afin de déterminer votre identité de marque, vous devez vous poser plusieurs questions. ",
+            "brandingAns3": "Investissez votre temps pour donner des réponses détaillées et partagez-les avec vos collègues et mentors professionnels. ",
+            "marketing": "COMMERCIALISATION",
+            "marketingAns1": "Le marketing désigne les méthodes, les outils et les tactiques que votre entreprise utilise pour communiquer l'identité et le message de votre marque et pour susciter l'intérêt, l'engagement et, en fin de compte, les ventes des clients. ",
+            "marketingAns2": "Le marketing est un vaste ensemble, intégrant plusieurs outils, tactiques et ambiances, en fonction du public et du moment.",
+            "marketingAns3": "Le marketing peut être sincère, drôle ou sérieux. ",
+            "buildingthe": "CONSTRUIRE LE",
+            "strategy": "STRATÉGIE",
+            "research": "Recherche",
+            "researchDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi",
+            "goals": "Buts et objectifs",
+            "goalsDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi"
+        }
     }
 }

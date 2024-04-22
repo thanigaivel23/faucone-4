@@ -239,5 +239,49 @@
             "academy": "AKADEMI",
             "overseas": "LUAR NEGARA"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "PERKHIDMATAN PERNIAGAAN",
+            "titleDesc": "Perkhidmatan perniagaan yang dapat memenuhi semua keperluan perkhidmatan perundingan perniagaan. ",
+            "our": "KAMI",
+            "message": "MESEJ",
+            "messageContent": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis and quasi songs architecto beatae could vitae dicta sunt explicabo. ",
+            "leading": "MENGETUAI",
+            "theWay": "JALAN",
+            "businessConsult": "Perundingan Perniagaan",
+            "businessConsultDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "brandMarketting": "Penjenamaan",
+            "brandMarketingDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "movieAnalysis": "Analisis Filem",
+            "movieAnalysisDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturicupiditate provident",
+            "successOn": "KEJAYAAN DIIKTIRAF PADA",
+            "severalContinet": "BEBERAPA BENUA",
+            "successDesc": "Perisian kami membantu syarikat dari semua saiz dan industri untuk mengoptimumkan keterlihatan mereka merentas saluran utama dan mencipta kandungan yang menarik untuk pengguna mereka, dan ia dibuktikan dengan pengiktirafan oleh pengguna kami sebagai perisian SEO terbaik di beberapa anugerah antarabangsa",
+            "bookConsult": "Tempah Perundingan untuk Merevolusikan Operasi Anda",
+            "contactus": "Hubungi Kami"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "PELBAGAI DIMENSI",
+            "title2": "PENJENAMAAN DAN PEMASARAN",
+            "titleDesc": "Sebagai pemilik perniagaan atau calon pemasar, adalah penting untuk anda memahami penjenamaan dan pemasaran, secara konsep dan taktikal, supaya anda boleh melakukan kedua-duanya dengan berkesan. ",
+            "whatIs": "APA ITU",
+            "branding": "PENJENAMAAN",
+            "brandingAns1": "Penjenamaan ialah siapa anda, identiti dan watak perniagaan anda, manakala pemasaran ialah cara anda membina kesedaran jenama. ",
+            "brandingAns2": "Untuk menentukan identiti jenama anda, anda perlu bertanya kepada diri sendiri beberapa soalan. ",
+            "brandingAns3": "Laburkan masa anda dalam memberikan jawapan terperinci, dan bangkitkannya daripada rakan sekerja dan mentor profesional anda. ",
+            "marketing": "PEMASARAN",
+            "marketingAns1": "Pemasaran ialah kaedah, alatan dan taktik yang digunakan oleh perniagaan anda untuk menyampaikan identiti dan mesej jenama anda dan untuk mendorong minat pelanggan, penglibatan dan akhirnya, jualan. ",
+            "marketingAns2": "Pemasaran adalah payung yang luas, menggabungkan beberapa alat, taktik dan getaran, bergantung pada penonton dan masa",
+            "marketingAns3": "Pemasaran boleh bersifat ikhlas, lucu atau serius. ",
+            "buildingthe": "MEMBINA",
+            "strategy": "STRATEGI",
+            "research": "Penyelidikan",
+            "researchDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi",
+            "goals": "Matlamat dan objektif",
+            "goalsDesc": "At accusamus dignissimos qui blanditiis praesentium corrupti molestias excepturi"
+        }
     }
 }

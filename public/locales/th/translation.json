@@ -239,5 +239,49 @@
             "academy": "สถาบันการศึกษา",
             "overseas": "ต่างประเทศ"
         }
+    },
+    "OurBrands": {
+        "business": {
+            "title": "บริการธุรกิจ",
+            "titleDesc": "บริการธุรกิจที่สามารถตอบสนองทุกความต้องการของบริการให้คำปรึกษาทางธุรกิจ ",
+            "our": "ของเรา",
+            "message": "ข้อความ",
+            "messageContent": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi songs architectureo beatae can vitae dicta sunt explicabo. ",
+            "leading": "เป็นผู้นำ",
+            "theWay": "วิธีการ",
+            "businessConsult": "ที่ปรึกษาทางธุรกิจ",
+            "businessConsultDesc": "ที่ accusamus dignissimos qui blanditiis praesentiumคอรัปชั่น molestias ยกเว้น uricupiditate เสบียง",
+            "brandMarketting": "การสร้างแบรนด์",
+            "brandMarketingDesc": "ที่ accusamus dignissimos qui blanditiis praesentiumคอรัปชั่น molestias ยกเว้น uricupiditate เสบียง",
+            "movieAnalysis": "การวิเคราะห์ภาพยนตร์",
+            "movieAnalysisDesc": "ที่ accusamus dignissimos qui blanditiis praesentiumคอรัปชั่น molestias ยกเว้น uricupiditate เสบียง",
+            "successOn": "ความสำเร็จที่เป็นที่ยอมรับ",
+            "severalContinet": "หลายทวีป",
+            "successDesc": "ซอฟต์แวร์ของเราช่วยให้บริษัททุกขนาดและอุตสาหกรรมเพิ่มประสิทธิภาพการมองเห็นในช่องทางหลักๆ และสร้างเนื้อหาที่น่าสนใจสำหรับผู้ใช้ และได้รับการพิสูจน์โดยผู้ใช้ของเราว่าเป็นซอฟต์แวร์ SEO ที่ดีที่สุดจากรางวัลระดับนานาชาติมากมาย",
+            "bookConsult": "จองคำปรึกษาเพื่อปฏิวัติการดำเนินงานของคุณ",
+            "contactus": "ติดต่อเรา"
+        }
+    },
+    "services": {
+        "multiDimensinal": {
+            "title1": "หลายมิติ",
+            "title2": "การสร้างแบรนด์และการตลาด",
+            "titleDesc": "ในฐานะเจ้าของธุรกิจหรือนักการตลาดที่มีความมุ่งมั่น คุณจะต้องเข้าใจการสร้างแบรนด์และการตลาด ทั้งในด้านแนวคิดและเชิงกลยุทธ์ เพื่อให้คุณสามารถทำทั้งสองอย่างได้อย่างมีประสิทธิภาพ ",
+            "whatIs": "คืออะไร",
+            "branding": "การสร้างแบรนด์",
+            "brandingAns1": "การสร้างแบรนด์คือตัวตนของคุณ เอกลักษณ์และลักษณะเฉพาะของธุรกิจของคุณ ในขณะที่การตลาดคือวิธีสร้างการรับรู้ถึงแบรนด์ ",
+            "brandingAns2": "เพื่อระบุเอกลักษณ์ของแบรนด์ คุณต้องถามตัวเองหลายคำถาม ",
+            "brandingAns3": "ใช้เวลาของคุณในการให้คำตอบโดยละเอียด และตอบแทนเพื่อนร่วมงานและที่ปรึกษามืออาชีพของคุณ ",
+            "marketing": "การตลาด",
+            "marketingAns1": "การตลาดคือวิธีการ เครื่องมือ และกลยุทธ์ที่ธุรกิจของคุณใช้ในการสื่อสารเอกลักษณ์และข้อความของแบรนด์ และเพื่อกระตุ้นความสนใจ การมีส่วนร่วมของลูกค้า และยอดขายในที่สุด ",
+            "marketingAns2": "การตลาดเป็นเหมือนร่มเงาอันกว้างใหญ่ โดยผสมผสานเครื่องมือ กลยุทธ์ และความรู้สึกหลายอย่างเข้าด้วยกัน ขึ้นอยู่กับผู้ชมและช่วงเวลานั้น",
+            "marketingAns3": "การตลาดอาจเป็นสิ่งที่จริงใจ ตลก หรือจริงจัง ",
+            "buildingthe": "กำลังสร้าง",
+            "strategy": "กลยุทธ์",
+            "research": "วิจัย",
+            "researchDesc": "ที่ accusamus dignissimos qui blanditiis praesentiumคอรัปชั่น molestias ยกเว้น",
+            "goals": "เป้าหมายและวัตถุประสงค์",
+            "goalsDesc": "ที่ accusamus dignissimos qui blanditiis praesentiumคอรัปชั่น molestias ยกเว้น"
+        }
     }
 }
