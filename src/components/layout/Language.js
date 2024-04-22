@@ -38,55 +38,55 @@ const Language = () => {
             flag: (<img src={UK} className='tw-w-6' alt='' />)
         },
         {
-            name: 'French',
+            name: 'français',
             title: 'FR',
             flag: (<img src={France} className='tw-w-6' alt='' />)
 
         },
         {
-            name: 'German',
+            name: 'Deutsch',
             title: 'DE',
             flag: (<img src={Germany} className='tw-w-6' alt='' />)
 
         },
         {
-            name: 'Spanish',
+            name: 'español',
             title: 'ES',
             flag: (<img src={Spain} className='tw-w-6' alt='' />)
 
         },
         {
-            name: 'Malay',
+            name: 'melayu',
             title: 'MS',
             flag: (<img src={Malaysia} className='tw-w-6' alt='' />)
 
         },
         {
-            name: 'Dutch',
+            name: 'Nederlands',
             title: 'NL',
             flag: (<img src={Netherlands} className='tw-w-6' alt='' />)
 
         },
         {
-            name: 'Indonesian',
+            name: 'Indonesia',
             title: 'ID',
             flag: (<img src={Indonesia} className='tw-w-6' alt='' />)
 
         },
         {
-            name: 'Thai',
+            name: 'แบบไทย',
             title: 'TH',
             flag: (<img src={Thailand} className='tw-w-6' alt='' />)
 
         },
         {
-            name: 'Chinese',
+            name: '中国人',
             title: 'ZH',
             flag: (<img src={china} className='tw-w-6' alt='' />)
 
         },
         {
-            name: 'Japanese',
+            name: '日本語',
             title: 'JA',
             flag: (<img src={Japan} className='tw-w-6' alt='' />)
 
@@ -108,7 +108,7 @@ const Language = () => {
                         <div onClick={(e) => languageHandle(item.title, item.name)} title={item.title} className='tw-flex my-2  tw-items-center tw-gap-x-2 '>
 
                             {item.flag}
-                            <p className='tw-mb-0'>{item.name}</p>
+                            <p className='tw-mb-0 tw-text-[#056cb8]'>{item.name}</p>
                             <img src={tickIcon} alt="" className='tw-h-4 tw-w-4' />
                         </div>
                     ) :
@@ -147,7 +147,16 @@ const Language = () => {
 
         // />
         <Popover content={content} placement='bottomLeft' className='tw-transition tw-duration-200' trigger={'click'}>
-            <button >{language}</button>
+            <button >
+                {languageContainer.map((item) => (
+                    item.name === language &&
+                    <div className='tw-flex my-2  tw-items-center tw-gap-x-2 '>
+
+                        {item.flag}
+                        <p className='tw-mb-0 '>{item.name}</p>
+                    </div>
+                ))}
+            </button>
         </Popover>
 
     )

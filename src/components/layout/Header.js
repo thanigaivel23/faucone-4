@@ -64,7 +64,7 @@ const Header = () => {
                     </button>
 
                     <Drawer title={false} onClose={onClose} open={open} placement='left' width={300}>
-                        <div className='tw-text-gray-600 '>
+                        <div className=' '>
 
                             <div className='tw-py-1'>{t('mainHeader.company')}</div>
 
@@ -129,8 +129,8 @@ const Header = () => {
                                 <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.hybird')}</NavDropdown.Item>
                             </NavDropdown>
 
-                            <Link to={'/insights'} className='tw-py-1 tw-no-underline tw-text-gray-600 tw-block'>{t('mainHeader.insights')}</Link>
-                            <Link to={'/contact-us'} className='tw-py-1 tw-no-underline tw-text-gray-600 tw-block' >{t('mainHeader.contactUs')}</Link>
+                            <Link to={'/insights'} className='tw-py-1 tw-no-underline tw-text-black tw-block'>{t('mainHeader.insights')}</Link>
+                            <Link to={'/contact-us'} className='tw-py-1 tw-no-underline tw-text-black tw-block' >{t('mainHeader.contactUs')}</Link>
 
                             {/* <div className='tw-bg-blue-200 tw-h-7 tw-w-7 tw-flex tw-items-center tw-justify-center tw-rounded-full tw-p-1 '><RiSearchLine className=' ' /></div> */}
 
@@ -151,7 +151,7 @@ const Header = () => {
                         <img src={title} alt="" />
                     </Link>
 
-                    <div className='tw-hidden lg:tw-flex tw-items-center tw-gap-x-12 tw-text-gray-600'>
+                    <div className='tw-hidden lg:tw-flex tw-items-center tw-gap-x-12 '>
 
                         <div className='tw-py-1'>{t('mainHeader.company')}</div>
 
@@ -216,15 +216,15 @@ const Header = () => {
                             <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.hybird')}</NavDropdown.Item>
                         </NavDropdown>
 
-                        <Link to={'/insights'} className='tw-py-1 tw-no-underline tw-text-gray-600 tw-block'>{t('mainHeader.insights')}</Link>
+                        <Link to={'/insights'} className='tw-py-1 tw-no-underline tw-text-black tw-block'>{t('mainHeader.insights')}</Link>
 
-                        <Link to={'/contact-us'} className='tw-py-1 tw-no-underline tw-text-gray-600 tw-block' >{t('mainHeader.contactUs')}</Link>
+                        <Link to={'/contact-us'} className='tw-py-1 tw-no-underline tw-text-black tw-block' >{t('mainHeader.contactUs')}</Link>
 
                     </div>
                 </div>
 
                 {/* search and languages */}
-                <div className=' lg:tw-flex lg:tw-items-center lg:tw-gap-x-12 tw-text-gray-600'>
+                <div className=' lg:tw-flex lg:tw-items-center lg:tw-gap-x-12 '>
 
                     {/* <div className='tw-hidden tw-h-7 tw-w-7 lg:tw-flex tw-items-center tw-justify-center tw-rounded-full tw-p-1 '><RiSearchLine className=' ' /></div> */}
 
