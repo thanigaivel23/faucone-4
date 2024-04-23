@@ -34,3 +34,20 @@ p {
     font-size: 14px !important;
   } 
 }
+
+/*accordion  */
+.accordion-button:not(.collapsed) {
+  background-color: white !important;
+}
+
+.accordion-button {
+  border: none !important;
+}
+
+/* footer page - create line after word */
+.vertical_line {
+  border-right: 2px solid rgb(28, 11, 83);
+  height: 16px;
+ display: flex;
+ align-items: center;
+}

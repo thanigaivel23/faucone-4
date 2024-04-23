@@ -4,21 +4,60 @@ import australia from '../../img/australia.svg'
 import singapore from '../../img/singapore.svg'
 import uae from '../../img/uae.svg'
 import malaysia from '../../img/malaysia.svg'
-import logo from '../../img/logo.PNG'
+import faucone from '../../img/faucone.png'
 import instagram from '../../img/instagram.png'
 import facebook from '../../img/facebook.png'
 import linkedin from '../../img/linkedin.png'
 import youtube from '../../img/youtube.png'
 import twitter from '../../img/twitter.png'
+import newTitle from '../../img/newtitle.PNG'
 
+import Accordion from 'react-bootstrap/Accordion';
 
 const Footer = () => {
+
+    const currentYear = new Date().getFullYear();
+
+    const aboutContent = (
+        <div className='hover:tw-text-black md:tw-grid md:tw-justify-center '>
+            <p className='tw-text-black tw-text-xl tw-hidden md:tw-block '>About</p>
+            <p className='tw-py-1'>Company</p>
+            <p className='tw-py-1'>Industries</p>
+            <p className='tw-py-1'>Our Brands</p>
+            <p className='tw-py-1'>Services</p>
+            <p className='tw-py-1'>Contact</p>
+        </div>
+    )
+
+    const communityContent = (
+        <div className='hover:tw-text-black md:tw-grid md:tw-justify-center '>
+            <p className='tw-text-black tw-text-xl tw-hidden md:tw-block '>Community</p>
+
+            <p className='tw-py-1'>faucone Community</p>
+            <p className='tw-py-1'>Faucone for Startups</p>
+            <p className='tw-py-1'>Partner with Us</p>
+            <p className='tw-py-1'>Customer Stories</p>
+            <p className='tw-py-1'>Affiliate Program</p>
+        </div>
+    )
+
+    const contactUSContent = (
+        <div className='hover:tw-text-black md:tw-grid md:tw-justify-center '>
+            <p className='tw-text-black tw-text-xl tw-hidden md:tw-block '>Contact Us</p>
+
+            <p className='tw-py-1'>sales@faucone.com</p>
+            <p className='tw-py-1'>support@faucone.com</p>
+            <p className='tw-py-1'>1800 309 4377</p>
+            <p className='tw-py-1'>www.faucone.com</p>
+        </div>
+    )
     return (
         <>
-            {/* 11th section - footer*/}
+            {/* 13th section - zoho*/}
             <section className='tw-bg-blue-50 tw-mt-20'>
-                
-                <div className='tw-flex tw-flex-wrap tw-justify-center tw-gap-x-16 md:tw-gap-x-20 lg:tw-gap-x-40 tw-py-20'> 
+
+                {/* countries */}
+                <div className='tw-flex tw-flex-wrap tw-justify-center tw-gap-x-16 md:tw-gap-x-20 lg:tw-gap-x-40 tw-py-20'>
 
                     <div className='tw-flex tw-flex-col tw-items-center tw-justify-center'>
                         <img src={india} alt="" className=' ' />
@@ -45,31 +84,51 @@ const Footer = () => {
                         <p className='tw-mt-2 tw-text-[#519fd3] tw-font-bold'>Singapore</p>
 
                     </div>
-                 
+
                 </div>
 
-                <main className='tw-bg-white tw-flex tw-justify-between tw-pt-12 lg:tw-pt-0 tw-relative tw-px-5 lg:tw-px-5 tw-text-sm tw-font-semibold lg:tw-mt-8' >
-                    <div className='tw-text-gray-600 lg:tw-flex lg:tw-pl-10 lg:tw-gap-x-8 lg:tw-py-3 '>
-                        <p className='tw-py-3 lg:tw-py-0'>Company</p>
-                        <p className='tw-py-3 lg:tw-py-0'>Industries</p>
-                        <p className='tw-py-3 lg:tw-py-0'>Our Brands</p>
-                        <p className='tw-py-3 lg:tw-py-0'>Services</p>
-                        <p className='tw-py-3 lg:tw-py-0'>Career</p>
-                        <p className='tw-py-3 lg:tw-py-0'>Contact Us</p>
+                {/* about, community, contact us */}
+                <main className=' md:tw-flex md:tw-mx-5 lg:tw-mx-20'>
+                    {/* faucone content */}
+                    <div className='md:tw-w-[30%] lg:tw-w-[40%] tw-mb-10 '>
+                        <img src={newTitle} alt="" />
+                        <p className='tw-text-justify tw-mx-3 tw-mt-2 tw-text-sm lg:tw-mx-5 lg:tw-w-10/12 '>Faucone believes it is inevitable that the country will become the biggest market for the company. Working on software that can help developers generate correct code 'by design'. Apply this technology to building its future products."</p>
                     </div>
 
-                    <img src={logo} alt="" className='tw-h-28 lg:tw-h-40 tw-rounded-full tw-absolute tw-top-[7%] lg:tw-top-[50%] tw-left-1/2 tw-transform -tw-translate-x-1/2 -tw-translate-y-1/2 ' />
+                    {/*RES  */}
+                    <Accordion alwaysOpen className='md:tw-hidden' >
+                        <Accordion.Item eventKey="0" >
+                            <Accordion.Header>About</Accordion.Header>
+                            <Accordion.Body>
+                                {aboutContent}
+                            </Accordion.Body>
+                        </Accordion.Item>
 
-                    <div className='tw-text-right lg:tw-text-left tw-text-gray-600 lg:tw-flex lg:tw-pl-20 lg:tw-gap-x-4 lg:tw-py-3 ' >
-                        <p className='tw-py-4 lg:tw-py-0'>Community</p>
-                        <p className='tw-py-4 lg:tw-py-0'>Faucone for Startups</p>
-                        <p className='tw-py-4 lg:tw-py-0'>Partner with us</p>
-                        <p className='tw-py-4 lg:tw-py-0'>Customer Stories</p>
-                        <p className='tw-py-4 lg:tw-py-0'>Affiliate Program</p>
+                        <Accordion.Item eventKey="1">
+                            <Accordion.Header>Community</Accordion.Header>
+                            <Accordion.Body>
+                                {communityContent}
+                            </Accordion.Body>
+                        </Accordion.Item>
+
+
+                        <Accordion.Item eventKey="2">
+                            <Accordion.Header>Contact Us</Accordion.Header>
+                            <Accordion.Body>
+                                {contactUSContent}
+                            </Accordion.Body>
+                        </Accordion.Item>
+                    </Accordion>
+                    {/* laptop */}
+                    <div className=' tw-hidden md:tw-grid tw-grid-cols-3 md:tw-w-[70%] lg:tw-w-[60%]'>
+                        {aboutContent}
+                        {communityContent}
+                        {contactUSContent}
                     </div>
                 </main>
 
-                <div className='tw-pt-16 tw-pb-10 lg:tw-mt-8 tw-px-10 tw-flex tw-items-center tw-justify-center tw-gap-x-6 ' >
+                {/* social media icons */}
+                <div className='tw-pb-10 tw-mt-14 tw-px-10 tw-flex tw-items-center tw-justify-center tw-gap-x-6 ' >
                     <img src={twitter} alt="twitter" className='tw-w-6' />
                     <img src={facebook} alt="facebook" className='tw-w-7' />
                     <img src={instagram} alt="instagram" className='tw-w-7' />
@@ -77,34 +136,31 @@ const Footer = () => {
                     <img src={youtube} alt="youtube" className='tw-w-9' />
                 </div>
 
-                <div className='lg:tw-flex tw-justify-center tw-gap-x-2'>
-                    <p className='tw-text-center tw-text-slate-500 tw-font-semibold'>sales@faucone.com<span className='tw-hidden lg:tw-inline-block'>,</span></p>
-                    <p className='tw-text-center tw-text-slate-500 tw-font-semibold tw-mt-5 lg:tw-mt-0'> support@faucone.com</p>
+                {/* footer nav bar */}
+                <div className='tw-flex tw-items-center tw-justify-center tw-gap-x-5 tw-flex-wrap tw-text-sm md:tw-text-base tw-pb-10'>
+                    <p className='vertical_line tw-pr-5'>Security</p>
+                    <p className='vertical_line tw-pr-5'>IPR Complaints</p>
+                    <p className='vertical_line tw-pr-5'>Anti-spam Policy</p>
+                    <p className='vertical_line tw-pr-5'>Terms of Service</p>
+                    <p className='vertical_line tw-pr-5'>Privacy Policy</p>
+                    <p className='vertical_line tw-pr-5'>Cookie Policy</p>
+                    <p className='vertical_line tw-pr-5'>Abuse Policy </p>
+                    <p className='tw-pr-5'>Disclaimer</p>
                 </div>
-                <p className='tw-text-center tw-text-slate-500 tw-font-semibold tw-mt-5'>1800 309 4377</p>
-                <p className='tw-text-center tw-text-slate-500 tw-font-semibold tw-mt-5 tw-pb-16'>www.faucone.com</p>
+
+                {/* black footer */}
+                <div className='tw-bg-white-50 tw-border-t-4 tw-border-[#0b0d1f] tw-py-14 tw-flex tw-gap-y-5 tw-flex-col tw-justify-center tw-items-center'>
+                    <img src={faucone} alt="" className='tw-w-[200px]  ' />
+                    <p >&copy; {currentYear} Faucone. All Rights Reserved.</p>
+
+                </div>
+
             </section>
 
-            {/* 12th section - last line*/}
-            <section className='tw-bg-blue-200 lg:tw-flex lg:tw-items-center tw-justify-between tw-px-9'>
-                <main className='lg:tw-order-2 tw-flex tw-items-center tw-justify-around tw-text-gray-600 tw-font-semibold tw-text-sm lg:tw-gap-x-12'>
-                    <div className='tw-text-right lg:tw-text-left  tw-grid lg:tw-grid-flow-col tw-py-12 lg:tw-py-7 tw-gap-y-5 lg:tw-gap-y-0 lg:tw-gap-x-12 lg:tw-items-center'>
-                        <p>Security</p>
-                        <p>IPR Complaints</p>
-                        <p>Anti-spam Policy</p>
-                        <p>Terms of Service</p>
-                    </div>
 
-                    <div className='tw-grid lg:tw-grid-flow-col tw-py-12 lg:tw-py-7 tw-gap-y-5 lg:tw-gap-y-0 lg:tw-gap-x-12 lg:tw-items-center'>
-                        <p>Privacy Policy</p>
-                        <p>Cookie Policy</p>
-                        <p>Abuse Policy</p>
-                        <p>Disclaimer</p>
-                    </div>
-                </main>
 
-                <p className='tw-text-[#4168a3] tw-font-medium tw-text-center tw-py-10 lg:tw-py-0'>&copy; 2023 Faucone. All Rights Reserved.</p>
-            </section>
+
+
         </>
     )
 }
