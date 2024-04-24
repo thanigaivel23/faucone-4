@@ -4,7 +4,9 @@ import australia from '../../img/australia.svg'
 import singapore from '../../img/singapore.svg'
 import uae from '../../img/uae.svg'
 import malaysia from '../../img/malaysia.svg'
+
 import faucone from '../../img/faucone.png'
+
 import instagram from '../../img/instagram.png'
 import facebook from '../../img/facebook.png'
 import linkedin from '../../img/linkedin.png'
@@ -150,7 +152,9 @@ const Footer = () => {
 
                 {/* black footer */}
                 <div className='tw-bg-white-50 tw-border-t-4 tw-border-[#0b0d1f] tw-py-14 tw-flex tw-gap-y-5 tw-flex-col tw-justify-center tw-items-center'>
+                   
                     <img src={faucone} alt="" className='tw-w-[200px]  ' />
+                   
                     <p >&copy; {currentYear} Faucone. All Rights Reserved.</p>
 
                 </div>
