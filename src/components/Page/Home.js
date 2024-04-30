@@ -13,6 +13,7 @@ import Globe from './homePage/Globe'
 import Awards from './homePage/Awards'
 import Map from './homePage/Map'
 import Footer from '../layout/Footer'
+import BlueBg from './homePage/BlueBg';
 
 
 const Home = () => {
@@ -33,6 +34,8 @@ const Home = () => {
             <ContributeToTheSocity />
 
             <OurBrandServices />
+
+            <BlueBg/>
 
             <IndustriesWeServe />
 

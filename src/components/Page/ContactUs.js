@@ -1,6 +1,6 @@
 import React from 'react'
 import Header from '../layout/Header'
-import Footer from '../layout/Footer'
+import SecondFooter from '../layout/SecondFooter'
 
 import brand from '../../img/brand.png'
 import location from '../../img/location.PNG'
@@ -67,7 +67,9 @@ const ContactUs = () => {
 
 
             {/* 5th section - Footer */}
-            <Footer />
+            <div className='tw-mt-40'>
+            <SecondFooter />
+            </div>
         </>
     )
 }
