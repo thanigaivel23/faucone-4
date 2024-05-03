@@ -19,8 +19,8 @@ const PoweringBrands = () => {
                 </section>
 
                 <section className=' md:tw-p-24 tw-text-center md:tw-text-left tw-py-24'>
-                    <p className='tw-font-medium tw-text-black tw-text-2xl md:tw-text-2xl'>{t('home.power')} <br className='tw-hidden md:tw-inline' /> <span className='-tw-ml-1 tw-tracking-[3px] md:tw-text-6xl tw-font-bold tw-text-[#1da9fd]'>{t('home.brand')}</span></p>
-                    <p className='tw-font-medium tw-text-black tw-text-2xl md:tw-text-2xl tw-my-5'> {t('home.create')} <br className='tw-hidden md:tw-inline' /><span className='-tw-ml-1 tw-tracking-[3px] md:tw-text-6xl tw-font-bold tw-text-[#1da9fd]'>{t('home.enterpernur')}</span></p>
+                    <p className='tw-font-medium tw-text-black tw-text-2xl md:tw-text-2xl'>{t('home.power')} <br className='tw-hidden md:tw-inline' /> <span className=' tw-tracking-[3px] md:tw-text-6xl tw-font-bold tw-text-[#1da9fd]'>{t('home.brand')}</span></p>
+                    <p className='tw-font-medium tw-text-black tw-text-2xl md:tw-text-2xl tw-my-5'> {t('home.create')} <br className='tw-hidden md:tw-inline' /><span className=' tw-tracking-[3px] md:tw-text-6xl tw-font-bold tw-text-[#1da9fd]'>{t('home.enterpernur')}</span></p>
                     <p className=' tw-mt-6 tw-text-sm sm:tw-text-base tw-px-3 '>{t('home.sub_content')}.</p>
                 </section>
 

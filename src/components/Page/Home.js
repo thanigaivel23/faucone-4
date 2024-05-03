@@ -35,7 +35,7 @@ const Home = () => {
 
             <OurBrandServices />
 
-            <BlueBg/>
+            <BlueBg />
 
             <IndustriesWeServe />
 
