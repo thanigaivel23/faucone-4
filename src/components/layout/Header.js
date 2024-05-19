@@ -176,18 +176,20 @@ const Header = () => {
 
                         {/* <div className='tw-py-1'>{t('mainHeader.company')}</div> */}
 
-                        <NavDropdown title={t('mainHeader.company')} show={showDropdown4} onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4} className='tw-py-1 tw-cursor-pointer'>
-                            {/* <NavDropdown.Item onClick={() => navigate('/insights')} className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.insights')}</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => navigate('/contact-us')} className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.contactUs')}</NavDropdown.Item>
-                            <NavDropdown.Item onClick={() => navigate('/ourbrands')} className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.ourBrands.name')}</NavDropdown.Item> */}
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />About us</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />The Faucone Formula</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Our Contribution to the Society</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Award and Recognition</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Our Global Presence</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Press</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Events</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Carees</NavDropdown.Item>
+
+                        <NavDropdown title={t('mainHeader.services.name')} show={showDropdown3} onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3} className='tw-py-1'>
+                            <NavDropdown.Item onClick={() => navigate('/services')} className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.multi')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.advertise')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.brand')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.scaling')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.interlink')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.business')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.innovative')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.quality')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.revenue')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.career')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.startup')}</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.hybird')}</NavDropdown.Item>
                         </NavDropdown>
 
                         <NavDropdown title={t('mainHeader.industries.name')} show={showDropdown1} onMouseEnter={handleMouseEnter1} onMouseLeave={handleMouseLeave1} className='tw-py-1 tw-cursor-pointer'>
@@ -236,21 +238,19 @@ const Header = () => {
                             <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.ourBrands.Overseas')}</NavDropdown.Item>
                         </NavDropdown>
 
-                        <NavDropdown title={t('mainHeader.services.name')} show={showDropdown3} onMouseEnter={handleMouseEnter3} onMouseLeave={handleMouseLeave3} className='tw-py-1'>
-                            <NavDropdown.Item onClick={() => navigate('/services')} className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.multi')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.advertise')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.brand')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.scaling')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.interlink')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.business')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.innovative')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.quality')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.revenue')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.career')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.startup')}</NavDropdown.Item>
-                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white '><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.services.hybird')}</NavDropdown.Item>
+                        <NavDropdown title={t('mainHeader.company')} show={showDropdown4} onMouseEnter={handleMouseEnter4} onMouseLeave={handleMouseLeave4} className='tw-py-1 tw-cursor-pointer'>
+                            {/* <NavDropdown.Item onClick={() => navigate('/insights')} className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.insights')}</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate('/contact-us')} className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.contactUs')}</NavDropdown.Item>
+                            <NavDropdown.Item onClick={() => navigate('/ourbrands')} className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' /> {t('mainHeader.ourBrands.name')}</NavDropdown.Item> */}
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />About us</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />The Faucone Formula</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Our Contribution to the Society</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Award and Recognition</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Our Global Presence</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Press</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Events</NavDropdown.Item>
+                            <NavDropdown.Item className='tw-p-2  tw-flex tw-gap-x-4 tw-items-center hover:tw-bg-[#2e93d2] hover:tw-text-white'><img src={digital} alt='' className='tw-w-6' />Carees</NavDropdown.Item>
                         </NavDropdown>
-
 
                     </div>
                 </div>
@@ -275,7 +275,7 @@ const Header = () => {
 
             </nav>
 
-            <div className='tw-h-2 tw-bg-[#2e93d2]'></div>
+            <div className='tw-h-1 tw-bg-[#2e93d2]'></div>
         </>
     )
 }

@@ -34,7 +34,6 @@ const Footer = () => {
     const communityContent = (
         <div className='hover:tw-text-black md:tw-grid md:tw-justify-center '>
             <p className='tw-text-black tw-text-xl tw-hidden md:tw-block '>Community</p>
-
             <p className='tw-py-1'>faucone Community</p>
             <p className='tw-py-1'>Faucone for Startups</p>
             <p className='tw-py-1'>Partner with Us</p>
@@ -55,8 +54,145 @@ const Footer = () => {
     )
     return (
         <>
-            {/* 13th section - zoho*/}
-            <section className='tw-bg-blue-50 tw-mt-20'>
+
+            <main className='tw-bg-blue-50 tw-mt-20 tw-py-16'>
+                {/* follow us */}
+                <section className='tw-flex tw-items-center tw-gap-x-10 tw-mx-20 tw-border-b-2 tw-pb-5 tw-border-blue-200'>
+                    <p>Follow Us</p>
+                    <div className='tw-flex tw-items-center tw-gap-x-7'>
+                        <img src={facebook} alt="facebook" className='tw-w-5' />
+                        <img src={youtube} alt="youtube" className='tw-w-6' />
+                        <img src={twitter} alt="twitter" className='tw-w-4' />
+                        <img src={instagram} alt="instagram" className='tw-w-5' />
+                        <img src={linkedin} alt="linkedin" className='tw-w-5' />
+                    </div>
+                </section>
+
+
+                {/* main content */}
+                <section className='tw-mx-20 tw-grid tw-grid-cols-5 tw-gap-x- tw-mt-10'>
+                    <div>
+                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg'>Company</p>
+                        <div className='tw-mt-3 tw-text-sm'>
+                            <p className='tw-py-1'>About us (Faucone formula)</p>
+                            <p className='tw-py-1'>Our Story</p>
+                            <p className='tw-py-1'>Clients</p>
+                            <p className='tw-py-1'>Services</p>
+                            <p className='tw-py-1'>Press</p>
+                            <p className='tw-py-1'>Events</p>
+                            <p className='tw-py-1'>Career</p>
+                            <p className='tw-py-1'>Contact</p>
+                            <p className='tw-py-1'>Faucone for startups</p>
+                            <p className='tw-py-1'>Faucone - CSC/CEC</p>
+                        </div>
+                    </div>
+
+                    <div className=''>
+                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg'>Solutions</p>
+                        <div className='tw-mt-3 tw-text-sm'>
+                            <p className='tw-py-1'> Multi-Dimensional Branding & Marketing</p>
+                            <p className='tw-py-1'>3600 Advertising Solutions</p>
+                            <p className='tw-py-1'>Brand Transformation</p>
+                            <p className='tw-py-1'>Scaling Technology for Development</p>
+                            <p className='tw-py-1'>Interlinking Business Concept</p>
+                            <p className='tw-py-1'>Business Coaching</p>
+                            <p className='tw-py-1'>Innovative Entrepreneurship Process</p>
+                            <p className='tw-py-1'>Implementing a Quality Business Process</p>
+                            <p className='tw-py-1'>Revenue 10X</p>
+                            <p className='tw-py-1'>Career Planning and Development</p>
+                            <p className='tw-py-1'>Startup Investor Connect</p>
+                            <p className='tw-py-1'>Developing a Hybrid Work Model</p>
+                        </div>
+                    </div>
+
+                    <div className='tw-pl-5'>
+                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg'>Industries</p>
+                        <div className='tw-mt-3 tw-text-sm'>
+                            <p className='tw-py-1'>Aerospace and Defense</p>
+                            <p className='tw-py-1'>Aviation</p>
+                            <p className='tw-py-1'>Automotive</p>
+                            <p className='tw-py-1'>Banking & Finance</p>
+                            <p className='tw-py-1'>Capital Markets</p>
+                            <p className='tw-py-1'>Construction & Engineering</p>
+                            <p className='tw-py-1'>Chemical and Process</p>
+                            <p className='tw-py-1'>Consumer Goods</p>
+                            <p className='tw-py-1'>Energy and Utilities</p>
+                            <p className='tw-py-1'>FMCG</p>
+                            <p className='tw-py-1'>Food and Beverages</p>
+                            <p className='tw-py-1'>Healthcare</p>
+                            <p className='tw-py-1'>Industrial Manufacturing</p>
+                            <p className='tw-py-1'>Insurance</p>
+                            <p className='tw-py-1'>Life Sciences</p>
+                            <p className='tw-py-1'>Manufacturing Industries</p>
+                            <p className='tw-py-1'>Media and Enterainment</p>
+                            <p className='tw-py-1'>Mining & Natural Resources</p>
+                            <p className='tw-py-1'>Oil and Gas</p>
+                            <p className='tw-py-1'>Publc Sector</p>
+                            <p className='tw-py-1'>Retail</p>
+                            <p className='tw-py-1'>Telecom</p>
+                            <p className='tw-py-1'>Travel</p>
+                            <p className='tw-py-1'>Transport, Logistics & Hospitality</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg'>Products</p>
+                        <div className='tw-mt-3 tw-text-sm'>
+                            <p className='tw-py-1'>Faucone Business</p>
+                            <p className='tw-py-1'>Faucone Digital</p>
+                            <p className='tw-py-1'>Faucone Technologies</p>
+                            <p className='tw-py-1'>Faucone Solutions</p>
+                            <p className='tw-py-1'>Faucone finance</p>
+                            <p className='tw-py-1'>Faucone Consultancy</p>
+                            <p className='tw-py-1'>Faucone Studios</p>
+                            <p className='tw-py-1'>Faucone Advertising</p>
+                            <p className='tw-py-1'>Faucone Space</p>
+                            <p className='tw-py-1'>Faucone Design</p>
+                            <p className='tw-py-1'>Faucone Prints</p>
+                            <p className='tw-py-1'>Faucone Accounting</p>
+                            <p className='tw-py-1'>Faucone Legal</p>
+                            <p className='tw-py-1'>Faucone Supplies</p>
+                            <p className='tw-py-1'>Faucone Academy</p>
+                            <p className='tw-py-1'>Faucone Overseas</p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg'>Contact Us</p>
+                        <div className='tw-mt-3 tw-text-sm'>
+                            <p className='tw-py-1'>sales@faucone.com</p>
+                            <p className='tw-py-1'>support@faucone.com</p>
+                            <p className='tw-py-1'>1800 309 4377</p>
+                            <p className='tw-py-1'>www.faucone.com</p>
+                        </div>
+                    </div>
+
+                </section>
+
+                {/* footer */}
+                <section className='tw-flex tw-items-center tw-justify-between tw-mx-20 tw-border-t-2 tw-mt-20 tw-pt-10 tw-border-blue-200'>
+                    <div className='tw-flex tw-items-center tw-gap-x-5'>
+                        <img src={newTitle} alt="" className='tw-w-40' />
+
+                        <div className='tw-flex tw-items-center tw-gap-x-3 tw-text-sm '>
+                            <p className='vertical_line tw-pr-3'>Security</p>
+                            <p className='vertical_line tw-pr-3'>IPR Complaints</p>
+                            <p className='vertical_line tw-pr-3'>Anti-spam Policy</p>
+                            <p className='vertical_line tw-pr-3'>Terms of Service</p>
+                            <p className='vertical_line tw-pr-3'>Privacy Policy</p>
+                            <p className='vertical_line tw-pr-3'>Cookie Policy</p>
+                            <p className='vertical_line tw-pr-3'>Abuse Policy </p>
+                            <p className='tw-pr-5'>Disclaimer</p>
+                        </div>
+                    </div>
+
+                    <p className='tw-text-sm'>&copy; {currentYear} Faucone. All Rights Reserved.</p>
+                </section>
+            </main>
+
+
+            {/* old code*/}
+            <section hidden className='tw-bg-blue-50 tw-mt-20'>
 
                 {/* countries */}
                 <div className='tw-flex tw-flex-wrap tw-justify-center tw-gap-x-16 md:tw-gap-x-20 lg:tw-gap-x-40 tw-py-20'>
@@ -152,18 +288,14 @@ const Footer = () => {
 
                 {/* black footer */}
                 <div className='tw-bg-white-50 tw-border-t-4 tw-border-[#0b0d1f] tw-py-14 tw-flex tw-gap-y-5 tw-flex-col tw-justify-center tw-items-center'>
-                   
+
                     <img src={faucone} alt="" className='tw-w-[200px]  ' />
-                   
+
                     <p >&copy; {currentYear} Faucone. All Rights Reserved.</p>
 
                 </div>
 
             </section>
-
-
-
-
 
         </>
     )
