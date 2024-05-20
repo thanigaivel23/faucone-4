@@ -4,7 +4,7 @@ import services from '../../../img/services3.svg'
 const Faucone4Startup = () => {
     return (
         <>
-            <section className='tw-bg-[#079fce] tw-text-white tw-ml-20 tw-rounded-tl-[130px] tw-mt-20 tw-px-40 tw-py-10'>
+            <section className='tw-bg-[#079fce] tw-text-white tw-ml-5 tw-mt-5 tw-px-40 tw-py-10'>
                 <p className='tw-font-bold tw-text-3xl  after:tw-block after:tw-h-[2px] after:tw-w-14 after:tw-bg-white after:tw-mt-2'>Faucone 4 Startups</p>
                 <p className='tw-mt-2 tw-text-xs'>Transforming Startup Globally</p>
 

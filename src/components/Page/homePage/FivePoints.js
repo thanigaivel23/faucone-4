@@ -12,7 +12,7 @@ const FivePoints = () => {
     return (
         <>
             {/* new code */}
-            <main className='tw-p-10  tw-gap-x-16 tw-border-4 tw-border-[#1796be] tw-mx-auto tw-w-[80%] tw-rounded-3xl tw-grid tw-grid-cols-5'>
+            <main className='tw-p-10  tw-gap-x-16 tw-border-4 tw-border-[#1796be] tw-mx-auto tw-w-[80%] tw-rounded-3xl tw-grid tw-grid-cols-3'>
                 <section >
                     <img src={vision} className='tw-w-12' alt="" />
                     <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-medium '>Vision</span></p>
@@ -39,7 +39,7 @@ const FivePoints = () => {
                     </p>
                 </section>
 
-                <section >
+                {/* <section >
                     <img src={goal} className='tw-w-12' alt="" />
                     <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-medium '>Goal</span></p>
                     <p className='tw-mt-6 tw-text-sm'>
@@ -53,7 +53,7 @@ const FivePoints = () => {
                     <p className='tw-mt-6 tw-text-sm'>
                         We operate our client's business as if they're our own.
                     </p>
-                </section>
+                </section> */}
             </main>
 
 
@@ -99,7 +99,7 @@ const FivePoints = () => {
                 </section>
 
                 {/* goals */}
-                <section className='lg:tw-flex tw-my-10'>
+                {/* <section className='lg:tw-flex tw-my-10'>
                     <div className='lg:tw-w-[40%] tw-px-3 lg:tw-px-5 lg:tw-mt-10 tw-text-right'>
                         <p className='tw-text-[#5890de] tw-font-bold tw-text-xl '>{t('home.goal')}</p>
                         <img src={goal} alt="" className='lg:tw-hidden tw-my-3' />
@@ -108,17 +108,17 @@ const FivePoints = () => {
                     </div>
                     <img src={goal} alt="" className='tw-hidden lg:tw-inline tw-w-[60%]' />
 
-                </section>
+                </section> */}
 
                 {/* motto */}
-                <section className='lg:tw-flex tw-my-10'>
+                {/* <section className='lg:tw-flex tw-my-10'>
                     <img src={motto} alt="" className='tw-hidden lg:tw-inline tw-w-[60%]' />
                     <div className='lg:tw-w-[40%] tw-px-3 lg:tw-px-5 lg:tw-mt-10'>
                         <p className='tw-text-[#5890de] tw-font-bold tw-text-xl'>{t('home.motto')}</p>
                         <img src={motto} alt="" className='lg:tw-hidden my-3' />
                         <p className='tw-text-sm lg:tw-mt-20 lg:tw-pr-36 tw-text-justify'>{t('home.motto_desc')}.</p>
                     </div>
-                </section>
+                </section> */}
             </main>
         </>
     )

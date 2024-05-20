@@ -3,7 +3,7 @@ import Header from '../layout/Header'
 import brand from '../../img/brand.png'
 import empowerment from '../../img/empowerment.svg'
 
-import faucone from '../../img/faucone.png'
+import faucone from '../../img/faucone.PNG'
 
 import Footer from '../layout/Footer'
 import Award from '../layout/Award'

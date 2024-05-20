@@ -4,7 +4,7 @@ import brand from '../../../img/brand.png'
 const CustomerSupport = () => {
     return (
         <>
-            <section className='tw-flex tw-items-center tw-justify-center tw-mt-40 tw-ml-20 tw-rounded-bl-[250px] tw-bg-[#0baad4] '>
+            <section className='tw-flex tw-items-center tw-justify-center tw-mt-5 tw-ml-5 tw-mr-5 tw-bg-[#0baad4] '>
 
 
                 <div className='tw-w-[50%] '>

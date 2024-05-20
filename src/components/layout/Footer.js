@@ -5,7 +5,7 @@ import singapore from '../../img/singapore.svg'
 import uae from '../../img/uae.svg'
 import malaysia from '../../img/malaysia.svg'
 
-import faucone from '../../img/faucone.png'
+import faucone from '../../img/faucone.PNG'
 
 import instagram from '../../img/instagram.png'
 import facebook from '../../img/facebook.png'
@@ -105,7 +105,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='tw-pl-5'>
+                    {/* <div className='tw-pl-5'>
                         <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg'>Industries</p>
                         <div className='tw-mt-3 tw-text-sm'>
                             <p className='tw-py-1'>Aerospace and Defense</p>
@@ -133,7 +133,7 @@ const Footer = () => {
                             <p className='tw-py-1'>Travel</p>
                             <p className='tw-py-1'>Transport, Logistics & Hospitality</p>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div>
                         <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg'>Products</p>

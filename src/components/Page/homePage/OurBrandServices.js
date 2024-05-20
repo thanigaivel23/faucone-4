@@ -12,10 +12,35 @@ import brand_service_10 from '../../../img/brand_service_10.svg'
 import brand_service_11 from '../../../img/brand_service_11.svg'
 import brand_service_12 from '../../../img/brand_service_12.svg'
 import { useTranslation } from 'react-i18next'
+import Carousel from 'react-multi-carousel';
+import 'react-multi-carousel/lib/styles.css';
+import '../carousal.css'
 
 
 const OurBrandServices = () => {
     const { t } = useTranslation();
+    const responsive = {
+        desktop: {
+            breakpoint: { max: 3000, min: 1021 },
+            items: 4,
+            slidesToSlide: 4 // optional, default to 1.
+        },
+        laptop: {
+            breakpoint: { max: 1020, min: 751 },
+            items: 3,
+            slidesToSlide: 4 // optional, default to 1.
+        },
+        tablet: {
+            breakpoint: { max: 750, min: 451 },
+            items: 2,
+            slidesToSlide: 3 // optional, default to 1.
+        },
+        mobile: {
+            breakpoint: { max: 450, min: 320 },
+            items: 1,
+            slidesToSlide: 1 // optional, default to 1.
+        }
+    };
     return (
         <>
             <div className='tw-flex tw-justify-center tw-items-center tw-mt-32 tw-gap-x-3'>
@@ -25,39 +50,52 @@ const OurBrandServices = () => {
                 <p className='tw-bg-[#2dbfea] tw-h-[2px] tw-w-14  tw-rounded-2xl '></p>
             </div>
 
-            <main className='tw-grid tw-grid-cols-4 tw-gap-x-10 tw-w-[90%] tw-mx-auto tw-mt-10 '>
-                <section className='tw-shadow-xl tw-bg-[#dcf7ff] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl tw-rounded-br-[100px]'>
-                    <img src={brand_service_6} alt="" />
-                    <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>BUSINESS</p>
-                    <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>Faucone business services can meet all the needs of a business consulting...</p>
+            {/* <main className='tw-grid tw-grid-cols-4 tw-gap-x-10 tw-w-[90%] tw-mx-auto tw-mt-10 '> */}
+            <div className='tw-p-10'>
+                <Carousel
+                    responsive={responsive}
+                    autoPlay={true}
+                    swipeable={true}
+                    draggable={true}
+                    showDots={false}
+                    infinite={true}
+                    partialVisible={false}
+                    dotListclassName="custom-dot-list-style"
+                >
+                    <section className='tw-shadow-xl tw-bg-[#dcf7ff] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl'>
+                        {/* <img src={brand_service_6} alt="" /> */}
+                        <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>FAUCONE BUSINESS</p>
+                        <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>Faucone business services can meet all the needs of a business consulting...</p>
 
-                    <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
-                </section>
-                
-                <section className='tw-shadow-xl tw-bg-[#f2f2f2] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl tw-rounded-br-[100px]'>
-                    <img src={brand_service_6} alt="" />
-                    <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>DIGITAL</p>
-                    <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>Faucone digital offer a wide range of digital service and strategies to...</p>
+                        <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
+                    </section>
 
-                    <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
-                </section>
+                    <section className='tw-shadow-xl tw-bg-[#f2f2f2] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl'>
+                        {/* <img src={brand_service_6} alt="" /> */}
+                        <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>FAUCONE DIGITAL</p>
+                        <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>Faucone digital offer a wide range of digital service and strategies to...</p>
 
-                <section className='tw-shadow-xl tw-bg-[#d6e8ff] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl tw-rounded-br-[100px]'>
-                    <img src={brand_service_6} alt="" />
-                    <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>TECHNOLOGIES</p>
-                    <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>Faucone technologies can help you to grow your business and it is comm...</p>
+                        <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
+                    </section>
 
-                    <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
-                </section>
+                    <section className='tw-shadow-xl tw-bg-[#d6e8ff] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl'>
+                        {/* <img src={brand_service_6} alt="" /> */}
+                        <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>FAUCONE TECHNOLOGIES</p>
+                        <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>Faucone technologies can help you to grow your business and it is comm...</p>
 
-                <section className='tw-shadow-xl tw-bg-[#eff2f7] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl tw-rounded-br-[100px]'>
-                    <img src={brand_service_6} alt="" />
-                    <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>SOLUTIONS</p>
-                    <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>faucone solutions trust in providing value added and optimized IT and...</p>
+                        <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
+                    </section>
 
-                    <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
-                </section>
-            </main>
+                    <section className='tw-shadow-xl tw-bg-[#eff2f7] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl'>
+                        {/* <img src={brand_service_6} alt="" /> */}
+                        <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>FAUCONE SOLUTIONS</p>
+                        <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>faucone solutions trust in providing value added and optimized IT and...</p>
+
+                        <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
+                    </section>
+                </Carousel>
+                {/* </main> */}
+            </div>
 
             {/* old code */}
             <section hidden className='tw-bg-blue-50 tw-mt-20 tw-mx-auto tw-w-[90%] tw-rounded-xl'>

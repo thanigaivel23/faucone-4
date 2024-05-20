@@ -13,7 +13,7 @@ import OurBrandServices from './homePage/OurBrandServices'
 // import Awards from './homePage/Awards'
 import Map from './homePage/Map'
 import Footer from '../layout/Footer'
-// import BlueBg from './homePage/BlueBg';
+import BlueBg from './homePage/BlueBg';
 import Faucone4Startup from './homePage/Faucone4Startup';
 import CustomerSupport from './homePage/CustomerSupport';
 
@@ -28,7 +28,7 @@ const Home = () => {
     return (
         <>
             <Header />
-            
+
             <PoweringBrands />
 
             <FivePoints />
@@ -42,7 +42,7 @@ const Home = () => {
             <CustomerSupport />
 
 
-            {/* <BlueBg /> */}
+            <BlueBg />
 
             {/* <IndustriesWeServe /> */}
 
