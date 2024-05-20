@@ -16,6 +16,7 @@ import Footer from '../layout/Footer'
 import BlueBg from './homePage/BlueBg';
 import Faucone4Startup from './homePage/Faucone4Startup';
 import CustomerSupport from './homePage/CustomerSupport';
+import NewHeader from '../layout/NewHeader';
 
 
 const Home = () => {
@@ -27,9 +28,10 @@ const Home = () => {
 
     return (
         <>
-            <Header />
+            {/* <Header /> */}
+            <NewHeader />
 
-            <PoweringBrands />
+            {/* <PoweringBrands /> */}
 
             <FivePoints />
 
