@@ -3,7 +3,7 @@ import 'react-multi-carousel/lib/styles.css';
 import './carousal.css'
 import './home.css'
 
-import Header from '../layout/Header'
+// import Header from '../layout/Header'
 import PoweringBrands from './homePage/PoweringBrands'
 import FivePoints from './homePage/FivePoints'
 import ContributeToTheSocity from './homePage/ContributeToTheSocity'
@@ -31,7 +31,7 @@ const Home = () => {
             {/* <Header /> */}
             <NewHeader />
 
-            {/* <PoweringBrands /> */}
+            <PoweringBrands />
 
             <FivePoints />
 

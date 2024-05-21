@@ -19,9 +19,7 @@ const NewHeader = () => {
     }, [])
 
     return (
-        <div className='tw-top-0 tw-sticky tw-bg-white'>
-
-
+        <div className='tw-z-50  tw-top-0 tw-sticky tw-bg-white'>
             <nav
                 className="tw-relative tw-flex tw-items-center tw-justify-between tw-gap-x-5 tw-px-5  md:tw-px-20 tw-py-4"
                 data-twe-navbar-ref>
@@ -36,14 +34,14 @@ const NewHeader = () => {
                             {/* <li data-twe-nav-item-ref>
                                 <a
                                     className="tw-block tw-py-2 pe-2 text-black/60 tw-transition tw-duration-200 hover:text-black/80 hover:tw-ease-in-out focus:text-black/80 active:text-black/80 motion-reduce:tw-transition-none dark:text-white/60 dark:hover:text-white/80 dark:focus:text-white/80 dark:active:text-white/80 lg:tw-px-2"
-                                    href="#!"
+                                    href="/"
                                 >Regular link</a
                                 >
                             </li> */}
                             <li className="tw-static" data-twe-nav-item-ref data-twe-dropdown-ref>
                                 <a
                                     className="tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black/60 tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
-                                    href="#"
+                                    href="/"
                                     type="button"
                                     id="dropdownMenuButtonX"
                                     data-twe-dropdown-toggle-ref
@@ -62,60 +60,62 @@ const NewHeader = () => {
                                         </svg>
                                     </span>
                                 </a>
+                                
                                 <div
-                                    className="tw-absolute tw-left-0 tw-right-0 tw-top-full z-[1000] tw-mt-0 tw-hidden tw-w-full tw-border-none tw-bg-white tw-bg-clip-padding tw-shadow-lg data-[twe-dropdown-show]:tw-block dark:tw-bg-neutral-700"
+                                    className=" after:tw-block after:tw-h-screen tw-bg-black tw-bg-opacity-50 tw-absolute tw-left-0 tw-right-0 tw-top-full z-[1000] tw-mt-0 tw-hidden tw-w-full tw-border-none  tw-bg-clip-padding tw-shadow-2xl data-[twe-dropdown-show]:tw-block dark:tw-bg-neutral-700"
                                     aria-labelledby="dropdownMenuButtonX"
                                     data-twe-dropdown-menu-ref>
-                                    <div className="tw-px-6 tw-py-5 lg:tw-px-8">
+                                    <div className="tw-px-6 tw-py-5 lg:tw-px-8 tw-bg-white">
                                         <div className="tw-grid tw-gap-6 md:tw-grid-cols-2 lg:tw-grid-cols-4">
                                             <div>
                                                 <a
-                                                    href="javascript:void(0);"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Business')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Digital')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Technologies')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Solutions')}</a
                                                 >
 
                                             </div>
+                                            
                                             <div>
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Finance')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Consultancy')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Studios')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Advertising')}</a
@@ -123,27 +123,28 @@ const NewHeader = () => {
 
 
                                             </div>
+
                                             <div>
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Space')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Design')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Prints')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Accounting')}</a
@@ -151,27 +152,28 @@ const NewHeader = () => {
 
 
                                             </div>
+
                                             <div>
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Legal')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Supplies')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Academy')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.ourBrands.Overseas')}</a
@@ -182,10 +184,25 @@ const NewHeader = () => {
                                     </div>
                                 </div>
                             </li>
-                            <li className="tw-static" data-twe-nav-item-ref data-twe-dropdown-ref>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            <li className="tw-static " data-twe-nav-item-ref data-twe-dropdown-ref>
                                 <a
-                                    className="tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black/60 tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
-                                    href="#"
+                                    className=" tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black/60 tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
+                                    href="/"
                                     type="button"
                                     id="dropdownMenuButtonX"
                                     data-twe-dropdown-toggle-ref
@@ -204,45 +221,50 @@ const NewHeader = () => {
                                         </svg>
                                     </span>
                                 </a>
+
+
+
+
+
                                 <div
-                                    className="tw-absolute tw-left-0 tw-right-0 tw-top-full z-[1000] tw-mt-0 tw-hidden tw-w-full tw-border-none tw-bg-white tw-bg-clip-padding tw-shadow-lg data-[twe-dropdown-show]:tw-block dark:tw-bg-neutral-700"
+                                    className=" after:tw-block after:tw-h-screen tw-bg-black tw-bg-opacity-50 tw-absolute tw-left-0 tw-right-0 tw-top-full z-[1000] tw-mt-0 tw-hidden tw-w-full tw-border-none  tw-bg-clip-padding tw-shadow-lg data-[twe-dropdown-show]:tw-block dark:tw-bg-neutral-700"
                                     aria-labelledby="dropdownMenuButtonX"
                                     data-twe-dropdown-menu-ref>
-                                    <div className="tw-px-6 tw-py-5 lg:tw-px-8">
+                                    <div className="tw-px-6 tw-py-5 lg:tw-px-8 tw-bg-white">
                                         <div className="tw-grid tw-gap-6 md:tw-grid-cols-2 lg:tw-grid-cols-4">
                                             <div>
                                                 <a
-                                                    href="javascript:void(0);"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.aero')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.aviation')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.automotive')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.bankFinance')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.capital')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.construction')}</a
@@ -251,37 +273,37 @@ const NewHeader = () => {
                                             <div>
 
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.chemical')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.consumer')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.energy')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.fmcg')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.food')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.health')}</a
@@ -290,37 +312,37 @@ const NewHeader = () => {
                                             <div>
 
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.industrial')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.insurance')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.lifeScience')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.manufacture')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.media')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.mining')}</a
@@ -329,39 +351,39 @@ const NewHeader = () => {
                                             <div>
 
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.oil')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.public')}</a
                                                 >
 
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.retail')}</a
                                                 >
 
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.telecom')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.travel')}</a
                                                 >
                                                 <a
-                                                    href="#!"
+                                                    href="/"
                                                     aria-current="true"
                                                     className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >{t('mainHeader.industries.transport')}</a
@@ -370,10 +392,12 @@ const NewHeader = () => {
                                         </div>
                                     </div>
                                 </div>
+                                
                             </li>
                         </ul>
                     </div>
                 </div>
+
                 <div className=' lg:tw-flex  lg:tw-items-center lg:tw-gap-x-4 '>
 
                     <div className='tw-hidden  lg:tw-flex tw-items-center tw-justify-center tw-rounded-full tw-p-1 '><RiSearchLine className=' tw-h-6 tw-w-6 tw-font-light' /></div>
@@ -389,7 +413,6 @@ const NewHeader = () => {
 
                 </div>
             </nav>
-
         </div>
     )
 }

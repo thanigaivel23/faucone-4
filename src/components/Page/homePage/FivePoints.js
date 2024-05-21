@@ -2,9 +2,9 @@ import React, { Fragment } from 'react'
 
 import vision from '../../../img/vision_icon.svg'
 import mission from '../../../img/mission_icon.svg'
-import motto from '../../../img/motto_icon.svg'
+// import motto from '../../../img/motto_icon.svg'
 import value from '../../../img/values_icon.svg'
-import goal from '../../../img/goal_icon.svg'
+// import goal from '../../../img/goal_icon.svg'
 import { useTranslation } from 'react-i18next'
 
 const FivePoints = () => {

@@ -5,7 +5,7 @@ import singapore from '../../img/singapore.svg'
 import uae from '../../img/uae.svg'
 import malaysia from '../../img/malaysia.svg'
 
-import faucone from '../../img/faucone.PNG'
+import faucone from '../../img/faucone.png'
 
 import instagram from '../../img/instagram.png'
 import facebook from '../../img/facebook.png'
