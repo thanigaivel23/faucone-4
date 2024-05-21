@@ -15,24 +15,24 @@ const FivePoints = () => {
             <main className='tw-p-10  tw-gap-x-16 tw-border-4 tw-border-[#1796be] tw-mx-auto tw-w-[80%] tw-rounded-3xl tw-grid tw-grid-cols-3'>
                 <section >
                     <img src={vision} className='tw-w-12' alt="" />
-                    <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-medium '>Vision</span></p>
-                    <p className='tw-mt-6 tw-text-sm'>
+                    <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-PuviMedium '>Vision</span></p>
+                    <p className='tw-mt-6 tw-text-sm tw-font-PuviMedium'>
                         Our vision is to create brands, business solution & training for entrepreneurs and businesses, so that they can expand their business to a higher level in the ever- changing business environment
                     </p>
                 </section>
 
                 <section >
                     <img src={mission} className='tw-w-12' alt="" />
-                    <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-medium '>Mission</span></p>
-                    <p className='tw-mt-6 tw-text-sm'>
+                    <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-PuviMedium '>Mission</span></p>
+                    <p className='tw-mt-6 tw-text-sm tw-font-PuviMedium'>
                         Our mission is to create entrepreneurs, power brands and build a meaningful future through advanced idea.
                     </p>
                 </section>
 
                 <section >
                     <img src={value} className='tw-w-12' alt="" />
-                    <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-medium '>Values</span></p>
-                    <p className='tw-mt-6 tw-text-sm'>
+                    <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-PuviMedium '>Values</span></p>
+                    <p className='tw-mt-6 tw-text-sm tw-font-PuviMedium'>
                         Limpidity <br />
                         Virtuous <br />
                         Gratitude

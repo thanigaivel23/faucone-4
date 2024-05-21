@@ -14,7 +14,9 @@ module.exports = {
     },
     extend: {
       fontFamily: {
-        abel: ["Abel", "sans-serif"]
+        abel: ["Abel", "sans-serif"],
+        PuviExtraBold: ["PuviExtraBold"],
+        PuviMedium: ["PuviMedium"],
       }
     },
   },

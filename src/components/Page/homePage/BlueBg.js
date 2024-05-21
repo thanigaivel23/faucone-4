@@ -8,7 +8,7 @@ const BlueBg = () => {
             {/*  */}
             <main className='tw-bg-[#0060b4] tw-mt-20 tw-text-white tw-py-16 md:tw-px-36 lg:tw-p-0 lg:tw-pt-24 lg:tw-flex tw-items-end'>
 
-                <section className='lg:tw-w-[70%] lg:tw-pl-20 lg:tw-pb-36 xl:tw-pl-36'>
+                <section className='lg:tw-w-[70%] lg:tw-pl-20 lg:tw-pb-36 xl:tw-pl-36 tw-font-PuviMedium'>
                     <p className='tw-text-center lg:tw-text-left tw-text-3xl lg:tw-text-5xl tw-font-medium lg:tw-font-normal'>Made in India.</p>
                     <p className='tw-text-center lg:tw-text-left tw-text-3xl lg:tw-text-5xl tw-font-medium lg:tw-font-normal '>Made for the World.</p>
 

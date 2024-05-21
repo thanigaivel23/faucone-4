@@ -64,8 +64,8 @@ const OurBrandServices = () => {
                 >
                     <section className='tw-shadow-xl tw-bg-[#dcf7ff] tw-border-[8px] tw-py-10 tw-px-8 tw-border-white tw-rounded-2xl'>
                         {/* <img src={brand_service_6} alt="" /> */}
-                        <p className='tw-text-gray-500 tw-font-bold tw-mt-3 tw-text-xl'>FAUCONE BUSINESS</p>
-                        <p className='tw-text-gray-500 tw-mt-2 tw-text-sm'>Faucone business services can meet all the needs of a business consulting...</p>
+                        <p className='tw-font-bold tw-mt-3 tw-text-xl tw-font-PuviExtraBold'>FAUCONE BUSINESS</p>
+                        <p className='tw-mt-2 tw-text-sm tw-font-PuviMedium'>Faucone business services can meet all the needs of a business consulting...</p>
 
                         <button className='tw-flex tw-bg-white tw-mt-5 tw-border-2 tw-text-sm tw-font-medium tw-px-4 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-rounded-md tw-duration-300'>TRY NOW</button>
                     </section>

@@ -16,7 +16,7 @@ const ContributeToTheSocity = () => {
             </div>
 
             <main>
-                <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#3753fc] tw-mt-9  tw-px-40'>
+                <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#3753fc] tw-mt-9  tw-px-40 tw-font-PuviMedium'>
 
                     <div className=' tw-text-white tw-w-[50%] tw-mx-auto tw-px-10
                     ' >
@@ -36,7 +36,7 @@ const ContributeToTheSocity = () => {
 
                 </section>
 
-                <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#24b5fc] '>
+                <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#24b5fc] tw-font-PuviMedium'>
 
 
                     <div className='tw-w-[50%] '>
@@ -51,7 +51,7 @@ const ContributeToTheSocity = () => {
 
                 </section>
 
-                <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#7b7aef] tw-px-20'>
+                <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#7b7aef] tw-px-20 tw-font-PuviMedium'>
 
                     <div className=' tw-text-white tw-w-[30%] tw-mx-auto ' >
                         <p className='tw-font-bold tw-text-xl'>Women Entreprenurship</p>
@@ -64,7 +64,7 @@ const ContributeToTheSocity = () => {
 
                 </section>
 
-                <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#79abfd] '>
+                <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#79abfd] tw-font-PuviMedium'>
 
 
                     <div className='tw-w-[50%] '>

@@ -60,7 +60,7 @@ const NewHeader = () => {
                                         </svg>
                                     </span>
                                 </a>
-                                
+
                                 <div
                                     className=" after:tw-block after:tw-h-screen tw-bg-black tw-bg-opacity-50 tw-absolute tw-left-0 tw-right-0 tw-top-full z-[1000] tw-mt-0 tw-hidden tw-w-full tw-border-none  tw-bg-clip-padding tw-shadow-2xl data-[twe-dropdown-show]:tw-block dark:tw-bg-neutral-700"
                                     aria-labelledby="dropdownMenuButtonX"
@@ -94,7 +94,7 @@ const NewHeader = () => {
                                                 >
 
                                             </div>
-                                            
+
                                             <div>
                                                 <a
                                                     href="/"
@@ -392,7 +392,7 @@ const NewHeader = () => {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                             </li>
                         </ul>
                     </div>
@@ -403,13 +403,13 @@ const NewHeader = () => {
                     <div className='tw-hidden  lg:tw-flex tw-items-center tw-justify-center tw-rounded-full tw-p-1 '><RiSearchLine className=' tw-h-6 tw-w-6 tw-font-light' /></div>
                     <div className='tw-hidden  lg:tw-flex tw-items-center tw-justify-center tw-rounded-full tw-p-1 '><TbSpeakerphone className=' tw-h-6 tw-w-6 tw-font-light' /></div>
 
-                    <div className=' lg:tw-outline-none lg:tw-py-1 lg:tw-my-1 lg:tw-px-2'>
+                    <div className=' lg:tw-outline-none lg:tw-py-1 lg:tw-my-1 lg:tw-px-2 tw-font-PuviMedium'>
                         <Language />
                     </div>
 
-                    <button className='tw-hidden  lg:tw-flex'>Sign in</button>
+                    <button className='tw-hidden  lg:tw-flex tw-font-PuviMedium'>Sign in</button>
 
-                    <button className='tw-hidden  lg:tw-flex tw-border tw-font-medium tw-px-3 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-duration-300'>Sign up</button>
+                    <button className='tw-hidden  tw-font-PuviMedium lg:tw-flex tw-border tw-font-medium tw-px-3 py-1 tw-border-[#1da9fd] tw-text-[#1da9fd] hover:tw-text-white hover:tw-bg-[#1da9fd] tw-duration-300'>Sign up</button>
 
                 </div>
             </nav>
