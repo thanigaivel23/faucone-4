@@ -39,9 +39,10 @@ const NewHeader = () => {
                                 >Regular link</a
                                 >
                             </li> */}
+
                             <li className="tw-static" data-twe-nav-item-ref data-twe-dropdown-ref>
                                 <a
-                                    className="tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black/60 tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
+                                    className="tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black tw-font-PuviMedium tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
                                     href="/"
                                     type="button"
                                     id="dropdownMenuButtonX"
@@ -66,14 +67,15 @@ const NewHeader = () => {
                                     className=" after:tw-block after:tw-h-screen tw-bg-black tw-bg-opacity-50 tw-absolute tw-left-0 tw-right-0 tw-top-full z-[1000] tw-mt-0 tw-hidden tw-w-full tw-border-none  tw-bg-clip-padding tw-shadow-2xl data-[twe-dropdown-show]:tw-block dark:tw-bg-neutral-700"
                                     aria-labelledby="dropdownMenuButtonX"
                                     data-twe-dropdown-menu-ref>
+
                                     <div className="tw-px-6 tw-py-5 lg:tw-px-8 tw-bg-white">
                                         <div className="tw-grid tw-gap-6 md:tw-grid-cols-2 lg:tw-grid-cols-4">
                                             <div>
                                                 <a
                                                     href="#!"
                                                     aria-current="true"
-                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
-                                                    <span class="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
                                                             viewBox="0 0 20 20"
@@ -89,8 +91,8 @@ const NewHeader = () => {
                                                 <a
                                                     href="#!"
                                                     aria-current="true"
-                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
-                                                    <span class="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
                                                             viewBox="0 0 20 20"
@@ -106,8 +108,8 @@ const NewHeader = () => {
                                                 <a
                                                     href="#!"
                                                     aria-current="true"
-                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
-                                                    <span class="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
                                                             viewBox="0 0 20 20"
@@ -123,8 +125,8 @@ const NewHeader = () => {
                                                 <a
                                                     href="#!"
                                                     aria-current="true"
-                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
-                                                    <span class="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
                                                             viewBox="0 0 20 20"
@@ -144,8 +146,8 @@ const NewHeader = () => {
                                                 <a
                                                     href="#!"
                                                     aria-current="true"
-                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
-                                                    <span class="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
                                                             viewBox="0 0 20 20"
@@ -161,8 +163,8 @@ const NewHeader = () => {
                                                 <a
                                                     href="#!"
                                                     aria-current="true"
-                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
-                                                    <span class="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25">
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
                                                         <svg
                                                             xmlns="http://www.w3.org/2000/svg"
                                                             viewBox="0 0 20 20"
@@ -178,15 +180,37 @@ const NewHeader = () => {
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Studios')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Studios')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Advertising')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Advertising')}</a>
 
 
                                             </div>
@@ -195,27 +219,71 @@ const NewHeader = () => {
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Space')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Space')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Design')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Design')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Prints')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Prints')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Accounting')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Accounting')}</a>
 
 
                                             </div>
@@ -224,36 +292,81 @@ const NewHeader = () => {
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Legal')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Legal')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Supplies')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Supplies')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Academy')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Academy')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.ourBrands.Overseas')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.ourBrands.Overseas')}</a>
 
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </li>
+
                             <li className="tw-static " data-twe-nav-item-ref data-twe-dropdown-ref>
                                 <a
-                                    className=" tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black/60 tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
+                                    className=" tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black tw-font-PuviMedium tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
                                     href="/"
                                     type="button"
                                     id="dropdownMenuButtonX"
@@ -284,171 +397,438 @@ const NewHeader = () => {
                                     data-twe-dropdown-menu-ref>
                                     <div className="tw-px-6 tw-py-5 lg:tw-px-8 tw-bg-white">
                                         <div className="tw-grid tw-gap-6 md:tw-grid-cols-2 lg:tw-grid-cols-4">
+
+
                                             <div>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.aero')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.aero')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.aviation')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.aviation')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.automotive')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.automotive')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.bankFinance')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.bankFinance')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.capital')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.capital')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.construction')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.construction')}</a>
                                             </div>
                                             <div>
 
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.chemical')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.chemical')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.consumer')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.consumer')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.energy')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.energy')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.fmcg')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.fmcg')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.food')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.food')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.health')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.health')}</a>
                                             </div>
                                             <div>
 
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.industrial')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.industrial')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.insurance')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.insurance')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.lifeScience')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.lifeScience')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.manufacture')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.manufacture')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.media')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.media')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.mining')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.mining')}</a>
                                             </div>
                                             <div>
 
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.oil')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.oil')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.public')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.public')}</a>
 
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.retail')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.retail')}</a>
 
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.telecom')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.telecom')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.travel')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.travel')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.industries.transport')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    {t('mainHeader.industries.transport')}</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                             </li>
+
                             <li className="tw-static " data-twe-nav-item-ref data-twe-dropdown-ref>
                                 <a
-                                    className=" tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black/60 tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
+                                    className=" tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black tw-font-PuviMedium tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
                                     href="/"
                                     type="button"
                                     id="dropdownMenuButtonX"
@@ -479,64 +859,154 @@ const NewHeader = () => {
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.multi')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.multi')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.advertise')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.advertise')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.brand')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.brand')}</a>
 
                                             </div>
                                             <div>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.scaling')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.scaling')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.interlink')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.interlink')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.business')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.business')}</a>
 
                                             </div>
                                             <div>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.innovative')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.innovative')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.quality')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.quality')}</a>
 
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.revenue')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.revenue')}</a>
 
                                             </div>
                                             <div>
@@ -544,30 +1014,61 @@ const NewHeader = () => {
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.career')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.career')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.startup')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.startup')}</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >{t('mainHeader.services.hybird')}</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-2 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                      <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>{t('mainHeader.services.hybird')}</a>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
 
                             </li>
+
                             <li className="tw-static " data-twe-nav-item-ref data-twe-dropdown-ref>
                                 <a
-                                    className=" tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black/60 tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
+                                    className=" tw-flex tw-no-underline tw-items-center tw-whitespace-nowrap tw-py-2 pe-2 tw-text-black tw-font-PuviMedium tw-transition tw-duration-200 hover:tw-text-black/80 hover:tw-ease-in-out focus:tw-text-black/80 active:tw-text-black/80 motion-reduce:tw-transition-none dark:tw-text-white/60 dark:hover:tw-text-white/80 dark:focus:tw-text-white/80 dark:active:tw-text-white/80 lg:tw-px-2"
                                     href="/"
                                     type="button"
                                     id="dropdownMenuButtonX"
@@ -601,55 +1102,143 @@ const NewHeader = () => {
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >About us</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    About us</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >Our Story</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    Our Story</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >Clients</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    Clients</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >Press</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    Press</a>
 
                                             </div>
                                             <div>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >Events</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    Events</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black  hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >Career</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    Career</a>
 
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >Faucone for Startups</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    Faucone for Startups</a>
                                                 <a
                                                     href="/"
                                                     aria-current="true"
-                                                    className="tw-block tw-no-underline tw-w-full tw-border-b border-neutral-100 tw-bg-white tw-px-6 tw-py-2 tw-text-black hover:tw-bg-[#2e93d2] focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:border-white/10 dark:bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
-                                                >Faucone - CSC / CEC</a
+                                                    className="tw-flex tw-no-underline tw-w-full tw-items-center tw-border-b tw-border-[#2e93d2] tw-bg-white tw-px-6 tw-py-2 tw-text-neutral-700 hover:tw-bg-[#2e93d2] hover:tw-text-white tw-mb-4 focus:tw-bg-zinc-200/60 focus:tw-outline-none active:tw-bg-zinc-200/60 active:tw-no-underline dark:tw-border-white/10 dark:tw-bg-surface-dark dark:tw-text-white dark:hover:tw-bg-neutral-800/25 dark:focus:tw-bg-neutral-800/25 dark:active:tw-bg-neutral-800/25"
                                                 >
+                                                    <span className="tw-me-1.5 [&>svg]:tw-h-5 [&>svg]:tw-w-5">
+                                                        <svg
+                                                            xmlns="http://www.w3.org/2000/svg"
+                                                            viewBox="0 0 20 20"
+                                                            fill="currentColor">
+                                                            <path
+                                                                fill-rule="evenodd"
+                                                                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                    </span>
+                                                    Faucone - CSC / CEC</a>
 
                                             </div>
                                             <div>
