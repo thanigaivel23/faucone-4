@@ -13,7 +13,7 @@ const PoweringBrands = () => {
                 <section className='tw-order-2 tw-mx-auto tw-pr-10'>
                     <div className='tw-relative '>
 
-                        <img src={banner_image} alt="Your" className="tw-mx-auto tw-block tw-w-[800px] tw-h-auto" />
+                        <img src={banner_image} alt="Your" className="tw-mx-auto tw-block tw-w-[800px] tw-h-[700px]" />
                         <div className="tw-absolute  tw-inset-x-0 tw-bottom-0 tw-h-60 tw-bg-gradient-to-b tw-from-transparent tw-to-white"></div>
                     </div>
                 </section>
@@ -21,7 +21,7 @@ const PoweringBrands = () => {
                 <section className=' md:tw-p-24 tw-text-center md:tw-text-left tw-py-24'>
                     <p className='tw-font-medium tw-text-black tw-text-2xl md:tw-text-2xl'>{t('home.power')} <br className='tw-hidden md:tw-inline' /> <span className=' tw-tracking-[3px] md:tw-text-6xl tw-font-bold tw-text-[#1da9fd]'>{t('home.brand')}</span></p>
                     <p className='tw-font-medium tw-text-black tw-text-2xl md:tw-text-2xl tw-my-5'> {t('home.create')} <br className='tw-hidden md:tw-inline' /><span className=' tw-tracking-[3px] md:tw-text-6xl tw-font-bold tw-text-[#1da9fd]'>{t('home.enterpernur')}</span></p>
-                    <p className=' tw-mt-6 tw-text-sm sm:tw-text-base tw-px-3 tw-w-[60%]'>{t('home.sub_content')}.</p>
+                    <p className=' tw-mt-6 tw-text-sm sm:tw-text-base tw-px-3 tw-w-[60%] tw-font-PuviMedium'>{t('home.sub_content')}.</p>
                 </section>
 
 

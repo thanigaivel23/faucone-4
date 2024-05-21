@@ -33,18 +33,20 @@ const Home = () => {
 
             <PoweringBrands />
 
-            <FivePoints />
 
-            <Faucone4Startup />
+
+
 
             <ContributeToTheSocity />
-
+            <FivePoints />
+            <Faucone4Startup />
+            <BlueBg />
             <OurBrandServices />
 
             <CustomerSupport />
 
 
-            <BlueBg />
+
 
             {/* <IndustriesWeServe /> */}
 

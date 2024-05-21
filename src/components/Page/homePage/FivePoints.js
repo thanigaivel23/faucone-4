@@ -12,7 +12,7 @@ const FivePoints = () => {
     return (
         <>
             {/* new code */}
-            <main className='tw-p-10  tw-gap-x-16 tw-border-4 tw-border-[#1796be] tw-mx-auto tw-w-[80%] tw-rounded-3xl tw-grid tw-grid-cols-3'>
+            <main className='tw-p-10  tw-gap-x-16 tw-border-4 tw-border-[#1796be] tw-mx-auto tw-w-[80%] tw-rounded-3xl tw-grid tw-grid-cols-3 tw-mt-10 tw-mb-5'>
                 <section >
                     <img src={vision} className='tw-w-12' alt="" />
                     <p className='after:tw-h-1 after:tw-w-10 after:tw-block after:tw-bg-[#1796be] after:tw-rounded-2xl after:tw-mt-1 tw-mt-4 tw-text-gray-400'>Our <span className='tw-text-gray-700 tw-block tw-text-lg tw-font-PuviMedium '>Vision</span></p>

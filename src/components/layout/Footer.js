@@ -70,7 +70,7 @@ const Footer = () => {
 
 
                 {/* main content */}
-                <section className='tw-mx-20 tw-grid tw-grid-cols-5 tw-gap-x- tw-mt-10 '>
+                <section className='tw-mx-20 tw-grid tw-grid-cols-4 tw-gap-x- tw-mt-10 '>
                     <div>
                         <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium'>Company</p>
                         <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
