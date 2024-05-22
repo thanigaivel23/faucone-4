@@ -73,8 +73,8 @@ const Footer = () => {
                 <section className='tw-mx-20 tw-grid tw-grid-cols-4   tw-mt-10 '>
                     <div className=' tw-text-center'>
                         <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium '>Company</p>
-                        <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
-                            <p className='tw-py-1'>About us (Faucone formula)</p>
+                        <div className='tw-mt-3 tw-text-base tw-font-PuviMedium'>
+                            <p className='tw-py-1'>About us</p>
                             <p className='tw-py-1'>Our Story</p>
                             <p className='tw-py-1'>Clients</p>
                             <p className='tw-py-1'>Services</p>
@@ -83,13 +83,14 @@ const Footer = () => {
                             <p className='tw-py-1'>Career</p>
                             <p className='tw-py-1'>Contact</p>
                             <p className='tw-py-1'>Faucone for startups</p>
-                            <p className='tw-py-1'>Faucone - CSC/CEC</p>
+                            <p className='tw-py-1'>Customer Support center</p>
+                            <p className='tw-py-1'>Customer Experience center</p>
                         </div>
                     </div>
 
                     <div className=' tw-text-center'>
                         <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium '>Solutions</p>
-                        <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
+                        <div className='tw-mt-3 tw-text-base tw-font-PuviMedium'>
                             <p className='tw-py-1'> Multi-Dimensional Branding & Marketing</p>
                             <p className='tw-py-1'>3600 Advertising Solutions</p>
                             <p className='tw-py-1'>Brand Transformation</p>
@@ -137,7 +138,7 @@ const Footer = () => {
 
                     <div className=' tw-text-center'>
                         <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium '>Products</p>
-                        <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
+                        <div className='tw-mt-3 tw-text-base tw-font-PuviMedium'>
                             <p className='tw-py-1'>Faucone Business</p>
                             <p className='tw-py-1'>Faucone Digital</p>
                             <p className='tw-py-1'>Faucone Technologies</p>
@@ -159,7 +160,7 @@ const Footer = () => {
 
                     <div className=' tw-text-center tw-mr-24'>
                         <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium '>Contact Us</p>
-                        <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
+                        <div className='tw-mt-3 tw-text-base tw-font-PuviMedium'>
                             <p className='tw-py-1'>sales@faucone.com</p>
                             <p className='tw-py-1'>support@faucone.com</p>
                             <p className='tw-py-1'>1800 309 4377</p>

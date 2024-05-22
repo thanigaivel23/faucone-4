@@ -12,12 +12,12 @@ const CustomerSupport = () => {
                 </div>
 
                 <div className=' tw-text-white tw-w-[40%] ' >
-                    <p className='tw-font-bold tw-mt-10 tw-text-xl'>Customer support centre</p>
-                    <p className=' tw-mt-3 tw-text-sm'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui consequuntur magni dolores eosqui ratione voluptatem sequi nesciunt orro est, qu dolorem ipsum quia dolor sit amet, consectetur, adipisci velittotam rem aperiam eaque quae inventore veritatis beatae vitae dicta sunt explicabo.
+                    <p className='tw-font-bold tw-mt-10 tw-text-4xl'>Customer support centre</p>
+                    <p className=' tw-mt-3 tw-text-base'>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed qui consequuntur magni dolores eosqui ratione voluptatem sequi nesciunt orro est, qu dolorem ipsum quia dolor sit amet, consectetur, adipisci velittotam rem aperiam eaque quae inventore veritatis beatae vitae dicta sunt explicabo.
                     </p>
 
-                    <p className='tw-font-bold tw-mt-7 tw-text-xl'>Customer experience centre</p>
-                    <p className='tw-mt-3 tw-text-sm'>Aquia non numquam eius modi incidunt ut labore aliquam quaerat voluptatem nim  ad minima veniam, quis nostrum ullam corporis suscipit laboriosam, nisi ut aliquid ex  ea commodi consequatur
+                    <p className='tw-font-bold tw-mt-7 tw-text-4xl'>Customer experience centre</p>
+                    <p className='tw-mt-3 tw-text-base'>Aquia non numquam eius modi incidunt ut labore aliquam quaerat voluptatem nim  ad minima veniam, quis nostrum ullam corporis suscipit laboriosam, nisi ut aliquid ex  ea commodi consequatur
                     </p>
                 </div>
 
