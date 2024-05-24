@@ -143,7 +143,7 @@ const Footer = () => {
                         </div>
                     </div> */}
 
-                    <div className=' '>
+                    <div className=' tw-ml-16'>
                         <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Products</p>
                         <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368]'>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Business</a>
@@ -165,7 +165,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className='  tw-mr-24'>
+                    <div className=''>
                         <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Contact Us</p>
                         <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>sales@faucone.com</a>
