@@ -20,8 +20,8 @@ const ContributeToTheSocity = () => {
 
                     <div className=' tw-text-white tw-w-[50%] tw-mx-auto tw-px-10
                     ' >
-                        <p className='tw-font-bold tw-text-xl'>Women Empowerment</p>
-                        <p className='tw-mt-10 tw-text-sm'>
+                        <p className='tw-font-bold tw-text-4xl '>Women Empowerment</p>
+                        <p className='tw-mt-4 tw-text-base'>
                             <b>Digital literacy:</b> Access to internet, allows women to receive training which opens the door to other essential skills <br /><br />
 
                             <b>Family and community impact:</b> An investment that yields a range of benefits that affect not just women but also their families and communities as a whole. <br /><br />
@@ -44,8 +44,8 @@ const ContributeToTheSocity = () => {
                     </div>
 
                     <div className=' tw-text-white tw-w-[30%] tw-mx-auto ' >
-                        <p className='tw-font-bold tw-text-xl'>Drivers of Startup Ecosystem</p>
-                        <p className='tw-mt-10 tw-text-sm'>The startup ecosystem is a collection Of individuals, companies, and associated organisations that work together to build and scale startups. Startup ecosystems are frequently developed in a very small geographic region with a centre Of gravity. such as a university or a cluster Of technology enterprises. Faucone is a major player in the Startup Ecosystem.</p>
+                        <p className='tw-font-bold tw-text-4xl'>Drivers of Startup Ecosystem</p>
+                        <p className='tw-mt-4 tw-text-base'>The startup ecosystem is a collection Of individuals, companies, and associated organisations that work together to build and scale startups. Startup ecosystems are frequently developed in a very small geographic region with a centre Of gravity. such as a university or a cluster Of technology enterprises. Faucone is a major player in the Startup Ecosystem.</p>
                     </div>
 
 
@@ -54,8 +54,8 @@ const ContributeToTheSocity = () => {
                 <section className='tw-flex tw-items-center tw-justify-center tw-bg-[#7b7aef] tw-px-20 tw-font-PuviMedium'>
 
                     <div className=' tw-text-white tw-w-[30%] tw-mx-auto ' >
-                        <p className='tw-font-bold tw-text-xl'>Women Entreprenurship</p>
-                        <p className='tw-mt-10 tw-text-sm'>The increasing presence of women as entrepreneurs has led to significant business and economic growth in the country. Women-owned business enterprises are playing a prominent role in society by generating employment opportunities in the country, brining in demographic shifts and inspiring the next generation of women founders.</p>
+                        <p className='tw-font-bold tw-text-4xl'>Women Entreprenurship</p>
+                        <p className='tw-mt-4 tw-text-base'>The increasing presence of women as entrepreneurs has led to significant business and economic growth in the country. Women-owned business enterprises are playing a prominent role in society by generating employment opportunities in the country, brining in demographic shifts and inspiring the next generation of women founders.</p>
                     </div>
 
                     <div className='tw-w-[50%] '>
@@ -72,8 +72,8 @@ const ContributeToTheSocity = () => {
                     </div>
 
                     <div className=' tw-text-white tw-w-[30%] tw-mx-auto ' >
-                        <p className='tw-font-bold tw-text-xl'>Developing Gig Economy</p>
-                        <p className='tw-mt-10 tw-text-sm'>GIG Economy - India's gig workforce, estimated to be at 77 lakh in 2020-2021, is a expected to go up 2.35 crore by 2029-30. Faucone supports and provides opportunities for GIG Economy.</p>
+                        <p className='tw-font-bold tw-text-4xl'>Developing Gig Economy</p>
+                        <p className='tw-mt-4 tw-text-base'>GIG Economy - India's gig workforce, estimated to be at 77 lakh in 2020-2021, is a expected to go up 2.35 crore by 2029-30. Faucone supports and provides opportunities for GIG Economy.</p>
                     </div>
 
 
@@ -90,7 +90,7 @@ const ContributeToTheSocity = () => {
                 <section className='tw-bg-gradient-to-r tw-from-sky-300 tw-to-red-400 tw-grid xs:tw-grid-cols-2 lg:tw-grid-cols-4 tw-gap-5 md:tw-gap-10 lg:tw-gap-0 lg:tw-gap-x-20 tw-mt-20 md:tw-mt-40 tw-px-5 tw-py-5 md:tw-px-10'>
 
                     <div className=' tw-bg-gray-200 tw-rounded-xl tw-px-9 tw-py-5 tw-bg-opacity-50'>
-                        <p className='tw-mt-3 tw-text-[#41a5e8] tw-font-bold tw-text-xl'>{t('home.women_empower')}</p>
+                        <p className='tw-mt-3 tw-text-[#41a5e8] tw-font-bold tw-text-4xl'>{t('home.women_empower')}</p>
                         <p className='    tw-text-sm  md:tw-pt-10'>
                             <b>Digital literacy:</b> {t('home.women_empower_desc1')}
 
@@ -102,19 +102,19 @@ const ContributeToTheSocity = () => {
 
                     <div className=' tw-bg-gray-200 tw-rounded-xl tw-px-9 tw-py-5 tw-bg-opacity-50'>
                         <p className='tw-mt-3 tw-text-[#41a5e8] tw-font-bold tw-text-xl'>{t('home.startup_ecoSystem')}</p>
-                        <p className='     tw-text-sm tw-pt-3'>{t('home.startup_ecoSystem_desc')}.</p>
+                        <p className='     tw-text-base tw-pt-3'>{t('home.startup_ecoSystem_desc')}.</p>
 
                     </div>
 
                     <div className=' tw-bg-gray-200 tw-rounded-xl tw-px-9 tw-py-5 tw-bg-opacity-50'>
                         <p className='tw-mt-3 tw-text-[#41a5e8] tw-font-bold tw-text-xl'>{t('home.women_enterpernership')}</p>
-                        <p className=' tw-text-sm tw-pt-3'>{t('home.women_enterpernership_desc')}.</p>
+                        <p className=' tw-text-base tw-pt-3'>{t('home.women_enterpernership_desc')}.</p>
 
                     </div>
 
                     <div className=' tw-bg-gray-200 tw-rounded-xl tw-px-9 tw-py-5 tw-bg-opacity-50'>
                         <p className='tw-mt-3 tw-text-[#41a5e8] tw-font-bold tw-text-xl'>{t('home.gig_economy')}</p>
-                        <p className=' tw-text-sm tw-pt-3'>{t('home.gig_economy_desc')}</p>
+                        <p className=' tw-text-base tw-pt-3'>{t('home.gig_economy_desc')}</p>
                     </div>
 
                 </section>

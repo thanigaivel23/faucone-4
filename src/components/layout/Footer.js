@@ -90,7 +90,8 @@ const Footer = () => {
                             <p className='tw-py-1'>Career</p>
                             <p className='tw-py-1'>Contact</p>
                             <p className='tw-py-1'>Faucone for startups</p>
-                            <p className='tw-py-1'>Faucone - CSC/CEC</p>
+                            <p className='tw-py-1'>Customer Support center</p>
+                            <p className='tw-py-1'>Customer Experience center</p>
                         </div>
                     </div>
 
@@ -278,7 +279,7 @@ const Footer = () => {
                     <img src={facebook} alt="facebook" className='tw-w-7' />
                     <img src={instagram} alt="instagram" className='tw-w-7' />
                     <img src={linkedin} alt="linkedin" className='tw-w-7' />
-                    <img src={youtube} alt="youtube" className='tw-w-9' />
+                    <a href='https://www.youtube.com/@faucone8395'><img src={youtube} alt="youtube" className='tw-w-9' /></a>
                 </div>
 
                 {/* footer nav bar */}

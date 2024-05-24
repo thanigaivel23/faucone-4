@@ -63,7 +63,17 @@
             "hybird": "Developing a Hybrid Work Model"
         },
         "insights": "Insights",
-        "contactUs": "Contact Us"
+        "contactUs": "Contact Us",
+        "companySubMenu": {
+            "aboutUs": "About us",
+            "our_Story": "Our Story",
+            "clients": "Clients",
+            "press": "Press",
+            "events": "Events",
+            "career": "Career",
+            "startup": "Faucone for Startups",
+            "csc": "Faucone-CSC/CEC"
+        }
     },
     "home": {
         "power": "POWERING",
@@ -88,7 +98,12 @@
         "the": "THE",
         "contribution": "CONTRIBUTION",
         "Socity": "SOCITY",
-        "women_empower": "Women Empowerment",
+        "women_empower": {
+            "name": "Women Empowerment",
+            "title1": "Digital literacy",
+            "title2": "Family and community impact",
+            "title3": "Economical Development"
+        },
         "women_empower_desc1": "Access to internet, allows women to receive training which opens the door to other essential skills",
         "women_empower_desc2": "An investment that yields a range of benefits that affect not just women but also their families and communities as a whole",
         "women_empower_desc3": "Enccrage women to create their own businesses, which would benefits both developing countries financially",
