@@ -58,7 +58,7 @@ const Footer = () => {
 
             <main className='tw-bg-[#f1f3f4] tw-mt-20 tw-py-16'>
                 {/* follow us */}
-                <section className='tw-flex tw-items-center tw-gap-x-10 tw-mx-20 tw-border-b-2 tw-pb-5 tw-border-[#e0e0e0]'>
+                <section className='tw-flex tw-items-center tw-gap-x-10 tw-mx-40 tw-border-b-2 tw-pb-5 tw-border-[#e0e0e0]'>
                     <p className='tw-font-GoogleSansMedium tw-font-medium tw-text-[#202124] tw-text-[17px] tw-tracking-wide'>Follow Us </p>
                     <div className='tw-flex tw-items-center tw-gap-x-7'>
                         {/* <img src={facebook} alt="facebook" className='tw-w-5' /> */}
@@ -66,22 +66,22 @@ const Footer = () => {
                         {/* <img src={twitter} alt="twitter" className='tw-w-4' />
                         <img src={instagram} alt="instagram" className='tw-w-5' />
                         <img src={linkedin} alt="linkedin" className='tw-w-5' /> */}
-                        <p><FaFacebookSquare className='tw-text-2xl' /></p>
-                        <p><FaYoutube className='tw-text-3xl' /></p>
-                        <p><FaSquareXTwitter className='tw-text-2xl' /></p>
-                        <p><FaInstagramSquare className='tw-text-2xl' /></p>
-                        <p><FaLinkedin className='tw-text-2xl' /></p>
+                        <a href='https://www.facebook.com/faucone' target="_blank" className='tw-text-gray-500'><p><FaFacebookSquare className='tw-text-2xl' /></p></a>
+                        <a href='https://www.youtube.com/@faucone8395' target="_blank" className='tw-text-gray-500'><p><FaYoutube className='tw-text-3xl' /></p></a>
+                        {/* <p><FaSquareXTwitter className='tw-text-2xl' /></p> */}
+                        <a href='https://www.instagram.com/fauconegroup/' target="_blank" className='tw-text-gray-500'><p><FaInstagramSquare className='tw-text-2xl' /></p></a>
+                        <a href='https://www.linkedin.com/company/faucone-business-solutions-pvt-ltd/' target="_blank" className='tw-text-gray-500'><p><FaLinkedin className='tw-text-2xl' /></p></a>
 
                     </div>
                 </section>
 
 
                 {/* main content */}
-                <section className='tw-mx-20 tw-grid tw-grid-cols-4  tw-mt-10 '>
+                <section className='tw-mx-40 tw-grid tw-grid-cols-4  tw-mt-10 '>
                     <div className=''>
-                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Company</p>
-                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368]'>
-                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>About us (Faucone formula)</a>
+                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium tw-text-xl'>Company</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368] tw-text-xl'>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>About us</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Our Story</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Clients</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Services</a>
@@ -96,8 +96,8 @@ const Footer = () => {
                     </div>
 
                     <div className=' '>
-                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Solutions</p>
-                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368]'>
+                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium tw-text-xl'>Solutions</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368] tw-text-xl'>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'> Multi-Dimensional Branding & Marketing</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>3600 Advertising Solutions</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Brand Transformation</a>
@@ -144,8 +144,8 @@ const Footer = () => {
                     </div> */}
 
                     <div className=' tw-ml-16'>
-                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Products</p>
-                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368]'>
+                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium tw-text-xl'>Products</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368] tw-text-xl'>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Business</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Digital</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Technologies</a>
@@ -166,8 +166,8 @@ const Footer = () => {
                     </div>
 
                     <div className=''>
-                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Contact Us</p>
-                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
+                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium tw-text-xl'>Contact Us</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368] tw-text-xl'>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>sales@faucone.com</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>support@faucone.com</a>
                             <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>1800 309 4377</a>
@@ -178,19 +178,20 @@ const Footer = () => {
                 </section>
 
                 {/* footer */}
-                <section className='tw-flex tw-items-center tw-justify-between tw-mx-20 tw-border-t-2 tw-mt-20 tw-pt-10 tw-border-[#e0e0e0]'>
+                <section className='tw-flex tw-items-center tw-justify-between tw-mx-40 tw-border-t-2 tw-mt-20 tw-pt-10 tw-border-[#e0e0e0]'>
                     <div className='tw-flex tw-items-center tw-gap-x-5'>
                         <img src={newTitle} alt="" className='tw-w-40' />
 
-                        <div className='tw-flex tw-items-center tw-gap-x-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
-                            <p className='vertical_line tw-pr-3'>Security</p>
-                            <p className='vertical_line tw-pr-3'>IPR Complaints</p>
-                            <p className='vertical_line tw-pr-3'>Anti-spam Policy</p>
-                            <p className='vertical_line tw-pr-3'>Terms of Service</p>
-                            <p className='vertical_line tw-pr-3'>Privacy Policy</p>
-                            <p className='vertical_line tw-pr-3'>Cookie Policy</p>
-                            <p className='vertical_line tw-pr-3'>Abuse Policy </p>
-                            <p className='tw-pr-5'>Disclaimer</p>
+                        <div className='tw-flex tw-items-center tw-gap-x-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368] tw-text-xl'>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'><p className='vertical_line tw-pr-3'>Security</p></a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'><p className='vertical_line tw-pr-3'>IPR Complaints</p></a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'><p className='vertical_line tw-pr-3'>Anti-spam Policy</p></a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'><p className='vertical_line tw-pr-3'>Terms of Service</p></a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'><p className='vertical_line tw-pr-3'>Privacy Policy</p></a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'><p className='vertical_line tw-pr-3'>Cookie Policy</p></a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'><p className='vertical_line tw-pr-3'>Abuse Policy </p></a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'><p className='tw-pr-5'>Disclaimer</p></a>
+
                         </div>
                     </div>
 

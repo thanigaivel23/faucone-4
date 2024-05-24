@@ -80,3 +80,7 @@ p {
   display: flex;
   align-items: center;
 }
+
+li.react-multi-carousel-item.\[object.Object\] {
+  padding-right: 60px;
+}
