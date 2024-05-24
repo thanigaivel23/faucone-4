@@ -56,10 +56,10 @@ const Footer = () => {
     return (
         <>
 
-            <main className='tw-bg-blue-50 tw-mt-20 tw-py-16'>
+            <main className='tw-bg-[#f1f3f4] tw-mt-20 tw-py-16'>
                 {/* follow us */}
-                <section className='tw-flex tw-items-center tw-gap-x-10 tw-mx-20 tw-border-b-2 tw-pb-5 tw-border-blue-200'>
-                    <p className='tw-font-GoogleSans tw-text-[#202124] tw-font-medium'>Follow Us </p>
+                <section className='tw-flex tw-items-center tw-gap-x-10 tw-mx-20 tw-border-b-2 tw-pb-5 tw-border-[#e0e0e0]'>
+                    <p className='tw-font-GoogleSansMedium tw-font-medium tw-text-[#202124] tw-text-[17px] tw-tracking-wide'>Follow Us </p>
                     <div className='tw-flex tw-items-center tw-gap-x-7'>
                         {/* <img src={facebook} alt="facebook" className='tw-w-5' /> */}
                         {/* <img src={youtube} alt="youtube" className='tw-w-6' /> */}
@@ -77,108 +77,108 @@ const Footer = () => {
 
 
                 {/* main content */}
-                <section className='tw-mx-20 tw-grid tw-grid-cols-4   tw-mt-10 '>
+                <section className='tw-mx-20 tw-grid tw-grid-cols-4  tw-mt-10 '>
                     <div className=''>
-                        <p className='tw-text-[#202124] tw-font-medium tw-text-lg tw-font-GoogleSans '>Company</p>
-                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
-                            <p className='tw-py-1'>About us (Faucone formula)</p>
-                            <p className='tw-py-1'>Our Story</p>
-                            <p className='tw-py-1'>Clients</p>
-                            <p className='tw-py-1'>Services</p>
-                            <p className='tw-py-1'>Press</p>
-                            <p className='tw-py-1'>Events</p>
-                            <p className='tw-py-1'>Career</p>
-                            <p className='tw-py-1'>Contact</p>
-                            <p className='tw-py-1'>Faucone for startups</p>
-                            <p className='tw-py-1'>Customer Support center</p>
-                            <p className='tw-py-1'>Customer Experience center</p>
+                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Company</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368]'>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>About us (Faucone formula)</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Our Story</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Clients</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Services</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Press</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Events</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Career</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Contact</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone for startups</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Customer Support center</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Customer Experience center</a>
                         </div>
                     </div>
 
                     <div className=' '>
-                        <p className='tw-text-[#202124] tw-font-medium tw-text-lg tw-font-GoogleSans '>Solutions</p>
-                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
-                            <p className='tw-py-1'> Multi-Dimensional Branding & Marketing</p>
-                            <p className='tw-py-1'>3600 Advertising Solutions</p>
-                            <p className='tw-py-1'>Brand Transformation</p>
-                            <p className='tw-py-1'>Scaling Technology for Development</p>
-                            <p className='tw-py-1'>Interlinking Business Concept</p>
-                            <p className='tw-py-1'>Business Coaching</p>
-                            <p className='tw-py-1'>Innovative Entrepreneurship Process</p>
-                            <p className='tw-py-1'>Implementing a Quality Business Process</p>
-                            <p className='tw-py-1'>Revenue 10X</p>
-                            <p className='tw-py-1'>Career Planning and Development</p>
-                            <p className='tw-py-1'>Startup Investor Connect</p>
-                            <p className='tw-py-1'>Developing a Hybrid Work Model</p>
+                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Solutions</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368]'>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'> Multi-Dimensional Branding & Marketing</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>3600 Advertising Solutions</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Brand Transformation</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Scaling Technology for Development</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Interlinking Business Concept</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Business Coaching</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Innovative Entrepreneurship Process</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Implementing a Quality Business Process</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Revenue 10X</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Career Planning and Development</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Startup Investor Connect</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Developing a Hybrid Work Model</a>
                         </div>
                     </div>
 
                     {/* <div className='tw-pl-5'>
                         <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg'>Industries</p>
                         <div className='tw-mt-3 tw-text-sm'>
-                            <p className='tw-py-1'>Aerospace and Defense</p>
-                            <p className='tw-py-1'>Aviation</p>
-                            <p className='tw-py-1'>Automotive</p>
-                            <p className='tw-py-1'>Banking & Finance</p>
-                            <p className='tw-py-1'>Capital Markets</p>
-                            <p className='tw-py-1'>Construction & Engineering</p>
-                            <p className='tw-py-1'>Chemical and Process</p>
-                            <p className='tw-py-1'>Consumer Goods</p>
-                            <p className='tw-py-1'>Energy and Utilities</p>
-                            <p className='tw-py-1'>FMCG</p>
-                            <p className='tw-py-1'>Food and Beverages</p>
-                            <p className='tw-py-1'>Healthcare</p>
-                            <p className='tw-py-1'>Industrial Manufacturing</p>
-                            <p className='tw-py-1'>Insurance</p>
-                            <p className='tw-py-1'>Life Sciences</p>
-                            <p className='tw-py-1'>Manufacturing Industries</p>
-                            <p className='tw-py-1'>Media and Enterainment</p>
-                            <p className='tw-py-1'>Mining & Natural Resources</p>
-                            <p className='tw-py-1'>Oil and Gas</p>
-                            <p className='tw-py-1'>Publc Sector</p>
-                            <p className='tw-py-1'>Retail</p>
-                            <p className='tw-py-1'>Telecom</p>
-                            <p className='tw-py-1'>Travel</p>
-                            <p className='tw-py-1'>Transport, Logistics & Hospitality</p>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Aerospace and Defense</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Aviation</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Automotive</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Banking & Finance</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Capital Markets</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Construction & Engineering</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Chemical and Process</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Consumer Goods</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Energy and Utilities</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>FMCG</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Food and Beverages</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Healthcare</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Industrial Manufacturing</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Insurance</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Life Sciences</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Manufacturing Industries</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Media and Enterainment</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Mining & Natural Resources</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Oil and Gas</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Publc Sector</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Retail</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Telecom</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Travel</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Transport, Logistics & Hospitality</a>
                         </div>
                     </div> */}
 
                     <div className=' '>
-                        <p className='tw-text-[#202124] tw-font-medium tw-text-lg tw-font-GoogleSans '>Products</p>
-                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
-                            <p className='tw-py-1'>Faucone Business</p>
-                            <p className='tw-py-1'>Faucone Digital</p>
-                            <p className='tw-py-1'>Faucone Technologies</p>
-                            <p className='tw-py-1'>Faucone Solutions</p>
-                            <p className='tw-py-1'>Faucone finance</p>
-                            <p className='tw-py-1'>Faucone Consultancy</p>
-                            <p className='tw-py-1'>Faucone Studios</p>
-                            <p className='tw-py-1'>Faucone Advertising</p>
-                            <p className='tw-py-1'>Faucone Space</p>
-                            <p className='tw-py-1'>Faucone Design</p>
-                            <p className='tw-py-1'>Faucone Prints</p>
-                            <p className='tw-py-1'>Faucone Accounting</p>
-                            <p className='tw-py-1'>Faucone Legal</p>
-                            <p className='tw-py-1'>Faucone Supplies</p>
-                            <p className='tw-py-1'>Faucone Academy</p>
-                            <p className='tw-py-1'>Faucone Overseas</p>
+                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Products</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSansMedium tw-text-[#5f6368]'>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Business</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Digital</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Technologies</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Solutions</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone finance</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Consultancy</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Studios</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Advertising</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Space</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Design</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Prints</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Accounting</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Legal</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Supplies</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Academy</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>Faucone Overseas</a>
                         </div>
                     </div>
 
                     <div className='  tw-mr-24'>
-                        <p className='tw-text-[#202124] tw-font-medium tw-text-lg tw-font-GoogleSans '>Contact Us</p>
+                        <p className='tw-text-[#202124] tw-text-[17px] tw-font-GoogleSansMedium '>Contact Us</p>
                         <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
-                            <p className='tw-py-1'>sales@faucone.com</p>
-                            <p className='tw-py-1'>support@faucone.com</p>
-                            <p className='tw-py-1'>1800 309 4377</p>
-                            <p className='tw-py-1'>www.faucone.com</p>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>sales@faucone.com</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>support@faucone.com</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>1800 309 4377</a>
+                            <a href='/' className='tw-py-[7px] tw-block tw-text-[#5f6368] tw-no-underline hover:tw-text-black'>www.faucone.com</a>
                         </div>
                     </div>
 
                 </section>
 
                 {/* footer */}
-                <section className='tw-flex tw-items-center tw-justify-between tw-mx-20 tw-border-t-2 tw-mt-20 tw-pt-10 tw-border-blue-200'>
+                <section className='tw-flex tw-items-center tw-justify-between tw-mx-20 tw-border-t-2 tw-mt-20 tw-pt-10 tw-border-[#e0e0e0]'>
                     <div className='tw-flex tw-items-center tw-gap-x-5'>
                         <img src={newTitle} alt="" className='tw-w-40' />
 
