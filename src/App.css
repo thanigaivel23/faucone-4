@@ -16,7 +16,13 @@
   font-style: normal;
 }
 
-;
+@font-face {
+  font-family: 'GoogleSans';
+  src: url('./font/ProductSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 * {
   margin: 0;

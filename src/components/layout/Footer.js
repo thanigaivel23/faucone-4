@@ -13,8 +13,9 @@ import linkedin from '../../img/linkedin.png'
 import youtube from '../../img/youtube.png'
 import twitter from '../../img/twitter.png'
 import newTitle from '../../img/newtitle.PNG'
-
+import { FaFacebookSquare, FaInstagramSquare, FaLinkedin, FaYoutube } from "react-icons/fa";
 import Accordion from 'react-bootstrap/Accordion';
+import { FaSquareXTwitter } from 'react-icons/fa6'
 
 const Footer = () => {
 
@@ -58,22 +59,28 @@ const Footer = () => {
             <main className='tw-bg-blue-50 tw-mt-20 tw-py-16'>
                 {/* follow us */}
                 <section className='tw-flex tw-items-center tw-gap-x-10 tw-mx-20 tw-border-b-2 tw-pb-5 tw-border-blue-200'>
-                    <p>Follow Us</p>
+                    <p className='tw-font-GoogleSans tw-text-[#202124] tw-font-medium'>Follow Us </p>
                     <div className='tw-flex tw-items-center tw-gap-x-7'>
-                        <img src={facebook} alt="facebook" className='tw-w-5' />
-                        <img src={youtube} alt="youtube" className='tw-w-6' />
-                        <img src={twitter} alt="twitter" className='tw-w-4' />
+                        {/* <img src={facebook} alt="facebook" className='tw-w-5' /> */}
+                        {/* <img src={youtube} alt="youtube" className='tw-w-6' /> */}
+                        {/* <img src={twitter} alt="twitter" className='tw-w-4' />
                         <img src={instagram} alt="instagram" className='tw-w-5' />
-                        <img src={linkedin} alt="linkedin" className='tw-w-5' />
+                        <img src={linkedin} alt="linkedin" className='tw-w-5' /> */}
+                        <p><FaFacebookSquare className='tw-text-2xl' /></p>
+                        <p><FaYoutube className='tw-text-3xl' /></p>
+                        <p><FaSquareXTwitter className='tw-text-2xl' /></p>
+                        <p><FaInstagramSquare className='tw-text-2xl' /></p>
+                        <p><FaLinkedin className='tw-text-2xl' /></p>
+
                     </div>
                 </section>
 
 
                 {/* main content */}
                 <section className='tw-mx-20 tw-grid tw-grid-cols-4   tw-mt-10 '>
-                    <div className=' tw-text-center'>
-                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium '>Company</p>
-                        <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
+                    <div className=''>
+                        <p className='tw-text-[#202124] tw-font-medium tw-text-lg tw-font-GoogleSans '>Company</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
                             <p className='tw-py-1'>About us (Faucone formula)</p>
                             <p className='tw-py-1'>Our Story</p>
                             <p className='tw-py-1'>Clients</p>
@@ -87,9 +94,9 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className=' tw-text-center'>
-                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium '>Solutions</p>
-                        <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
+                    <div className=' '>
+                        <p className='tw-text-[#202124] tw-font-medium tw-text-lg tw-font-GoogleSans '>Solutions</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
                             <p className='tw-py-1'> Multi-Dimensional Branding & Marketing</p>
                             <p className='tw-py-1'>3600 Advertising Solutions</p>
                             <p className='tw-py-1'>Brand Transformation</p>
@@ -135,9 +142,9 @@ const Footer = () => {
                         </div>
                     </div> */}
 
-                    <div className=' tw-text-center'>
-                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium '>Products</p>
-                        <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
+                    <div className=' '>
+                        <p className='tw-text-[#202124] tw-font-medium tw-text-lg tw-font-GoogleSans '>Products</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
                             <p className='tw-py-1'>Faucone Business</p>
                             <p className='tw-py-1'>Faucone Digital</p>
                             <p className='tw-py-1'>Faucone Technologies</p>
@@ -157,9 +164,9 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <div className=' tw-text-center tw-mr-24'>
-                        <p className='tw-text-[#349fbf] tw-font-bold tw-text-lg tw-font-PuviMedium '>Contact Us</p>
-                        <div className='tw-mt-3 tw-text-sm tw-font-PuviMedium'>
+                    <div className='  tw-mr-24'>
+                        <p className='tw-text-[#202124] tw-font-medium tw-text-lg tw-font-GoogleSans '>Contact Us</p>
+                        <div className='tw-mt-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
                             <p className='tw-py-1'>sales@faucone.com</p>
                             <p className='tw-py-1'>support@faucone.com</p>
                             <p className='tw-py-1'>1800 309 4377</p>
@@ -174,7 +181,7 @@ const Footer = () => {
                     <div className='tw-flex tw-items-center tw-gap-x-5'>
                         <img src={newTitle} alt="" className='tw-w-40' />
 
-                        <div className='tw-flex tw-items-center tw-gap-x-3 tw-text-sm '>
+                        <div className='tw-flex tw-items-center tw-gap-x-3 tw-font-medium tw-font-GoogleSans tw-text-[#5f6368]'>
                             <p className='vertical_line tw-pr-3'>Security</p>
                             <p className='vertical_line tw-pr-3'>IPR Complaints</p>
                             <p className='vertical_line tw-pr-3'>Anti-spam Policy</p>
@@ -186,7 +193,7 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    <p className='tw-text-sm'>&copy; {currentYear} Faucone. All Rights Reserved.</p>
+                    <p className='tw-text-sm  tw-text-[#5f6368]'>&copy; {currentYear} Faucone. All Rights Reserved.</p>
                 </section>
             </main>
 

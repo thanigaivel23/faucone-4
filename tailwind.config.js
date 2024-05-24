@@ -17,6 +17,7 @@ module.exports = {
         abel: ["Abel", "sans-serif"],
         PuviExtraBold: ["PuviExtraBold"],
         PuviMedium: ["PuviMedium"],
+        GoogleSans: ["GoogleSans"],
       }
     },
   },
