@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect, useState } from 'react'
-import zoho_bg from '../../../img/zoho_bg.PNG'
+import bluebg from '../../../img/bluebg.png'
 import $ from 'jquery';
 
 
@@ -44,9 +44,9 @@ const BlueBg = () => {
     return (
         <>
             {/*  */}
-            <main className='tw-bg-[#0060b4] tw-text-white tw-py-16 md:tw-px-36 lg:tw-p-0 lg:tw-pt-24 lg:tw-flex tw-items-end tw-rounded-3xl tw-border-solid tw-border-2 tw-mr-20 tw-ml-20 tw-mt-7' onMouseEnter={() => Counterup()}>
+            <main className='tw-bg-[#059fce] tw-text-white tw-py-16 md:tw-px-36 lg:tw-p-0 lg:tw-pt-24 lg:tw-flex tw-items-end tw-rounded-3xl tw-border-solid tw-border-2 tw-mr-20 tw-ml-20 tw-mt-7' onMouseEnter={() => Counterup()}>
 
-                <section className='lg:tw-w-[70%] lg:tw-pl-20 lg:tw-pb-44 xl:tw-pl-36 tw-font-PuviMedium'>
+                <section className='lg:tw-w-[80%] lg:tw-pl-20 lg:tw-pb-44 xl:tw-pl-36 tw-font-PuviMedium'>
                     <p className='tw-text-center lg:tw-text-left tw-text-3xl lg:tw-font-base lg:tw-text-6xl tw-font-medium'>Made for the <strong>Global</strong></p>
                     {/* <p className='tw-text-center lg:tw-text-left tw-text-3xl lg:tw-text-5xl tw-font-medium lg:tw-font-normal '>Made for the World.</p> */}
 
@@ -85,9 +85,9 @@ const BlueBg = () => {
                 </section>
 
 
-                {/* <section className='md:tw-flex tw-justify-center tw-hidden lg:tw-inline  '>
-                    <img src={zoho_bg} alt="" className='tw-w-[70%] lg:tw-w-auto ' />
-                </section> */}
+                <section className='md:tw-flex tw-justify-center tw-hidden lg:tw-inline  '>
+                    <img src={bluebg} alt="" className='tw-w-[570px] tw-mx-auto ' />
+                </section>
             </main>
         </>
     )
