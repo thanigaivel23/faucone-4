@@ -54,27 +54,27 @@ const BlueBg = () => {
                     <div className='sm:tw-grid tw-grid-cols-2 sm:tw-mt-10 '>
                         <div className='tw-text-center tw-mt-14 sm:tw-mt-5 lg:tw-flex lg:tw-items-center '>
                             <p className='tw-text-3xl lg:tw-text-left tw-font-medium tw-tracking-wide lg:tw-w-32 '><span id="counter">250</span>+</p>
-                            <p className='  lg:tw-text-left lg:tw-border-b tw-font-bold'>Services</p>
+                            <p className='  lg:tw-text-left lg:tw-border-b tw-text-2xl'>Services</p>
                         </div>
 
                         <div className='tw-text-center lg:tw-text-left tw-mt-14 sm:tw-mt-5 lg:tw-flex lg:tw-items-center '>
                             <p className='tw-text-3xl tw-font-medium tw-tracking-wide lg:tw-w-32 '><span id="counter1">15</span>+</p>
-                            <p className='  lg:tw-text-left lg:tw-border-b tw-font-bold'>Years in Business</p>
+                            <p className='  lg:tw-text-left lg:tw-border-b tw-text-2xl'>Years in Business</p>
                         </div>
 
                         <div className='tw-text-center lg:tw-text-left tw-mt-14 sm:tw-mt-5 lg:tw-flex lg:tw-items-center '>
                             <p className='tw-text-3xl tw-font-medium tw-tracking-wide lg:tw-w-32 '><span id="counter2">12</span>+</p>
-                            <p className='  lg:tw-text-left lg:tw-border-b tw-font-bold'>Countries Served</p>
+                            <p className='  lg:tw-text-left lg:tw-border-b tw-text-2xl'>Countries Served</p>
                         </div>
 
                         <div className='tw-text-center lg:tw-text-left tw-mt-14 sm:tw-mt-5 lg:tw-flex lg:tw-items-center '>
                             <p className='tw-text-3xl tw-font-medium tw-tracking-wide lg:tw-w-32 '><span id="counter3">150</span>+</p>
-                            <p className='  lg:tw-text-left lg:tw-border-b tw-font-bold'>Support Centers Globally</p>
+                            <p className='  lg:tw-text-left lg:tw-border-b tw-text-2xl'>Support Centers Globally</p>
                         </div>
 
                         <div className='tw-text-center lg:tw-text-left tw-mt-14 sm:tw-mt-5 lg:tw-flex lg:tw-items-center '>
                             <p className='tw-text-3xl tw-font-medium tw-tracking-wide lg:tw-w-32 '><span id="counter4">20</span>+</p>
-                            <p className='  lg:tw-text-left lg:tw-border-b tw-font-bold'>Unique Solutions</p>
+                            <p className='  lg:tw-text-left lg:tw-border-b tw-text-2xl'>Unique Solutions</p>
                         </div>
 
                         {/* <div className='tw-flex tw-justify-center lg:tw-justify-start tw-items-center '>
@@ -85,7 +85,7 @@ const BlueBg = () => {
                 </section>
 
 
-                <section className='md:tw-flex tw-justify-center tw-hidden lg:tw-inline  '>
+                <section className='md:tw-flex tw-justify-center tw-hidden lg:tw-inline tw-mr-24 tw-mb-6 '>
                     <img src={bluebg} alt="" className='tw-w-[570px] tw-mx-auto ' />
                 </section>
             </main>

@@ -2,7 +2,7 @@ import React from 'react'
 import women from '../../../img/women.png'
 import fourwomen from '../../../img/fourwomen.png'
 import system from '../../../img/system.png'
-import economy from '../../../img/economy.png'
+import economy from '../../../img/economy.PNG'
 
 import { useTranslation } from 'react-i18next'
 
@@ -17,7 +17,7 @@ const ContributeToTheSocity = () => {
                 <p className='tw-bg-[#2dbfea] tw-h-[2px] tw-w-14  tw-rounded-2xl '></p>
             </div>
 
-            <main className='tw-flex tw-mt-20 tw-mx-auto tw-w-[80%] tw-gap-x-20'>
+            <main className='tw-flex tw-mt-20 tw-mx-auto tw-w-[91%] tw-gap-x-20'>
 
                 <section className='tw-bg-[#e8f0fe] tw-w-[50%] tw-rounded-3xl tw-mb-20'>
                     <p className='tw-text-center tw-font-medium tw-text-4xl tw-pt-10'>WOMEN <br /><span className='tw-font-normal'>EMPOWERMENT</span></p>
@@ -30,7 +30,7 @@ const ContributeToTheSocity = () => {
                 </section>
             </main>
 
-            <main className='tw-flex  tw-mx-auto tw-w-[80%] tw-gap-x-20'>
+            <main className='tw-flex  tw-mx-auto tw-w-[91%] tw-gap-x-20'>
 
                 <section className='tw-bg-[#9fc8fe] tw-w-[50%] tw-rounded-3xl tw-mb-20'>
                     <p className='tw-text-center tw-font-medium tw-text-4xl tw-pt-10'>WOMEN <br /><span className='tw-font-normal'>ENTRPRENEURSHIP</span></p>
@@ -44,7 +44,7 @@ const ContributeToTheSocity = () => {
             </main>
         </>
     )
-    
+
 }
 
 export default ContributeToTheSocity

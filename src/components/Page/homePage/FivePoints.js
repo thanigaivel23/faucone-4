@@ -7,7 +7,7 @@ import value from '../../../img/values_icon.svg'
 // import goal from '../../../img/goal_icon.svg'
 import { useTranslation } from 'react-i18next'
 
-import people from '../../../img/people.png'
+import people from '../../../img/people.jpg'
 import eye from '../../../img/eye.png'
 import arrow from '../../../img/arrow.png'
 import diamond from '../../../img/diamond.png'
